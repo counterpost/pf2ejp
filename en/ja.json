@@ -15,7 +15,7 @@
         "ResourceHint": "参加者ごとに追跡するアトリビュートを選択します。",
         "Settings": "エンカウント・トラッカーの設定",
         "SidebarTitle": "エンカウンター・トラッカー",
-        "SkipDefeatedHint": "敗北した参加者を自動的にバイパスしますか？",
+        "SkipDefeatedHint": "敗者としてマークされた参加者を自動的に迂回させるか？",
         "TargetedBy": "ターゲット: {list}",
         "ToggleTargeting": "ターゲティングを切り替え",
         "UnknownCombatant": "不明な参加者"
