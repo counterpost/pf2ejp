@@ -1,1 +1,16 @@
-{}
+{
+    "COMBAT": {
+        "CombatantRemove": "参加者の削除",
+        "CombatantStatus": "参加者の削除",
+        "CombatantUpdate": "参加者のアップデート",
+        "EndTitle": "エンカウントを終了しますか？",
+        "Begin": "エンカウント開始",
+        "End": "エンカウント終了",
+        "NoneRemaining": "このエンカウントは参加者全員が敗北している。",
+        "PingCombatant": "トークンをピンする",
+        "PingInvisibleToken": "あなたはこの参加者のトークンが見えない。",
+        "CombatantNotInScene": "参加者の{name} は、現在表示中のシーンには存在しません。",
+        "NoneActive": "現在表示しているシーンにアクティブなエンカウントはありません。",
+        "EndConfirmation": "このエンカウントを終わらせてターントラッカーを空にしますか？"
+    }
+}
