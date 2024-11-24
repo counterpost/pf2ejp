@@ -24,7 +24,7 @@
         "MigrationStatus": "移行状態"
     },
     "CONTROLS": {
-        "AdjustSceneDarkness": "シーンの暗さを調整",
+        "AdjustSceneDarkness": "シーンの暗さを調整する",
         "EffectPanel": "エフェクトパネル",
         "WorldClock": "ワールドクロック"
     },
