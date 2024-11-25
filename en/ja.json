@@ -15,7 +15,7 @@
         "ResourceHint": "参加者ごとに追跡するアトリビュートを選択します。",
         "Settings": "エンカウント・トラッカーの設定",
         "SidebarTitle": "エンカウンター・トラッカー",
-        "SkipDefeatedHint": "敗者としてマークされた参加者を自動的に迂回させるか？",
+        "SkipDefeatedHint": "敗北した参加者を自動的にバイパスしますか？",
         "TargetedBy": "ターゲット: {list}",
         "ToggleTargeting": "ターゲティングを切り替え",
         "UnknownCombatant": "不明な参加者"
@@ -29,8 +29,8 @@
         "WorldClock": "ワールドクロック"
     },
     "DOCUMENT": {
-        "Combat": "エンカウンター",
-        "Combats": "エンカウンター"
+        "Combat": "エンカウント",
+        "Combats": "エンカウントs"
     },
     "PF2E": {
         "AccessoryPropertyRunePaired": "ペア",
@@ -614,8 +614,8 @@
                 }
             }
         },
-        "AbilityBoost": "属性ブースト",
-        "AbilityBoostLevels": "属性ブーストレベル",
+        "AbilityBoost": "アトリビュート増強",
+        "AbilityBoostLevels": "アトリビュート増強レベル",
         "AbilityCha": "魅力",
         "AbilityCheck": {
             "cha": "魅力判定",
