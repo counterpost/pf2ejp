@@ -15,22 +15,22 @@
         "ResourceHint": "参加者ごとに追跡するアトリビュートを選択します。",
         "Settings": "エンカウント・トラッカーの設定",
         "SidebarTitle": "エンカウンター・トラッカー",
-        "SkipDefeatedHint": "敗北した参加者を自動的にバイパスしますか？",
-        "TargetedBy": "ターゲット: {list}",
-        "ToggleTargeting": "ターゲティングを切り替え",
+        "SkipDefeatedHint": "敗北した参加者を自動的に飛ばしますか？",
+        "TargetedBy": "ターゲットされている: {list}",
+        "ToggleTargeting": "ターゲットを切り替え",
         "UnknownCombatant": "不明な参加者"
     },
     "COMPENDIUM": {
         "MigrationStatus": "移行状態"
     },
     "CONTROLS": {
-        "AdjustSceneDarkness": "シーンの暗さを調整する",
+        "AdjustSceneDarkness": "シーンの暗さを調整",
         "EffectPanel": "エフェクトパネル",
         "WorldClock": "ワールドクロック"
     },
     "DOCUMENT": {
-        "Combat": "エンカウント",
-        "Combats": "エンカウントs"
+        "Combat": "エンカウンター",
+        "Combats": "エンカウンターs"
     },
     "PF2E": {
         "AccessoryPropertyRunePaired": "ペア",
@@ -614,8 +614,8 @@
                 }
             }
         },
-        "AbilityBoost": "アトリビュート増強",
-        "AbilityBoostLevels": "アトリビュート増強レベル",
+        "AbilityBoost": "属性ブースト",
+        "AbilityBoostLevels": "属性ブーストレベル",
         "AbilityCha": "魅力",
         "AbilityCheck": {
             "cha": "魅力判定",
@@ -638,9 +638,9 @@
             "wis": "Wis"
         },
         "AbilityInt": "知力",
-        "AbilityModifierLabel": "属性修正",
+        "AbilityModifierLabel": "アトリビュート修正値",
         "AbilityStr": "筋力",
-        "AbilityTitle": "属性",
+        "AbilityTitle": "アトリビュート",
         "AbilityWis": "判断力",
         "AccessoryPropertyRuneCalled": "呼び出し",
         "AccessoryPropertyRuneDragonsBreath": "ドラゴンの息吹",
@@ -1045,7 +1045,4135 @@
         },
         "Condition": {
             "ActiveLabel": "アクティブ",
-            "DurationNumberLabel": "ラウンド"
+            "DurationNumberLabel": "ラウンド",
+            "DurationTextLabel": "継続時間",
+            "HasValueLabel": "値を持つ",
+            "ImmutableLabel": "変更不可",
+            "ImmutableTitle": "値は減少できない。",
+            "PerpetualLabel": "永続状態",
+            "RemovableLabel": "取り除ける",
+            "ValueLabel": "値"
+        },
+        "Damage": {
+            "IWR": {
+                "Type": {
+                    "paralyzed": "麻痺",
+                    "persistent-damage": "持続的なダメージ",
+                    "petrified": "石化",
+                    "physical": "物理的",
+                    "plant": "植物",
+                    "polymorph": "変身",
+                    "possession": "憑依",
+                    "primal": "原始的な",
+                    "prone": "伏せている",
+                    "protean-anatomy": "プロテアン解剖学",
+                    "radiation": "放射線",
+                    "restrained": "拘束",
+                    "salt": "塩",
+                    "salt-water": "塩水",
+                    "scrying": "透視",
+                    "siccatite": "シカタイト",
+                    "sickened": "病気",
+                    "silver": "銀",
+                    "sleep": "睡眠",
+                    "slowed": "減速",
+                    "metal": "金属",
+                    "confused": "混乱",
+                    "controlled": "制御下",
+                    "abysium": "アビシウム",
+                    "adamantine": "アダマンティン",
+                    "alchemical": "錬金術",
+                    "all-damage": "すべてのダメージ",
+                    "arcane": "秘術",
+                    "area-damage": "範囲ダメージ",
+                    "arrow-vulnerability": "矢の弱点",
+                    "auditory": "聴覚",
+                    "axe-vulnerability": "斧の弱点",
+                    "axes": "斧",
+                    "blinded": "盲目",
+                    "broken": "破損",
+                    "clumsy": "不器用",
+                    "cold-iron": "冷鉄",
+                    "critical-hits": "致命的攻撃",
+                    "curse": "呪い",
+                    "damage-from-spells": "呪文によるダメージ",
+                    "dawnsilver": "ドーンシルバー",
+                    "dazzled": "眩惑",
+                    "deafened": "聴覚喪失",
+                    "death-effects": "死の効果",
+                    "detection": "探知",
+                    "disease": "病気",
+                    "divine": "神聖",
+                    "djezet": "ジェゼット",
+                    "doomed": "破滅",
+                    "drained": "消耗",
+                    "duskwood": "ダスクウッド",
+                    "emotion": "感情",
+                    "energy": "エネルギー",
+                    "enfeebled": "虚弱",
+                    "fascinated": "魅了",
+                    "fatigued": "疲労",
+                    "fear-effects": "恐怖効果",
+                    "fleeing": "逃走中",
+                    "fortune-effects": "幸運効果",
+                    "frightened": "恐怖",
+                    "ghost-touch": "ゴーストタッチ",
+                    "glass": "ガラス",
+                    "grabbed": "掴まれた",
+                    "healing": "回復",
+                    "hidden": "隠れている",
+                    "holy": "神聖なもの",
+                    "illusion": "幻覚",
+                    "immobilized": "移動不能",
+                    "inhaled": "吸入",
+                    "inubrix": "イヌブリクス",
+                    "light": "光",
+                    "magic": "魔法",
+                    "magical": "魔法的な",
+                    "misfortune-effects": "不運効果",
+                    "mythic": "神話的",
+                    "non-magical": "非魔法的な",
+                    "nonlethal": "非致傷",
+                    "nonlethal-attacks": "非致傷攻撃",
+                    "noqual": "ノクアル",
+                    "object-immunities": "物体の免疫",
+                    "occult": "心霊",
+                    "off-guard": "無防備",
+                    "olfactory": "嗅覚",
+                    "orichalcum": "オリハルコン",
+                    "spell-deflection": "呪文反射",
+                    "spells": "呪文",
+                    "splash-damage": "範囲ダメージ",
+                    "stunned": "気絶",
+                    "stupefied": "ぼんやり",
+                    "swarm-attacks": "群れの攻撃",
+                    "swarm-mind": "群れの心",
+                    "trip": "転倒",
+                    "unarmed-attacks": "素手攻撃",
+                    "unconscious": "意識不明",
+                    "unholy": "不浄なもの",
+                    "vampire-weaknesses": "吸血鬼の弱点",
+                    "visual": "視覚",
+                    "vorpal": "ボーパル",
+                    "vorpal-adamantine": "ボーパルアダマンティン",
+                    "vorpal-fear": "ボーパル恐怖",
+                    "vulnerable-to-sunlight": "日光に弱い",
+                    "water": "水",
+                    "weapons": "武器",
+                    "weapons-shedding-bright-light": "明るい光を放つ武器",
+                    "wood": "木材",
+                    "wounded": "負傷"
+                },
+                "ActorIsImmune": "{actor}は{effect}に免疫を持っています。",
+                "ActorIsUnaffected": "{actor}は{effect}の影響を受けません。",
+                "ApplicationBreakdown": {
+                    "ignored": "{type}への耐性が無視されました！",
+                    "immunity": "{type}に対する免疫: {adjustment}",
+                    "redirect": {
+                        "immunity": "{type}に対する免疫（{redirect}として扱う）: {adjustment}",
+                        "resistance": "{type}に対する耐性（{redirect}として扱う）: {adjustment}"
+                    },
+                    "reduction": "{type}で減少: {adjustment}",
+                    "resistance": "{type}に対する耐性: {adjustment}",
+                    "unaffected": "{type}に影響されない: {adjustment}",
+                    "weakness": "{type}に弱点: {adjustment}"
+                },
+                "CompositeLabel": {
+                    "Exceptions0DoubleVs0": "{type} {value}",
+                    "Exceptions0DoubleVs1": "{type} {value}（{doubleVs1}に対する二重耐性）",
+                    "Exceptions0DoubleVs2": "{type} {value}（{doubleVs1}または{doubleVs2}に対する二重耐性）",
+                    "Exceptions0DoubleVs3": "{type} {value}（{doubleVs1}, {doubleVs2}, または{doubleVs3}に対する二重耐性）",
+                    "Exceptions0DoubleVs4": "{type} {value}（{doubleVs1}, {doubleVs2}, {doubleVs3}, または{doubleVs4}に対する二重耐性）",
+                    "Exceptions1DoubleVs0": "{type} {value}（{exception1}を除く）",
+                    "Exceptions1DoubleVs1": "{type} {value}（{exception1}を除く; {doubleVs1}に対する二重耐性）",
+                    "Exceptions1DoubleVs2": "{type} {value}（{exception1}を除く; {doubleVs1}または{doubleVs2}に対する二重耐性）",
+                    "Exceptions1DoubleVs3": "{type} {value}（{exception1}を除く; {doubleVs1}, {doubleVs2}, または{doubleVs3}に対する二重耐性）",
+                    "Exceptions1DoubleVs4": "{type} {value}（{exception1}を除く; {doubleVs1}, {doubleVs2}, {doubleVs3}, または{doubleVs4}に対する二重耐性）",
+                    "Exceptions2DoubleVs0": "{type} {value}（{exception1}または{exception2}を除く）",
+                    "Exceptions2DoubleVs1": "{type} {value}（{exception1}または{exception2}を除く; {doubleVs1}に対する二重耐性）",
+                    "Exceptions2DoubleVs2": "{type} {value}（{exception1}または{exception2}を除く; {doubleVs1}または{doubleVs2}に対する二重耐性）",
+                    "Exceptions2DoubleVs3": "{type} {value}（{exception1}または{exception2}を除く; {doubleVs1}, {doubleVs2}, または{doubleVs3}に対する二重耐性）",
+                    "Exceptions2DoubleVs4": "{type} {value}（{exception1}または{exception2}を除く; {doubleVs1}, {doubleVs2}, {doubleVs3}, または{doubleVs4}に対する二重耐性）",
+                    "Exceptions3DoubleVs0": "{type} {value}（{exception1}, {exception2}, または{exception3}を除く）",
+                    "Exceptions3DoubleVs1": "{type} {value}（{exception1}, {exception2}, または{exception3}を除く; {doubleVs1}に対する二重耐性）",
+                    "Exceptions3DoubleVs2": "{type} {value}（{exception1}, {exception2}, または{exception3}を除く; {doubleVs1}または{doubleVs2}に対する二重耐性）",
+                    "Exceptions3DoubleVs3": "{type} {value}（{exception1}, {exception2}, または{exception3}を除く; {doubleVs1}, {doubleVs2}, または{doubleVs3}に対する二重耐性）",
+                    "Exceptions3DoubleVs4": "{type} {value}（{exception1}, {exception2}, または{exception3}を除く; {doubleVs1}, {doubleVs2}, {doubleVs3}, または{doubleVs4}に対する二重耐性）",
+                    "Exceptions4DoubleVs0": "{type} {value}（{exception1}, {exception2}, {exception3}, または{exception4}を除く）",
+                    "Exceptions4DoubleVs1": "{type} {value}（{exception1}, {exception2}, {exception3}, または{exception4}を除く; {doubleVs1}に対する二重耐性）",
+                    "Exceptions4DoubleVs2": "{type} {value}（{exception1}, {exception2}, {exception3}, または{exception4}を除く; {doubleVs1}または{doubleVs2}に対する二重耐性）",
+                    "Exceptions4DoubleVs3": "{type} {value}（{exception1}, {exception2}, {exception3}, または{exception4}を除く; {doubleVs1}, {doubleVs2}, または{doubleVs3}に対する二重耐性）",
+                    "Exceptions4DoubleVs4": "{type} {value}（{exception1}, {exception2}, {exception3}, または{exception4}を除く; {doubleVs1}, {doubleVs2}, {doubleVs3}, または{doubleVs4}に対する二重耐性）"
+                }
+            },
+            "RollFlavor": {
+                "metal": "金属",
+                "acid": "酸",
+                "air": "空気",
+                "bleed": "出血",
+                "bludgeoning": "殴打",
+                "cold": "冷気",
+                "earth": "地",
+                "electricity": "電気",
+                "fire": "火",
+                "force": "力",
+                "mental": "精神",
+                "persistent": "持続的な{damageType}",
+                "piercing": "刺突",
+                "poison": "毒",
+                "precision": "精密",
+                "slashing": "斬撃",
+                "sonic": "音波",
+                "spirit": "精神体",
+                "splash": "飛散",
+                "vitality": "活力",
+                "void": "虚無",
+                "untyped": "無属性"
+            },
+            "Base": "基本値",
+            "Hardness": {
+                "Full": "硬度",
+                "Half": "硬度の半分"
+            },
+            "IncreasedFrom": "{original}から1の最低値に増加",
+            "Kind": {
+                "Both": {
+                    "Label": "両方",
+                    "Roll": {
+                        "Noun": "ダメージ/治癒ロール",
+                        "Verb": "ダメージ/治癒をロール"
+                    }
+                },
+                "Damage": {
+                    "Roll": {
+                        "Noun": "ダメージロール",
+                        "Verb": "ダメージをロール"
+                    }
+                },
+                "Healing": {
+                    "Apply": {
+                        "Label": "治癒を適用"
+                    },
+                    "Roll": {
+                        "Noun": "治癒ロール",
+                        "Verb": "治癒をロール"
+                    }
+                }
+            },
+            "NoDamageFormulaLabel": "ダメージなし",
+            "PersistentTooltip": "持続的な{damageType}",
+            "Precision": "精密"
+        },
+        "ConditionTypeSickened": "病気",
+        "ConditionTypeSlowed": "減速",
+        "ConditionTypeStunned": "気絶",
+        "ConditionTypeStupefied": "ぼんやり",
+        "ConditionTypeUnconscious": "意識不明",
+        "ConditionTypeUndetected": "未発見",
+        "ConditionTypeUnfriendly": "非友好的",
+        "ConditionTypeUnnoticed": "気付かれない",
+        "ConditionTypeWounded": "負傷",
+        "ConditionsLabel": "状態",
+        "ConsumableMessage": {
+            "UseExhausted": "{name}は疲労している",
+            "UseMulti": "{name}を使用、残り{current}",
+            "UseSingle": "{name}を使用"
+        },
+        "Counteractable": "対抗可能",
+        "CraftDCTitle": "DC",
+        "CraftItemTitle": "製作",
+        "CraftingTab": {
+            "Alchemical": {
+                "AdvancedAlchemy": "高度錬金術",
+                "AdvancedAlchemyLevel": "高度錬金術レベル",
+                "InfusedReagents": "注入された試薬",
+                "ReagentCost": "試薬コスト",
+                "ToggleSignatureItem": "署名アイテムを切り替える",
+                "TotalCost": "総コスト"
+            },
+            "Alerts": {
+                "FormulaExpended": "準備されたレシピはすでに作成済みです。",
+                "ItemMissingTraits": "アイテムがクラフトエントリの要件と互換性がありません。",
+                "MaxItemLevel": "アイテムレベルが最大アイテムレベル{level}を超えています。",
+                "MaxSlots": "クラフトエントリの許容スロットがすべて埋まっています。",
+                "MissingReagents": "クラフトを完了するための注入された試薬が不足しています。"
+            },
+            "CraftQuantityTitle": "数量",
+            "ExpendFormula": "レシピを消費",
+            "NoEligibleEntry": "有効なクラフトエントリが見つかりませんでした。",
+            "QuickAddTitle": "このレシピを1つ以上のクラフトエントリに追加してください。",
+            "RemoveFormulaDialogQuestion": "{name}のレシピを削除しますか？",
+            "RemoveFormulaDialogTitle": "レシピを削除",
+            "ToggleFreeCrafting": "無料クラフトを切り替える",
+            "ToggleQuickAlchemy": "迅速錬金術",
+            "UndeletableTooltip": "このクラフトレシピは他のアイテムの一部であり、個別に削除することはできません。",
+            "UnprepareFormulaDialogQuestion": "{name}のレシピの準備を解除しますか？",
+            "UnprepareFormulaDialogTitle": "レシピの準備を解除"
+        },
+        "CoreSkillsHeader": "コアスキル",
+        "CurrencyGP": "金貨",
+        "DCAdjustmentEasy": "簡単",
+        "DCAdjustmentHard": "難しい",
+        "DeleteShortLabel": "削除",
+        "Item": {
+            "Spell": {
+                "Warning": {
+                    "InvalidRank": "{spell}は{spellRank}ですが、これらのスロットは{targetRank}用です。",
+                    "CantripToRankedSlots": "{spell}はカントリップであり、カントリップリストに追加する必要があります。",
+                    "NonCantripToCantrips": "{spell}はカントリップではないため、カントリップリストに追加できません。",
+                    "WrongSpellType": "この呪文タイプは、このキャスティングエントリに追加できません。"
+                },
+                "Area": "{size}-{unit} {shape}",
+                "Cast": "キャスト",
+                "Cost": "コスト",
+                "Counteract": {
+                    "Hint": "アフリクションを反発する場合、DCはそのアフリクションの統計ブロックにあります。呪文の場合、キャスターのDCを使用します。GMはターゲット効果のレベルに基づいてDCを計算することもできます。",
+                    "Label": "反発",
+                    "criticalFailure": "ターゲットを反発できません。",
+                    "criticalSuccess": "ターゲットの反発ランクが{rank}以下であれば反発します。",
+                    "failure": "ターゲットの反発ランクが{rank}未満であれば反発します。",
+                    "success": "ターゲットの反発ランクが{rank}以下であれば反発します。"
+                },
+                "Defense": {
+                    "BasicDefense": "基本{save}",
+                    "BasicSave": "基本",
+                    "Label": "防御"
+                },
+                "LevelN": "呪文{level}",
+                "LineSplit": ";",
+                "MeasuredTemplate": {
+                    "Clear": "配置されたテンプレートをクリア",
+                    "Place": "{area}を配置"
+                },
+                "Plural": "呪文",
+                "Rank": {
+                    "Label": "ランク",
+                    "Ordinal": "{rank}ランク",
+                    "Plural": "ランク"
+                },
+                "Ritual": {
+                    "Label": "儀式",
+                    "PrimaryCheck": "主なチェック",
+                    "SecondaryChecks": "副次チェック",
+                    "SecondaryCasters": "副次キャスター"
+                },
+                "Sustained": {
+                    "Duration": "最大{maximum}まで持続",
+                    "Label": "持続"
+                },
+                "Variants": {
+                    "DeleteDialogText": "{variantName}を削除してもよろしいですか？",
+                    "DeleteDialogTitle": "呪文バリアントを削除",
+                    "LabelPlural": "呪文バリアント",
+                    "SelectOtherVariantLabel": "他のバリアントを選択",
+                    "SelectVariantLabel": "バリアントを選択",
+                    "SheetTitle": "{originalName}（バリアント）"
+                }
+            },
+            "Deity": {
+                "Domain": {
+                    "Fate": {
+                        "Label": "運命",
+                        "Description": "隠された必然性を見抜き、理解します。"
+                    },
+                    "Abomination": {
+                        "Description": "周囲の人々に嫌悪感と恐怖を植え付けようとします。",
+                        "Label": "アボミネーション"
+                    },
+                    "Air": {
+                        "Description": "風と天候を制御できます。",
+                        "Label": "エア"
+                    },
+                    "AirApocryphal": {
+                        "Description": "風と天候を制御できます。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "エア（外典）"
+                    },
+                    "Ambition": {
+                        "Description": "競争に追いつき、追い越そうと努力します。",
+                        "Label": "野心"
+                    },
+                    "AmbitionApocryphal": {
+                        "Description": "競争に追いつき、追い越そうと努力します。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "野心（外典）"
+                    },
+                    "Change": {
+                        "Description": "物理的および形而上的なものを再構築することができます。",
+                        "Label": "変化"
+                    },
+                    "Cities": {
+                        "Description": "都市環境とその住民に対して力を持っています。",
+                        "Label": "都市"
+                    },
+                    "Cold": {
+                        "Description": "氷、雪、凍てつく温度を操ることができます。",
+                        "Label": "冷気"
+                    },
+                    "Confidence": {
+                        "Description": "恐怖を克服し、誇りを示します。",
+                        "Label": "自信"
+                    },
+                    "Magic": {
+                        "Description": "予想外のことや説明できないことを行います。",
+                        "Label": "魔法"
+                    },
+                    "ConfidenceApocryphal": {
+                        "Description": "恐怖を克服し、誇りを示します。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "自信（外典）"
+                    },
+                    "Creation": {
+                        "Description": "制作と芸術に関連する神聖な能力を持っています。",
+                        "Label": "創造"
+                    },
+                    "Darkness": {
+                        "Description": "闇の中で行動し、光を奪います。",
+                        "Label": "闇"
+                    },
+                    "DarknessApocryphal": {
+                        "Description": "闇の中で行動し、光を奪います。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "闇（外典）"
+                    },
+                    "Death": {
+                        "Description": "生命を終わらせ、不死者を滅ぼす力を持っています。",
+                        "Label": "死"
+                    },
+                    "DeathApocryphal": {
+                        "Description": "生命を終わらせ、不死者を滅ぼす力を持っています。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "死（外典）"
+                    },
+                    "Decay": {
+                        "Description": "物質を腐敗させ、劣化させる力を持っています。",
+                        "Label": "崩壊"
+                    },
+                    "Delirium": {
+                        "Description": "幻覚や落ち着きのなさを引き起こすことができます。",
+                        "Label": "錯乱"
+                    },
+                    "Destruction": {
+                        "Description": "神聖な破壊をもたらす媒介者です。",
+                        "Label": "破壊"
+                    },
+                    "Dreams": {
+                        "Description": "夢に入り込み、それを操る力を持っています。",
+                        "Label": "夢"
+                    },
+                    "Dust": {
+                        "Description": "反対するものを乾燥させ、崩壊させる力を持っています。",
+                        "Label": "塵"
+                    },
+                    "Duty": {
+                        "Description": "誓いを守り、神聖な使命を大いなる献身をもって果たします。",
+                        "Label": "義務"
+                    },
+                    "Earth": {
+                        "Description": "土と石を操ることができます。",
+                        "Label": "地"
+                    },
+                    "Family": {
+                        "Description": "家族やコミュニティをより効果的に支援し、保護します。",
+                        "Label": "家族"
+                    },
+                    "FateApocryphal": {
+                        "Description": "隠された必然性を見抜き、理解します。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "運命（外典）"
+                    },
+                    "Fire": {
+                        "Description": "炎を操ります。",
+                        "Label": "火"
+                    },
+                    "FireApocryphal": {
+                        "Description": "炎を操ります。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "火（外典）"
+                    },
+                    "Freedom": {
+                        "Description": "自分自身や他人を束縛や制約から解放します。",
+                        "Label": "自由"
+                    },
+                    "Glyph": {
+                        "Description": "書かれた言葉や象徴に関連する力を操ります。",
+                        "Label": "文様"
+                    },
+                    "Healing": {
+                        "Description": "あなたの治癒魔法は特に強力です。",
+                        "Label": "治癒"
+                    },
+                    "Indulgence": {
+                        "Description": "たっぷりと飲み食いし、過剰摂取の影響を振り払うことができます。",
+                        "Label": "享楽"
+                    },
+                    "IndulgenceApocryphal": {
+                        "Description": "たっぷりと飲み食いし、過剰摂取の影響を振り払うことができます。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "享楽（外典）"
+                    },
+                    "Introspection": {
+                        "Description": "他人が自分自身の本質をより真実にするために、人生や感情、動機を検討する手助けをします。それは困難でしばしば痛みを伴うプロセスです。",
+                        "Label": "内省"
+                    },
+                    "Knowledge": {
+                        "Description": "神聖な洞察を受け取ります。",
+                        "Label": "知識"
+                    },
+                    "KnowledgeApocryphal": {
+                        "Description": "神聖な洞察を受け取ります。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "知識（外典）"
+                    },
+                    "Lightning": {
+                        "Description": "電気、雷鳴、嵐を操ります。",
+                        "Label": "稲妻"
+                    },
+                    "Luck": {
+                        "Description": "異常に幸運で、危険を回避します。",
+                        "Label": "運"
+                    },
+                    "Wealth": {
+                        "Label": "富",
+                        "Description": "富、貿易、財宝に対する力を持っています。"
+                    },
+                    "Metal": {
+                        "Description": "柔軟で変化しやすい金属を操ります。",
+                        "Label": "金属"
+                    },
+                    "Might": {
+                        "Description": "神聖な力によって肉体的な力が強化されます。",
+                        "Label": "力"
+                    },
+                    "MightApocryphal": {
+                        "Description": "神聖な力によって肉体的な力が強化されます。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "力（外典）"
+                    },
+                    "Moon": {
+                        "Description": "月に関連する力を指揮します。",
+                        "Label": "月"
+                    },
+                    "Naga": {
+                        "Description": "蛇のようなナーガと同様に、ラヴィスラがかつて支配した宇宙の力と調和しています。",
+                        "Label": "ナーガ"
+                    },
+                    "Nature": {
+                        "Description": "動物や植物に対する力を持っています。",
+                        "Label": "自然"
+                    },
+                    "Nightmares": {
+                        "Description": "恐怖や戦慄で心を満たします。",
+                        "Label": "悪夢"
+                    },
+                    "Pain": {
+                        "Description": "不満を持つ者を痛みの鋭い刺激で罰します。",
+                        "Label": "苦痛"
+                    },
+                    "Passion": {
+                        "Description": "愛や欲望として情熱を呼び起こします。",
+                        "Label": "情熱"
+                    },
+                    "Perfection": {
+                        "Description": "心、体、精神を完璧にしようと努力します。",
+                        "Label": "完成"
+                    },
+                    "Plague": {
+                        "Description": "病気や疫病を武器として扱います。",
+                        "Label": "疫病"
+                    },
+                    "Protection": {
+                        "Description": "自分自身や他人を守ります。",
+                        "Label": "保護"
+                    },
+                    "Repose": {
+                        "Description": "精神的な負担を軽減します。",
+                        "Label": "休息"
+                    },
+                    "Secrecy": {
+                        "Description": "秘密を守り、それらを隠し続けます。",
+                        "Label": "秘密"
+                    },
+                    "SecrecyApocryphal": {
+                        "Description": "秘密を守り、それらを隠し続けます。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "秘密（外典）"
+                    },
+                    "Sorrow": {
+                        "Description": "悲しみや憂鬱に痛みを伴うつながりがあります。",
+                        "Label": "悲嘆"
+                    },
+                    "Soul": {
+                        "Description": "精神的なものに対する力を持っています。",
+                        "Label": "魂"
+                    },
+                    "Star": {
+                        "Description": "星の力を指揮します。",
+                        "Label": "星"
+                    },
+                    "Sun": {
+                        "Description": "太陽や他の光源の力を利用し、不死者を罰します。",
+                        "Label": "太陽"
+                    },
+                    "Swarm": {
+                        "Description": "大量のクリーチャーを制御します。",
+                        "Label": "群れ"
+                    },
+                    "Time": {
+                        "Description": "時間の流れを支配します。",
+                        "Label": "時間"
+                    },
+                    "Toil": {
+                        "Description": "絶えず働き続け、何者にも邪魔されることを拒否します。",
+                        "Label": "労働"
+                    },
+                    "Travel": {
+                        "Description": "移動と旅に対する力を持っています。",
+                        "Label": "旅"
+                    },
+                    "TravelApocryphal": {
+                        "Description": "移動と旅に対する力を持っています。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "旅（外典）"
+                    },
+                    "Trickery": {
+                        "Description": "他人を欺き、いたずらをします。",
+                        "Label": "策略"
+                    },
+                    "Truth": {
+                        "Description": "嘘を見抜き、真実を発見します。",
+                        "Label": "真実"
+                    },
+                    "Tyranny": {
+                        "Description": "他人を支配し、奴隷化する力を振るいます。",
+                        "Label": "暴政"
+                    },
+                    "Undeath": {
+                        "Description": "あなたの魔法は不死者に強い結びつきを持っています。",
+                        "Label": "不死"
+                    },
+                    "Vigil": {
+                        "Description": "長い間亡くなった者を見守り、その秘密を守ります。",
+                        "Label": "見張り"
+                    },
+                    "Void": {
+                        "Description": "虚無から力を引き出します。",
+                        "Label": "虚空"
+                    },
+                    "Water": {
+                        "Description": "水や水域を制御します。",
+                        "Label": "水"
+                    },
+                    "WaterApocryphal": {
+                        "Description": "水や水域を制御します。すべてのクレリックの伝統が正統派の中で教えられるわけではありません。一部は秘密裏にささやかれ、司祭から信頼される見習いに伝えられたり、分派によって残された書物に記されています。",
+                        "Label": "水（外典）"
+                    },
+                    "Wood": {
+                        "Description": "木材の不屈の力を指揮します。",
+                        "Label": "木材"
+                    },
+                    "Wyrmkin": {
+                        "Description": "ドラゴンやリンドワーム、その他強力な爬虫類のクリーチャーの力を引き出します。",
+                        "Label": "竜族"
+                    },
+                    "Zeal": {
+                        "Description": "内なる炎が戦闘能力を高めます。",
+                        "Label": "熱意"
+                    }
+                },
+                "Alignment": "アライメント",
+                "Category": {
+                    "Hint": "いかなる神格とも関連付けられない神や哲学のパンテオンを特定の神の代わりに信仰することができます。クレリックとチャンピオンは神またはパンテオンを信仰しなければなりません。",
+                    "Pantheon": "パンテオン",
+                    "Philosophy": "哲学"
+                },
+                "ClericSpells": {
+                    "DropError": "神格のクレリック呪文にはカントリップ、フォーカス呪文、儀式を含めることはできません。",
+                    "Hint": "呪文を追加するには、このシートにドラッグ&ドロップしてください。",
+                    "Label": "クレリック呪文"
+                },
+                "DivineAttribute": {
+                    "Hint": "「信仰に育てられた」背景を選択する場合、その属性ブーストオプションは神格に由来します。",
+                    "Label": "神聖な属性"
+                },
+                "DivineFont": {
+                    "Harm": "ハーム",
+                    "Heal": "ヒール",
+                    "Label": "神聖なフォント"
+                },
+                "DivineSkill": {
+                    "Hint": "ほとんどの神格は単一の神聖スキルを持っていますが、一部の神格は2つの中から選択することを提供します。",
+                    "Label": "神聖スキル"
+                },
+                "Domains": {
+                    "Alternate": {
+                        "Hint": "クレリックは「拡張領域開始者」特技を取得することで、神の別の領域へのアクセスを得ることができます。",
+                        "Label": "別の領域"
+                    },
+                    "Primary": "主要な領域"
+                },
+                "FavoredWeapons": {
+                    "Hint": "ほとんどの神格は1つの好まれた武器を持っていますが、いくつかは好まれた武器と素手攻撃の両方を持っています。",
+                    "Label": "好まれた武器"
+                },
+                "Plural": "神格",
+                "Sanctification": {
+                    "Can": {
+                        "Holy": "聖を選択可能",
+                        "HolyUnholy": "聖または不浄を選択可能",
+                        "Unholy": "不浄を選択可能"
+                    },
+                    "Label": "神聖化",
+                    "Must": {
+                        "Holy": "聖を選択しなければならない",
+                        "Unholy": "不浄を選択しなければならない"
+                    },
+                    "None": "なし"
+                },
+                "Spellcasting": "呪文発動"
+            },
+            "ABC": {
+                "Add": "追加",
+                "Features": "特徴",
+                "InvalidDrop": "{badType}はここにドロップできません（{goodType}である必要があります）"
+            },
+            "Ability": {
+                "Category": {
+                    "None": "なし",
+                    "Defensive": "防御的",
+                    "Interaction": "相互作用",
+                    "Offensive": "攻撃的",
+                    "Familiar": "使い魔の能力"
+                },
+                "FIELDS": {
+                    "deathNote": {
+                        "label": "デスノート"
+                    },
+                    "selfEffect": {
+                        "hint": "このアクションを使用するアクターに適用される単一効果アイテム",
+                        "label": "自己適用効果"
+                    }
+                },
+                "Plural": "能力",
+                "SelfAppliedEffect": {
+                    "Applied": "{effect}が適用されました。",
+                    "Delete": "参照を削除",
+                    "Drop": "効果を削除"
+                },
+                "Type": {
+                    "Activity": "活動",
+                    "Free": "無料アクション",
+                    "Single": "単一アクション",
+                    "Reaction": "リアクション"
+                }
+            },
+            "Activation": {
+                "Add": "発動を追加",
+                "Cast": "呪文を詠唱",
+                "Command": "コマンド",
+                "CommandSheetLabel": "コマンド",
+                "Envision": "イメージ化",
+                "EnvisionSheetLabel": "イメージ化",
+                "Interact": "相互作用",
+                "Label": "発動"
+            },
+            "Affliction": {
+                "AddStage": "段階を追加",
+                "Error": {
+                    "RestrictedStageItem": "効果アイテムのみが状態異常に直接追加できます"
+                },
+                "Linked": {
+                    "Title": "設定されている場合、状態異常が続く間は条件を削除できません"
+                },
+                "OnsetLabel": "開始",
+                "OnsetActive": "開始中",
+                "SaveLabel": "セーブDC",
+                "Stage": "段階{stage}",
+                "StageLabel": "段階"
+            },
+            "Ancestry": {
+                "DropFeatures": "ここに血統の特徴をドロップしてください。",
+                "Plural": "血統",
+                "Vision": {
+                    "Label": "視覚",
+                    "Normal": "通常視覚"
+                }
+            },
+            "Armor": {
+                "Base": {
+                    "armored-cloak": "装甲マント",
+                    "armored-coat": "装甲コート",
+                    "bastion-plate": "バスティオンプレート",
+                    "breastplate": "胸甲",
+                    "buckle-armor": "バックルアーマー",
+                    "ceramic-plate": "セラミックプレート",
+                    "chain-mail": "チェインメイル",
+                    "chain-shirt": "チェインシャツ",
+                    "coral-armor": "サンゴの鎧",
+                    "explorers-clothing": "探検家の服",
+                    "fortress-plate": "フォートレスプレート",
+                    "full-plate": "フルプレート",
+                    "gi": "道着",
+                    "half-plate": "ハーフプレート",
+                    "hellknight-breastplate": "ヘルナイト胸甲",
+                    "hellknight-half-plate": "ヘルナイトハーフプレート",
+                    "hellknight-plate": "ヘルナイトプレート",
+                    "hide-armor": "ハイドアーマー",
+                    "kilted-breastplate": "キルト胸甲",
+                    "lamellar-breastplate": "ラメラ胸甲",
+                    "lattice-armor": "格子鎧",
+                    "leaf-weave": "リーフウィーブ",
+                    "leather-armor": "レザーアーマー",
+                    "leather-lamellar": "レザーラメラ",
+                    "mantis-shell": "マンティスシェル",
+                    "niyahaat": "ニヤハート",
+                    "o-yoroi": "大鎧（オーヨロイ）",
+                    "padded-armor": "パッドアーマー",
+                    "power-suit": "パワースーツ",
+                    "quilted-armor": "キルトアーマー",
+                    "rattan-armor": "籐甲冑",
+                    "sankeit": "サンケイト",
+                    "scale-mail": "スケールメイル",
+                    "scroll-robes": "スクロールローブ",
+                    "splint-mail": "スプリントメイル",
+                    "studded-leather-armor": "鋲付きレザーアーマー",
+                    "subterfuge-suit": "サブターフュージュスーツ",
+                    "wooden-breastplate": "木製胸甲"
+                },
+                "Category": {
+                    "heavy-barding": "重騎乗鎧",
+                    "light-barding": "軽騎乗鎧"
+                },
+                "Rune": {
+                    "Resilient": {
+                        "Label": "レジリエントルーン"
+                    }
+                },
+                "Specific": {
+                    "Hint": "この鎧を<i>特定の魔法の鎧</i>として指定すると、素材構成とルーンが許可する以上の能力を持つことを示します。指定時には、名前、レベル、レアリティ、価格が貴金属やルーンから上書きされなくなります。ただし、それらの素材とルーンは、後のアップグレードによるレベル、レアリティ、価格調整の基準として使用されます。",
+                    "Label": "特定の魔法の鎧"
+                },
+                "UnequippedHint": "この鎧は装備されていないため、よりかさばっています。"
+            },
+            "Background": {
+                "Plural": "背景"
+            },
+            "CampaignFeature": {
+                "CampaignLabel": "キャンペーン",
+                "Plural": "キャンペーン特徴"
+            },
+            "CannotAddType": "{type}アイテムをこのアクターに追加することはできません。",
+            "Class": {
+                "Plural": "クラス"
+            },
+            "Condition": {
+                "Chat": {
+                    "Current": "現在の状態"
+                },
+                "Flanked": "無防備（側面攻撃を受ける）",
+                "PersistentDamage": {
+                    "AssistedRecovery": "支援付き回復をロール",
+                    "Chat": {
+                        "Recover": "回復チェックをロール",
+                        "RecoverLabel": "回復: {name}"
+                    },
+                    "Dialog": {
+                        "Add": "持続ダメージを追加",
+                        "Invalid": "式が無効です。",
+                        "Remove": "持続ダメージを削除",
+                        "Title": "持続ダメージ（{actor}）"
+                    },
+                    "Error": {
+                        "DoesNotExist": "このアクターに持続的な{damageType}ダメージは存在しません。"
+                    },
+                    "Name": "持続ダメージ（{formula} {damageType}）",
+                    "NameWithDC": "持続ダメージ（{formula} DC{dc}）",
+                    "RollDamage": "ダメージをロール"
+                }
+            },
+            "Consumable": {
+                "Damage": {
+                    "Add": "ダメージ/治癒を追加",
+                    "Label": "ダメージ/治癒",
+                    "Remove": "ダメージ/治癒を削除"
+                },
+                "Category": {
+                    "ammo": "弾薬",
+                    "catalyst": "触媒",
+                    "drug": "薬物",
+                    "elixir": "エリクサー",
+                    "fulu": "フル",
+                    "gadget": "ガジェット",
+                    "mutagen": "変異原",
+                    "oil": "オイル",
+                    "other": "その他",
+                    "poison": "毒",
+                    "potion": "ポーション",
+                    "scroll": "スクロール",
+                    "snare": "スネア",
+                    "talisman": "タリスマン",
+                    "toolkit": "ツールキット",
+                    "wand": "ワンド"
+                },
+                "Plural": "消耗品",
+                "Uses": {
+                    "AutoDestroy": "使用時に破壊",
+                    "Label": "使用回数",
+                    "None": "使用回数なし",
+                    "Use": "使用"
+                }
+            },
+            "Container": {
+                "Bulk": {
+                    "Capacity": "バルク容量",
+                    "Ignored": "無視されるバルク"
+                },
+                "Plural": "コンテナ",
+                "Stowing": "収納コンテナですか？"
+            },
+            "CreationDialog": {
+                "Categories": {
+                    "Character": "キャラクタービルディング",
+                    "Other": "その他",
+                    "Physical": "物理アイテム"
+                }
+            },
+            "Effect": {
+                "Badge": {
+                    "Type": {
+                        "value": "固定値",
+                        "counter": "カウンター",
+                        "formula": "式"
+                    },
+                    "Add": "バッジを追加",
+                    "Labels": {
+                        "Add": "ラベルを追加",
+                        "Label": "ラベル",
+                        "Hint": "バッジの値には説明的なラベルを付けることができます。これらは効果パネルに収まるほど短くする必要があります。ラベルは、バッジの自然な最大値としても機能します。",
+                        "Placeholder": "新しいラベル"
+                    },
+                    "Range": "範囲",
+                    "ReevaluateFormula": {
+                        "InitiativeRoll": "イニシアチブロール時",
+                        "Label": "再評価しますか？",
+                        "Never": "なし",
+                        "TurnEnd": "ターン終了時",
+                        "TurnStart": "ターン開始時"
+                    }
+                },
+                "Expiry": {
+                    "EndOfRound": "ラウンド終了時",
+                    "EndOfTurn": "ターン終了時",
+                    "ExpiresOn": "期限切れ日時",
+                    "StartOfTurn": "ターン開始時"
+                },
+                "Disintegrated": {
+                    "Description": "治療可能な状態かもしれません。",
+                    "Name": "分解された"
+                },
+                "Looping": "最初に戻りますか？",
+                "Plural": "効果",
+                "ShowTokenIcon": "トークンアイコンを表示しますか？",
+                "Unidentified": "未識別ですか？"
+            },
+            "Feat": {
+                "TakeMultiple": {
+                    "Two": "最大2回まで",
+                    "Five": "最大5回まで",
+                    "Four": "最大4回まで",
+                    "Label": "複数回取得可能",
+                    "NoLimit": "制限なし",
+                    "Three": "最大3回まで"
+                },
+                "Category": {
+                    "Ancestry": "祖先特技",
+                    "AncestryFeature": "祖先特徴",
+                    "Bonus": "ボーナス特技",
+                    "Class": "クラス特技",
+                    "ClassFeature": "クラス特徴",
+                    "Curse": "神格の呪い",
+                    "DeityBoon": "神格の恩恵",
+                    "General": "一般特技",
+                    "PfsBoon": "ソサエティブーン",
+                    "Skill": "スキル特技"
+                },
+                "Info": {
+                    "Added": "{item}が{category}に追加されました。"
+                },
+                "LevelLabel": "特技",
+                "LevelN": "特技 {level}",
+                "OnlyLevel1": "レベル1で取得する必要があります。",
+                "Plural": "特技",
+                "Subfeatures": {
+                    "KeyAbilityOptions": {
+                        "Label": "主要属性オプション",
+                        "Hint": "クラスによって提供されるものに加えて利用可能な主要属性オプション"
+                    },
+                    "Label": "サブ特徴",
+                    "Languages": {
+                        "OpenSlots": "空きスロット"
+                    },
+                    "Proficiencies": {
+                        "Label": "習熟度",
+                        "NoOptionSelected": "選択した統計値に増加を適用します。"
+                    },
+                    "SuppressedFeatures": {
+                        "Label": "抑制されたクラス特徴",
+                        "Hint": "データ準備と特技タブから特徴を削除するには、このシートにドラッグ＆ドロップしてください。"
+                    },
+                    "Senses": {
+                        "Darkvision": {
+                            "Ancestry": "キャラクターの祖先が薄明視を持つ場合に付与します。",
+                            "LLV": "キャラクターが以前のいずれかの情報源から薄明視を持つ場合に付与します。",
+                            "Second": "この特技が2回目に取得される場合に付与します。"
+                        }
+                    }
+                },
+                "Warning": {
+                    "InvalidCategory": "特技「{item}」を{category}に追加できません：特技タイプが無効です。",
+                    "TakenAfterLevel1": "{item}はレベル1で取得する必要がありますが、{actor}はレベル{actorLevel}です。",
+                    "TakenMoreThanMax": "{item}は最大{maxTakable}回のみ取得可能ですが、{actor}はすでに{timesTaken}回選択しています。",
+                    "TakenMoreThanOnce": "{item}は1回のみ取得可能ですが、{actor}は追加で選択しています。"
+                }
+            },
+            "FIELDS": {
+                "category": {
+                    "label": "カテゴリ"
+                }
+            },
+            "GMNotes": {
+                "Add": "GMメモを追加",
+                "Title": "GMメモ"
+            },
+            "Heritage": {
+                "AncestryNotFound": "参照された祖先アイテムが見つかりませんでした。",
+                "DragAncestryHere": "この血統の前提祖先を設定するために祖先アイテムをここにドラッグしてください。",
+                "NoneVersatile": "なし（多用途）",
+                "Plural": "血統",
+                "RemoveAncestry": "前提祖先を削除"
+            },
+            "IconLabel": "アイコン",
+            "MaterialEffects": {
+                "Hint": "一部のクリーチャーの免疫、弱点、耐性をトリガーまたはバイパスできる貴金属ダメージ効果（インラインダメージロールに適用される）",
+                "Label": "素材ダメージ効果"
+            },
+            "NameLabel": "名前",
+            "OtherTags": {
+                "Label": "その他のタグ",
+                "Hint": "アイテムを分類するために特徴を超えた追加タグ"
+            },
+            "Physical": {
+                "Attach": {
+                    "CraftingCheck": "クラフトチェック",
+                    "Detach": {
+                        "Label": "アイテムを分離",
+                        "Prompt": "{attachable}を分離してもよろしいですか？"
+                    },
+                    "Label": "アタッチ",
+                    "Outcome": {
+                        "Failure": "{attachable}をアタッチできませんでした。",
+                        "Success": "{attachable}が{target}にアタッチされました。"
+                    },
+                    "PromptTitle": "{item}をアタッチ",
+                    "NoEligibleItem": "{attachable}をアタッチ可能なアイテムが見つかりませんでした。",
+                    "SidebarContextMenuOption": "アイテムにアタッチ"
+                },
+                "Attachments": "アタッチメント",
+                "Base": "基本",
+                "Broken": "破損",
+                "BrokenThreshold": {
+                    "Label": "破損閾値",
+                    "ShortLabel": "BT"
+                },
+                "Bulk": {
+                    "HeldOrStowed": "バルク（保持/収納）",
+                    "Label": "バルク",
+                    "Light": {
+                        "Label": "軽量",
+                        "ShortLabel": "L"
+                    },
+                    "Negligible": {
+                        "Label": "無視可能",
+                        "ShortLabel": "—"
+                    },
+                    "NLight": "{light}L",
+                    "WithLight": "{bulk}, {light}L"
+                },
+                "Destroyed": "破壊された",
+                "FromSpell": {
+                    "CantripDeck5": "{name}のカントリップデッキ（5パック）",
+                    "Scroll": "{name}のスクロール（ランク{level}）",
+                    "Wand": "{name}のワンド（ランク{level}）"
+                },
+                "GeneratedName": {
+                    "FourProperties": "{property1} {property2} {property3} {property4} {base}",
+                    "FourPropertiesMaterial": "{property1} {property2} {property3} {property4} {material} {base}",
+                    "Fundamental2": "{fundamental2} {base}",
+                    "Fundamental2Material": "{fundamental2} {material} {base}",
+                    "Hint": "これは基本武器の名前です。ほとんどの武器では、基本を使用して素材構成やルーンを考慮した完全な名前が生成されます。この武器にカスタム名を付けたり、「特定」としてマークすると、生成された名前が表示されなくなります。",
+                    "Material": "{material} {base}",
+                    "OneProperty": "{property1} {base}",
+                    "OnePropertyMaterial": "{property1} {material} {base}",
+                    "Reinforcing": "{reinforcing} {base}",
+                    "ReinforcingMaterial": "{reinforcing} {material} {base}",
+                    "ThreeProperties": "{property1} {property2} {property3} {base}",
+                    "ThreePropertiesMaterial": "{property1} {property2} {property3} {material} {base}",
+                    "TwoProperties": "{property1} {property2} {base}",
+                    "TwoPropertiesMaterial": "{property1} {property2} {material} {base}"
+                },
+                "LevelLabel": "アイテム {level}",
+                "OtherTag": {
+                    "HandwrapsOfMightyBlows": "強打の手包み",
+                    "Herbal": "ハーバル",
+                    "Improvised": "即席",
+                    "Shoddy": "粗雑"
+                },
+                "OtherTags": {
+                    "Hint": "これらは、明確なステータスや定義が欠けているが、依然として重要な役割を果たす第二版ルールでの分類を示すタグです。他のプロパティが存在するときに自動的に追加される場合があります。",
+                    "Label": "その他のタグ"
+                },
+                "MaterialRunes": {
+                    "Label": "貴金属とルーン"
+                },
+                "PriceLabel": "価格: {price}",
+                "Usage": {
+                    "WornParenthetical": "着用位置（{where}）",
+                    "WornSlot": {
+                        "amulet": "アミュレット",
+                        "anklets": "アンクレット",
+                        "armbands": "アームバンド",
+                        "armor": "アーマー",
+                        "backpack": "バックパック",
+                        "barding": "バーディング",
+                        "belt": "ベルト",
+                        "beltpouch": "ベルトポーチ",
+                        "bracelet": "ブレスレット",
+                        "bracers": "ブレイサー",
+                        "circlet": "サークレット",
+                        "cloak": "クローク",
+                        "clothing": "衣服",
+                        "collar": "カラー",
+                        "crown": "クラウン",
+                        "epaulet": "エポレット",
+                        "eyeglasses": "眼鏡",
+                        "eyepiece": "アイピース",
+                        "footwear": "履物",
+                        "garment": "衣類",
+                        "gloves": "手袋",
+                        "headwear": "頭装備",
+                        "horseshoes": "馬蹄",
+                        "mask": "マスク",
+                        "necklace": "ネックレス",
+                        "onbelt": "ベルトに装備",
+                        "ring": "リング",
+                        "saddle": "サドル",
+                        "shoes": "靴",
+                        "wrist": "腕に装備"
+                    }
+                }
+            },
+            "Rules": {
+                "Edit": "JSONを編集",
+                "Apply": "適用",
+                "Close": "閉じる",
+                "Hint": {
+                    "Slug": "安定した、人間可読の識別子：設定すると、アイテムの名前が変更されてもそのまま残ります。",
+                    "SourceId": "元のコンペンディウムアイテムのUUID",
+                    "UUID": "このアイテムの一意な識別子",
+                    "RollOptions": "アイテムロールオプションの接頭辞は、その使用方法によって異なります。<em>item:</em>がほとんどの場合使用されますが、<em>parent:</em>はルール要素を含むアイテムに使用されます。"
+                },
+                "New": "新しいルール要素",
+                "RegenerateSlug": "（再）生成スラッグ",
+                "Remove": "ルール要素を削除",
+                "Tab": "ルール",
+                "ViewRollOptions": "ロールオプションを表示"
+            },
+            "Plural": "アイテム",
+            "RefreshFromCompendium": {
+                "DifferentItemType": "{item}（{uuid}）のコンペンディウムソースは、このアクターに存在するものとは異なるタイプです。",
+                "Label": "更新",
+                "SourceNotFound": "{item}（ソースID: {sourceId}）のコンペンディウムソースが見つかりませんでした。",
+                "SubitemFailure": "{item}（{uuid}）の1つ以上のサブアイテムが更新できませんでした。",
+                "Success": "アイテム「{item}」が更新されました。",
+                "Tooltip": {
+                    "Disabled": "アイテムは更新できません：アクターに追加した時点でデータが保存されています。",
+                    "Enabled": "このアイテムのデータをオリジナルのコンペンディウムから最新情報に更新しますか？"
+                }
+            },
+            "RemovalPrevented": "{item}の削除は{preventer}によって防止されています。",
+            "Shield": {
+                "Base": {
+                    "buckler": "バックラー",
+                    "casters-targe": "キャスターズターゲ",
+                    "dart-shield": "ダートシールド",
+                    "fortress-shield": "要塞の盾",
+                    "gauntlet-buckler": "ガントレットバックラー",
+                    "harnessed-shield": "ハーネスドシールド",
+                    "heavy-rondache": "ヘビーロンダシュ",
+                    "hide-shield": "ハイドシールド",
+                    "klar": "クラール",
+                    "meteor-shield": "メテオシールド",
+                    "razor-disc": "レーザーディスク",
+                    "salvo-shield": "サルヴォシールド",
+                    "steel-shield": "スチールシールド",
+                    "swordstealer-shield": "ソードスティーラーシールド",
+                    "tower-shield": "タワーシールド",
+                    "wooden-shield": "木製シールド"
+                },
+                "Rune": {
+                    "Reinforcing": {
+                        "Greater": "上級強化",
+                        "Label": "強化ルーン",
+                        "Lesser": "小型強化",
+                        "Major": "主要強化",
+                        "Minor": "小型強化",
+                        "Moderate": "中程度の強化",
+                        "Supreme": "至高の強化"
+                    }
+                },
+                "Specific": {
+                    "Hint": "この盾を<i>特定の魔法の盾</i>としてマークすると、その素材構成とルーンが許可する以上の効果があることを示します。名前、レベル、レアリティ、価格は、指定時に貴金属やルーンから上書きされなくなります。ただし、それらの素材とルーンは、後のアップグレードによるレベル、レアリティ、価格調整の基準として使用されます。",
+                    "Label": "特定の魔法の盾"
+                }
+            },
+            "SidebarSummary": "{type}の概要",
+            "Weapon": {
+                "CanBeAmmo": {
+                    "Label": "弾薬として使用可能",
+                    "Hint": "この武器が他の武器に弾薬として装填できることを示します。"
+                },
+                "CriticalSpecialization": {
+                    "axe": "最初のターゲットに隣接し、リーチ内にある1匹のクリーチャーを選択します。そのACがクリティカルヒットの攻撃ロール結果より低ければ、武器のダメージダイスの結果（そのストライキングルーンがあれば追加ダイスも含む）と同じダメージをそのクリーチャーに与えます。このダメージは倍増せず、ボーナスや他の追加ダイスは適用されません。",
+                    "bomb": "爆弾の範囲ダメージ（あれば）の半径を10フィートに増加させます。",
+                    "bow": "クリティカルヒットのターゲットが表面に隣接している場合、ミサイルによってその表面に固定されます。ターゲットは@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{移動不能}となり、インタラクトアクションを使って@Check[athletics|dc:10|name:ミサイルを引き抜く|showDC:all]チェックを行い、ミサイルを引き抜く必要があります。成功するまでその場から動くことはできません。クリーチャーがインコーポリアルであるか、液体である場合、または十分に大きくてミサイルが障害にならない場合（たとえば、ミサイルが障害にならないほど大きい場合）は、固定されません。",
+                    "brawling": "ターゲットは、クラスDCに対する@Check[fortitude|against:class|name:格闘クリティカル特化]セーブに成功するか、@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{減速1}状態になります。",
+                    "club": "あなたはターゲットを直線的に最大10フィート後方にノックバックさせます。この動きは強制的な移動です。",
+                    "firearm": "ターゲットは、クラスDCに対する@Check[fortitude|against:class|name:火器クリティカル特化]セーブに成功するか、@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{気絶1}状態になります。",
+                    "flail": "ターゲットは@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{転倒}状態になりますが、@Check[reflex|against:class|name:フレイルクリティカル特化]セーブに成功すればその限りではありません。",
+                    "hammer": "ターゲットは@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{転倒}状態になりますが、@Check[fortitude|against:class|name:ハンマークリティカル特化]セーブに成功すればその限りではありません。",
+                    "polearm": "ターゲットは、あなたの選択した方向に5フィート移動します。これは強制的な移動です。",
+                    "shield": "ターゲットは5フィート後方にノックバックされます。これは強制的な移動です。",
+                    "sling": "ターゲットは、クラスDCに対する@Check[fortitude|against:class|name:スリングクリティカル特化]セーブに成功するか、@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{気絶1}状態になります。",
+                    "spear": "このタイプの武器はターゲットを貫通し、攻撃を弱めます。ターゲットは@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{不器用1}状態になります。次のターンの開始時までこの状態が続きます。",
+                    "sword": "ターゲットはあなたの攻撃で不安定になり、次のターンの開始時まで@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{無防備}状態になります。"
+                },
+                "Damage": {
+                    "DiceNumber": "ダイス数"
+                },
+                "Forceful": {
+                    "Second": "強制的な2回目の攻撃",
+                    "Third": "強制的な3回目以降の攻撃"
+                },
+                "FromABP": "自動ボーナス進行により、この武器の{property}が{value}に調整されました。",
+                "FromMaterialAndRunes": "貴金属とルーンによってこのアイテムの{property}が{value}に調整されました。",
+                "HandsLabel": "手",
+                "MandatoryMelee": "この武器には、近接武器でのみ使用できる特性があります。",
+                "MaterialAndRunes": {
+                    "MaterialOption": "{type}（{grade}）",
+                    "Title": "素材構成とルーン"
+                },
+                "MeleeUsage": {
+                    "Hint": "組み合わせ武器には、銃器形式または使用方法と近接武器形式または使用方法があります。近接武器の使用方法と銃器使用方法の間で切り替えるにはインタラクトアクションが必要です。ただし、最後のアクションが組み合わせ武器を使って敵に成功した近接攻撃だった場合、近接攻撃を行った敵に対して、銃器使用法に完全に切り替えなくても組み合わせ武器を使って銃器攻撃を行うことができます。この場合、組み合わせ武器は銃器攻撃後に近接使用法に戻ります。",
+                    "Label": "近接使用法"
+                },
+                "NoRangeMelee": "なし（近接）",
+                "RangeIncrementN": {
+                    "Hint": "範囲および投擲武器には射程が設定されています。これらの武器での攻撃はその射程内では正常に行われます。それを超える攻撃ロールは、射程増分ごとに-2のペナルティを受けます。6番目の射程増分を超えた攻撃は不可能です。",
+                    "Label": "射程増分 {range} ft."
+                },
+                "Reload": {
+                    "LabelN": "リロード {value}",
+                    "OneMinute": "1分"
+                },
+                "Rune": {
+                    "Potency": "ウェポンポテンシー",
+                    "Striking": {
+                        "Greater": "グレーターストライキング",
+                        "Major": "メジャーストライキング",
+                        "Mythic": "ミスティックストライキング",
+                        "Striking": "ストライキング"
+                    }
+                },
+                "SpecificMagicWeapon": {
+                    "Hint": "この武器を<i>特定の魔法の武器</i>としてマークすると、その素材構成とルーンが許可する以上の効果があることを示します。名前、レベル、レアリティ、価格は、指定時に貴金属やルーンから上書きされなくなります。ただし、それらの素材とルーンは、後のアップグレードによるレベル、レアリティ、価格調整の基準として使用されます。",
+                    "Label": "特定の魔法の武器"
+                },
+                "ThrownUsage": {
+                    "Label": "投擲使用法"
+                },
+                "Twin": {
+                    "SecondPlus": "ツイン2回目以降の攻撃"
+                }
+            },
+            "WorldItemWarning": "これはワールドアイテムであり、コンペンディウムに保存しても機能しません。"
+        },
+        "EffectsLabel": "効果",
+        "ModifiersTitle": "修正値",
+        "EmptySlot": "空スロット",
+        "Encounter": {
+            "AlreadyRolled": "{actor}はすでにイニシアチブをロールしました。",
+            "Broadcast": {
+                "FastHealing": {
+                    "DeactivatedBy": "{types}により無効化されました",
+                    "fast-healing": {
+                        "Name": "高速治癒",
+                        "ReceivedMessage": "高速治癒を受けた"
+                    },
+                    "regeneration": {
+                        "Name": "再生",
+                        "ReceivedMessage": "再生を受けた"
+                    }
+                },
+                "TempHP": {
+                    "PluralNew": "{actor}は現在{item}から{newQuantity}一時的ヒットポイントを持っています{wasAt}。",
+                    "SingleNew": "{actor}は現在{item}から{newQuantity}一時的ヒットポイントを持っています{wasAt}。"
+                }
+            },
+            "Budget": {
+                "EncounterBudget": "エンカウンターバジェット",
+                "PartyLevel": "パーティレベル",
+                "PartySize": "パーティサイズ",
+                "Reward": "報酬",
+                "Threat": "脅威",
+                "Threats": {
+                    "extreme": "極端",
+                    "low": "低い",
+                    "moderate": "適度",
+                    "severe": "深刻",
+                    "trivial": "些細"
+                },
+                "XPBudget": "予定XP",
+                "XPNeeded": "必要なXP"
+            },
+            "CreatureXPAndRole": {
+                "CreatureLevel": "クリーチャーレベル",
+                "CreatureLevels": {
+                    "-1": "標準的なクリーチャー",
+                    "-2": "どの従者または標準的なクリーチャー",
+                    "-3": "低脅威または適度な脅威の従者",
+                    "-4": "低脅威の従者",
+                    "0": "標準的なクリーチャーまたは低脅威のボス",
+                    "1": "低脅威または適度な脅威のボス",
+                    "2": "中程度または深刻な脅威のボス",
+                    "3": "深刻または極端な脅威のボス",
+                    "4": "極端な脅威の単独ボス"
+                },
+                "CreatureXPAndRole": "クリーチャーのXPと役割",
+                "SuggestedRole": "推奨される役割"
+            },
+            "ExcludingFromInitiative": "{type}{actor}をイニシアチブから除外しています。",
+            "HasNoInitiativeScore": "{actor}はイニシアチブスコアを持っていません。",
+            "HideName": "名前を非表示",
+            "InitiativeSet": "{actor}のイニシアチブが{initiative}に設定されました。",
+            "Metrics": {
+                "Award": {
+                    "Label": "報酬: {xp} XP",
+                    "Tooltip": {
+                        "Four": "4人のパーティメンバー",
+                        "Plural": "{xpPerFour} × 4 / {recipients} パーティメンバー",
+                        "Singular": "1人のパーティメンバー"
+                    }
+                },
+                "Budget": "予算: {spent}/{max} XP (パーティレベル{partyLevel})",
+                "Threat": "脅威: <threat>{threat}</threat>"
+            },
+            "NoActiveEncounter": "アクティブなエンカウンターはありません。",
+            "NoTokenInScene": "{actor}はシーンにトークンを持っていません。",
+            "RevealName": "名前を表示",
+            "XP": "XP"
+        },
+        "Foot": {
+            "Plural": "フィート",
+            "Preformatted": {
+                "5": "5フィート",
+                "10": "10フィート",
+                "15": "15フィート",
+                "20": "20フィート",
+                "25": "25フィート",
+                "30": "30フィート"
+            },
+            "Label": "フィート"
+        },
+        "PreciousMaterialAdamantine": "アダマンタイト",
+        "TraitAffixedToArmor": "鎧に取り付けられた",
+        "TraitDeadlyD10": "致命的 d10",
+        "TraitDeadlyD12": "致命的 d12",
+        "Level25": "レベル25",
+        "Level3": "レベル3",
+        "Level4": "レベル4",
+        "Level5": "レベル5",
+        "Level6": "レベル6",
+        "Level7": "レベル7",
+        "TraitTea": "お茶",
+        "TraitWood": "木",
+        "Weapon": {
+            "Base": {
+                "spear": "槍",
+                "adze": "アズ",
+                "air-repeater": "エアリピーター",
+                "aklys": "アクリーズ",
+                "alchemical-bomb": "錬金術爆弾",
+                "alchemical-crossbow": "錬金術クロスボウ",
+                "aldori-dueling-sword": "アルドリデュエルソード",
+                "arbalest": "アルバレスト",
+                "arquebus": "アルケブス",
+                "asp-coil": "アスプコイル",
+                "atlatl": "アトラトル",
+                "axe-musket": "アックスマスケット",
+                "barricade-buster": "バリケードバスター",
+                "bastard-sword": "バスタードソード",
+                "battle-axe": "バトルアックス",
+                "battle-lute": "バトルリュート",
+                "battle-saddle": "バトルサドル",
+                "bec-de-corbin": "ベック・デ・コルビン",
+                "big-boom-gun": "ビッグブームガン",
+                "black-powder-knuckle-dusters": "ブラックパウダーナックルダスター",
+                "bladed-diabolo": "ブレードダイアボロ",
+                "bladed-gauntlet": "ブレードガントレット",
+                "bladed-hoop": "ブレードフープ",
+                "bladed-scarf": "ブレードスカーフ",
+                "blowgun": "吹き矢",
+                "blowgun-darts": "吹き矢の矢",
+                "blunderbuss": "ブランダーバス",
+                "bo-staff": "棒スタッフ",
+                "boarding-axe": "ボーディングアックス",
+                "boarding-pike": "ボーディングパイク",
+                "bola": "ボーラ",
+                "boomerang": "ブーメラン",
+                "bow-staff": "弓スタッフ",
+                "breaching-pike": "ブリーチングパイク",
+                "broadspear": "ブロードスピア",
+                "butchering-axe": "畜殺用斧",
+                "butterfly-sword": "バタフライソード",
+                "buugeng": "ブゲング",
+                "cane-pistol": "杖ピストル",
+                "capturing-spetum": "キャプチャリングスペトゥム",
+                "chain-sword": "チェーンソード",
+                "chakram": "チャクラム",
+                "chakri": "チャクリ",
+                "clan-dagger": "クランダガー",
+                "clan-pistol": "クランピストル",
+                "claw": "クロー",
+                "claw-blade": "クロー刃",
+                "club": "クラブ",
+                "coat-pistol": "コートピストル",
+                "combat-fishing-pole": "コンバットフィッシングポール",
+                "combat-grapnel": "コンバットグラップネル",
+                "combat-lure": "コンバットルアー",
+                "composite-longbow": "コンポジットロングボウ",
+                "composite-shortbow": "コンポジットショートボウ",
+                "corset-knife": "コルセットナイフ",
+                "crescent-cross": "三日月十字",
+                "crossbow": "クロスボウ",
+                "dagger": "ダガー",
+                "dagger-pistol": "ダガーピストル",
+                "daikyu": "大弓（ダイキュウ）",
+                "dancers-spear": "ダンサーの槍",
+                "dandpatta": "ダンドパタ",
+                "dart": "ダート",
+                "dogslicer": "ドッグスライサー",
+                "donchak": "ドンチャク",
+                "double-barreled-musket": "ダブルバレルマスケット",
+                "double-barreled-pistol": "ダブルバレルピストル",
+                "dragon-mouth-pistol": "ドラゴンマウスピストル",
+                "dueling-pistol": "デュエルピストル",
+                "dueling-spear": "デュエルスピア",
+                "dwarven-dorn-dergar": "ドワーフのドーン・デガール",
+                "dwarven-scattergun": "ドワーフのスキャッターガン",
+                "dwarven-war-axe": "ドワーフの戦斧",
+                "earthbreaker": "アースブレイカー",
+                "elven-branched-spear": "エルフの分岐スピア",
+                "elven-curve-blade": "エルフのカーブブレード",
+                "explosive-dogslicer": "爆発的ドッグスライサー",
+                "exquisite-sword-cane": "高級なソードケイン",
+                "exquisite-sword-cane-sheath": "高級なソードケインシース",
+                "falcata": "ファルカタ",
+                "falchion": "ファルシオン",
+                "fangwire": "ファングワイヤー",
+                "fauchard": "フォシャール",
+                "feng-huo-lun": "フェン・フォー・ルン",
+                "fighting-fan": "戦闘用扇子",
+                "fighting-oar": "戦闘用オール",
+                "fighting-stick": "戦闘用スティック",
+                "filchers-fork": "フィルチャーズフォーク",
+                "fire-lance": "火槍",
+                "fire-poi": "ファイヤーポイ",
+                "fist": "拳",
+                "flail": "フレイル",
+                "flingflenser": "フリングフレンザー",
+                "flintlock-musket": "火打ち石マスケット",
+                "flintlock-pistol": "火打ち石ピストル",
+                "flying-talon": "飛行タロン",
+                "flyssa": "フライッサ",
+                "forked-bipod": "二股バイポッド",
+                "frying-pan": "フライパン",
+                "gada": "ガダ",
+                "gaff": "ガフ",
+                "gakgung": "カクグン",
+                "gauntlet": "ガントレット",
+                "gauntlet-bow": "ガントレットボウ",
+                "gill-hook": "ギルフック",
+                "gladius": "グラディウス",
+                "glaive": "グレイヴ",
+                "gnome-amalgam-musket": "ノームアマルガムマスケット",
+                "gnome-flickmace": "ノームフリックメイス",
+                "gnome-hooked-hammer": "ノームフック付きハンマー",
+                "greataxe": "グレートアックス",
+                "greatclub": "グレートクラブ",
+                "greatpick": "グレートピック",
+                "greatsword": "グレートソード",
+                "griffon-cane": "グリフォンケイン",
+                "guisarme": "ギザーム",
+                "gun-sword": "ガンスワード",
+                "halberd": "ハルバード",
+                "halfling-sling-staff": "ハーフリングスリングスタッフ",
+                "hammer-gun": "ハンマーガン",
+                "hand-adze": "ハンドアズ",
+                "hand-cannon": "ハンドキャノン",
+                "hand-crossbow": "ハンドクロスボウ",
+                "harmona-gun": "ハルモナガン",
+                "harpoon": "ハープーン",
+                "hatchet": "ハチェット",
+                "heavy-crossbow": "ヘビークロスボウ",
+                "hongali-hornbow": "ホンガリホーンボウ",
+                "hook-sword": "フックソード",
+                "horsechopper": "ホースチョッパー",
+                "injection-spear": "インジェクションスピア",
+                "javelin": "ジャベリン",
+                "jaws": "ジャウズ",
+                "jezail": "ジェザイル",
+                "jiu-huan-dao": "ジウ・フアン・ダオ",
+                "juggling-club": "ジャグリングクラブ",
+                "kalis": "カリス",
+                "kama": "カマ",
+                "karambit": "カランビット",
+                "katana": "カタナ",
+                "katar": "カター",
+                "kestros": "ケストロス",
+                "khakkhara": "カッカラ",
+                "khopesh": "コペシュ",
+                "knuckle-duster": "ナックルダスター",
+                "kris": "クリス",
+                "kukri": "ククリ",
+                "kusarigama": "鎖鎌",
+                "lance": "ランス",
+                "lancer": "ランサー",
+                "leiomano": "レイオマノ",
+                "light-hammer": "ライトハンマー",
+                "light-mace": "ライトメイス",
+                "light-pick": "ライトピック",
+                "lion-scythe": "ライオンサイズ",
+                "liuyedao": "リュイエダオ",
+                "long-air-repeater": "ロングエアリピーター",
+                "long-hammer": "ロングハンマー",
+                "longbow": "ロングボウ",
+                "longspear": "ロングスピア",
+                "longsword": "ロングソード",
+                "mace": "メイス",
+                "mace-multipistol": "メイス・マルチピストル",
+                "machete": "マチェーテ",
+                "macuahuitl": "マクアウィトル",
+                "main-gauche": "メインゴーシュ",
+                "mambele": "マンベレ",
+                "maul": "モール",
+                "meteor-hammer": "流星ハンマー",
+                "mikazuki": "ミカズキ",
+                "mithral-tree": "ミスラルツリー",
+                "monkeys-fist": "モンキーフィスト",
+                "morningstar": "モーニングスター",
+                "naginata": "薙刀",
+                "nightstick": "ナイトステック",
+                "nodachi": "ノダチ",
+                "nunchaku": "ヌンチャク",
+                "ogre-hook": "オーガフック",
+                "orc-knuckle-dagger": "オーク・ナックルダガー",
+                "orc-necksplitter": "オーク・ネックスプリッター",
+                "orc-skewermaul": "オーク・スキュワーマウル",
+                "palstave": "パルステイヴ",
+                "panabas": "パナバス",
+                "pepperbox": "ペッパーボックス",
+                "phalanx-piercer": "ファランクス・ピアサー",
+                "pick": "ピック",
+                "piercing-wind": "ピアシング・ウィンド",
+                "piranha-kiss": "ピラニアキス",
+                "poi": "ポイ",
+                "polytool": "ポリツール",
+                "probing-cane": "プロービングケイン",
+                "ranseur": "ランセウ",
+                "rapier": "レイピア",
+                "rapier-pistol": "レイピアピストル",
+                "reinforced-wheels": "強化車輪",
+                "reinforced-stock": "強化ストック",
+                "repeating-crossbow": "リピーティングクロスボウ",
+                "repeating-hand-crossbow": "リピーティングハンドクロスボウ",
+                "repeating-heavy-crossbow": "リピーティングヘビークロスボウ",
+                "rhoka-sword": "ロカソード",
+                "rope-dart": "ロープダート",
+                "rotary-bow": "ロータリーボウ",
+                "rungu": "クルーク",
+                "sai": "サイ",
+                "sansetsukon": "三節棍",
+                "sap": "サップ",
+                "sawtooth-saber": "ノコギリトウサーベル",
+                "scimitar": "シミター",
+                "scizore": "シゾア",
+                "scorpion-whip": "スコーピオンウィップ",
+                "scourge": "スカージ",
+                "scythe": "サイズ",
+                "shauth-lash": "シャウスラッシュ",
+                "shears": "シアーズ",
+                "shield-bash": "シールドバッシュ",
+                "shield-boss": "シールドボス",
+                "shield-bow": "シールドボウ",
+                "shield-pistol": "シールドピストル",
+                "shield-spikes": "シールドスパイク",
+                "shobhad-longrifle": "ショバド・ロングライフル",
+                "shortbow": "ショートボウ",
+                "shortsword": "ショートソード",
+                "shuan-ji": "シュアンジ",
+                "shuriken": "手裏剣",
+                "sickle": "鎌",
+                "sickle-saber": "鎌サーベル",
+                "slide-pistol": "スライドピストル",
+                "sling": "スリング",
+                "sling-bullets": "スリング弾",
+                "spiked-chain": "スパイクチェーン",
+                "spiked-gauntlet": "スパイクガントレット",
+                "spiral-rapier": "スパイラルレイピア",
+                "spirit-thresher": "スピリットスレッシャー",
+                "spoon-gun": "スプーンガン",
+                "spraysling": "スプレイスリング",
+                "staff": "スタッフ",
+                "starknife": "スタークナイフ",
+                "stiletto-pen": "スティレットペン",
+                "sukgung": "スックング",
+                "sun-sling": "サンスリング",
+                "switchscythe": "スイッチサイズ",
+                "sword-cane": "ソードケイン",
+                "talwar": "タルワール",
+                "tamchal-chakram": "タムチャルチャクラム",
+                "taw-launcher": "タウランチャー",
+                "tekko-kagi": "テッコカギ",
+                "temple-sword": "テンプルソード",
+                "tengu-gale-blade": "テンゴウ・ゲイルブレード",
+                "tetsubo": "鉄棒",
+                "thorn-whip": "トーンウィップ",
+                "three-peaked-tree": "三叉樹",
+                "three-section-naginata": "三節棍",
+                "throwing-knife": "投げナイフ",
+                "thunder-sling": "サンダースリング",
+                "thundermace": "サンダーメイス",
+                "tonfa": "トンファ",
+                "tri-bladed-katar": "三刃カター",
+                "tricky-pick": "トリッキーピック",
+                "trident": "トライデント",
+                "triggerbrand": "トリガーブランド",
+                "urumi": "ウルミ",
+                "visap": "ビサプ",
+                "wakizashi": "脇差",
+                "war-flail": "ウォーフレイル",
+                "war-gavel": "ウォーガヴェル",
+                "war-javelin": "ウォージャベリン",
+                "war-lance": "ウォーランス",
+                "war-razor": "ウォーレーザー",
+                "warhammer": "ウォーハンマー",
+                "wheel-blades": "ホイールブレード",
+                "wheel-spikes": "ホイールスパイク",
+                "whip": "鞭",
+                "whip-claw": "ウィップクロー",
+                "whip-staff": "ウィップスタッフ",
+                "wish-blade": "ウィッシュブレード",
+                "wish-knife": "ウィッシュナイフ",
+                "wooden-taws": "ウッドンタウス",
+                "wrecker": "レッカー",
+                "wrist-launcher": "リストランチャー",
+                "zhuazhi-bang": "ジュアジ・バング",
+                "zulfikar": "ズルフィカール"
+            }
+        },
+        "Level8": "レベル8",
+        "Level9": "レベル9",
+        "LevelLabel": "レベル",
+        "LevelN": "レベル {level}",
+        "LevelRange": "レベル {minLevel} - {level}",
+        "LicenseViewer": {
+            "Label": "法的通知",
+            "LandingPageText": "上のタブを使用して法的情報を読む"
+        },
+        "ListPartsAnd": {
+            "end": "{first}、および {second}",
+            "middle": "{first}、{second}",
+            "start": "{first}、{second}",
+            "two": "{first} と {second}"
+        },
+        "ListPartsOr": {
+            "end": "{first}、または {second}",
+            "middle": "{first}、{second}",
+            "start": "{first}、{second}",
+            "two": "{first} または {second}"
+        },
+        "Lore": "ロア",
+        "LoreSkillsHeader": "ロアスキル",
+        "MAPAbbreviationLabel": "MAP {penalty}",
+        "MAPAbbreviationValueLabel": "{value}（MAP {penalty}）",
+        "Macro": {
+            "OptionToggle": {
+                "Notification": "{toggle}は{state}の状態に切り替えられました。",
+                "Off": "オフ",
+                "On": "オン"
+            },
+            "Plural": "マクロ",
+            "NoCompendiumItem": "効果や状態でないコンペンディウムアイテムからはマクロを作成できません。"
+        },
+        "MacroActionNoActionError": "このアクションはもう存在しません！",
+        "MacroActionNoActorError": "このアクターはもう存在しません！",
+        "MagicTraditionLabel": "魔法の伝統",
+        "MagicTraditionUseSpellLabel": "呪文の伝統を使用",
+        "MasterAbility": {
+            "cha": "魅力の達人",
+            "con": "耐久力の達人",
+            "dex": "敏捷力の達人",
+            "int": "知力の達人",
+            "str": "力の達人",
+            "wis": "智慧の達人"
+        },
+        "MasterArmorClass": "基本アーマークラス {base} の達人",
+        "MasterLevel": "レベルの達人",
+        "MasterSavingThrow": {
+            "fortitude": "基本耐久力の達人",
+            "reflex": "基本反射の達人",
+            "will": "基本意志の達人"
+        },
+        "MaxHitPointsBaseLabel": "基本最大HP {base}",
+        "MaxHitPointsShortLabel": "最大HP",
+        "MaxStaminaPointsShortLabel": "最大SP",
+        "Migrations": {
+            "Finished": "PF2E システムのバージョン {version} への移行が完了しました！",
+            "OnlyGMCanUse": "このツールはゲームマスターのみが使用できます。",
+            "OutsideSchemaRange": "指定された範囲はシステムのスキーマバージョン範囲（{minimum} と {maximum} の間）を超えています。",
+            "Running": "システム移行中...",
+            "Starting": "PF2E システムのバージョン {version} への移行を適用しています。ゲームを閉じたり、サーバーをシャットダウンしないでください。",
+            "Summary": {
+                "Documents": "ドキュメント",
+                "HelpResources": "アクターまたはアイテムの移行中に予期しないエラーが発生しました。さらに支援が必要な場合は、<a href=\"https://github.com/foundryvtt/pf2e/issues\">システムリポジトリ</a>で問題を報告するか、<a href=\"https://discord.gg/SajryVzCyf\">Discord</a>でコミュニティサポートを受けてください。",
+                "Migrated": "移行済み",
+                "Remigrate": "再移行",
+                "Title": "移行の概要",
+                "Total": "合計",
+                "Troubleshoot": {
+                    "Hint": "ここで再移行を実行し、アクターやアイテムの問題を自動的に修正します。",
+                    "Title": "システムのトラブルシューティング"
+                }
+            },
+            "Troubleshooting": "トラブルシューティング",
+            "WorldNotReady": "ゲームワールドが準備できていません：数秒後に再試行してください。"
+        },
+        "ConditionTypeBlinded": "盲目",
+        "ConditionTypeBroken": "破損",
+        "ConditionTypeClumsy": "不器用",
+        "ConditionTypeConcealed": "隠蔽",
+        "ConditionTypeConfused": "混乱",
+        "ConditionTypeControlled": "制御下",
+        "ConditionTypeCursebound": "呪縛されている",
+        "ConditionTypeDazzled": "眩惑",
+        "ConditionTypeDeafened": "聴覚喪失",
+        "ConditionTypeDoomed": "破滅",
+        "ConditionTypeDrained": "消耗",
+        "ConditionTypeDying": "瀕死",
+        "ConditionTypeEncumbered": "負荷",
+        "ConditionTypeEnfeebled": "虚弱",
+        "ConditionTypeFascinated": "魅了",
+        "ConditionTypeFatigued": "疲労",
+        "ConditionTypeFlatFooted": "無防備",
+        "ConditionTypeFleeing": "逃走中",
+        "ConditionTypeFriendly": "友好的",
+        "ConditionTypeFrightened": "恐怖",
+        "ConditionTypeGrabbed": "掴まれた",
+        "ConditionTypeHelpful": "協力的",
+        "ConditionTypeHidden": "隠れている",
+        "ConditionTypeHostile": "敵対的",
+        "ConditionTypeImmobilized": "移動不能",
+        "ConditionTypeIndifferent": "無関心",
+        "ConditionTypeInvisible": "透明",
+        "ConditionTypeMalevolence": "悪意",
+        "ConditionTypeObserved": "観察されている",
+        "ConditionTypeOffGuard": "無防備",
+        "ConditionTypeParalyzed": "麻痺",
+        "ConditionTypePersistent": "持続的なダメージ",
+        "ConditionTypePersistentShort": "持続",
+        "ConditionTypePetrified": "石化",
+        "ConditionTypeProne": "伏せている",
+        "ConditionTypeQuickened": "加速",
+        "ConditionTypeRestrained": "拘束",
+        "CreateActionTitle": "アクションを作成",
+        "CreateAttackTitle": "攻撃を作成",
+        "CreateFeatTitle": "特技を作成",
+        "CreateFormulaTitle": "レシピを作成",
+        "CreateItemTitle": "アイテムを作成",
+        "CreateLabelUniversal": "作成",
+        "CreateSkillTitle": "スキルを作成",
+        "CreateSpellTitle": "呪文を作成",
+        "CritFailure": "<strong>致命的失敗</strong>",
+        "CritSuccess": "<strong>致命的成功</strong>",
+        "CriticalDamageLabel": "クリティカル",
+        "CriticalFumbleCardButtonTitle": "クリティカルファンブルカードを引く",
+        "CriticalHitCardButtonTitle": "クリティカルヒットカードを引く",
+        "CurrencyAbbreviations": {
+            "cp": "銅貨",
+            "gp": "金貨",
+            "pp": "白金貨",
+            "sp": "銀貨"
+        },
+        "CurrencyCP": "銅貨",
+        "CurrencyPP": "白金貨",
+        "CurrencySP": "銀貨",
+        "CurrentHitPointsShortLabel": "現在のHP",
+        "CurrentStaminaPointsShortLabel": "現在のSP",
+        "DCAdjustmentIncrediblyEasy": "非常に簡単",
+        "DCAdjustmentIncrediblyHard": "非常に難しい",
+        "DCAdjustmentNormal": "基準",
+        "DCAdjustmentVeryEasy": "とても簡単",
+        "DCAdjustmentVeryHard": "とても難しい",
+        "DCBase": "基本DC 10",
+        "DCWithValue": "DC {dc} {text}",
+        "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {text}",
+        "DamageButton": {
+            "Adjust": "[Shift-Click] 適用前に値を調整。",
+            "Double": "[Click] 選択したトークンに2倍のダメージを適用。",
+            "DoubleContext": "2倍ダメージ",
+            "DoubleShort": "2倍",
+            "Full": "[Click] 選択したトークンに完全なダメージを適用。",
+            "FullContext": "ダメージを適用",
+            "FullShort": "ダメージ",
+            "Half": "[Click] 選択したトークンに半分のダメージを適用。",
+            "HalfContext": "半分のダメージ",
+            "HalfShort": "半分",
+            "Healing": "[Click] 選択したトークンに完全な治癒を適用。",
+            "HealingContext": "治癒を適用",
+            "HealingShort": "治癒",
+            "ShieldBlock": "[Click] ダメージを適用する前に選択したトークンのシールドブロック状態を切り替える。",
+            "ShieldBlockContext": "シールドブロック",
+            "ShieldBlockShort": "ブロック",
+            "Triple": "[Click] 選択したトークンに3倍のダメージを適用。",
+            "TripleContext": "3倍ダメージを適用",
+            "TripleShort": "3倍"
+        },
+        "DamageCategoriesLabel": "ダメージカテゴリ",
+        "DamageDieD10": "d10",
+        "DamageDieD12": "d12",
+        "DamageDieD4": "d4",
+        "DamageDieD6": "d6",
+        "DamageDieD8": "d8",
+        "DamageLabel": "ダメージ",
+        "DamageRoll": "ダメージロール",
+        "DecrementEffectTitle": "効果レベルを減少",
+        "DefensesLabel": "防御",
+        "Deity": "神格",
+        "DeleteQuestion": "{name}を削除しますか？",
+        "DeleteConditionTitle": "状態を削除",
+        "DeleteItemTitle": "アイテムを削除",
+        "DeleteSpellcastEntryQuestion": "この呪文発動エントリを削除しますか？",
+        "DeleteSpellcastEntryTitle": "呪文発動を削除",
+        "DeleteSpellcastEntryWarning": "警告: この呪文発動エントリ内のすべての呪文も削除されます。",
+        "DenominationLabel": "単位",
+        "Details": "詳細",
+        "DragDropFeats": "特技をドラッグ&ドロップして追加",
+        "Duration": {
+            "P1M": "月",
+            "P1W": "週",
+            "P1Y": "年",
+            "PT10M": "10分",
+            "PT1H": "時間",
+            "PT1M": "分",
+            "PT24H": "24時間",
+            "day": "日",
+            "round": "ラウンド",
+            "turn": "ターン"
+        },
+        "Edit": "編集",
+        "EditHazardLabel": "ハザードを編集",
+        "EditItemTitle": "アイテムを編集",
+        "EditLabel": "編集しますか？",
+        "EffectPanel": {
+            "AppliedBy": "適用者: {condition-list}",
+            "DecrementToolTip": "[Right Click] 値を減少",
+            "Expired": "期限切れ",
+            "IncrementToolTip": "[Left Click] 値を増加",
+            "RemainingDuration": {
+                "MultipleDays": "{days}日残り",
+                "MultipleHours": "{hours}時間残り",
+                "MultipleMinutes": "{minutes}分残り",
+                "MultipleRounds": "{rounds}ラウンド残り",
+                "MultipleSeconds": "{seconds}秒残り",
+                "MultipleWeeks": "{weeks}週間残り",
+                "MultipleYears": "{years}年残り",
+                "SingleRound": "1ラウンド残り",
+                "SingleSecond": "1秒残り",
+                "SingleWeek": "1週間残り",
+                "SingleYear": "1年残り",
+                "ZeroRoundsExpireTurnEnd": "0ラウンド残り、{initiative}の終了時に期限切れ",
+                "ZeroRoundsExpireTurnStart": "0ラウンド残り、{initiative}の開始時に期限切れ"
+            },
+            "RemoveToolTip": "[Right Click] 効果を削除",
+            "RollDamageToolTip": "[Left Click] ダメージをロール",
+            "Unidentified": "未識別",
+            "UnlimitedDuration": "無制限の継続時間",
+            "UntilEncounterEnds": "エンカウンター終了まで"
+        },
+        "Environment": {
+            "Type": {
+                "Aquatic": "水生",
+                "Arctic": "北極",
+                "Desert": "砂漠",
+                "Forest": "森",
+                "Mountain": "山岳",
+                "Plains": "平原",
+                "Swamp": "沼地",
+                "Underground": "地下",
+                "Urban": "都市"
+            },
+            "Feature": {
+                "Crowd": "群衆",
+                "Ice": "氷",
+                "Lava": "溶岩",
+                "Rubble": "瓦礫",
+                "Sand": "砂",
+                "Sewer": "下水道",
+                "Snow": "雪"
+            }
+        },
+        "ErrorMessage": {
+            "CantCreateEffectMacro": "トグルマクロ用の効果はコンペンディウムまたはワールドアイテムから取得する必要があります。",
+            "CantImportTooHighVersion": "{sourceName}をインポートできません: スキーマバージョン({sourceSchemaVersion})がこのワールドのスキーマバージョン({worldSchemaVersion})を超えています。",
+            "CantMoveItemDestination": "このキャラクターにアイテムを移動することはできません。",
+            "CantMoveItemSource": "このキャラクターからアイテムを移動することはできません。",
+            "ItemNotFoundByUUID": "UUID \"{uuid}\" のアイテムが見つかりません。",
+            "MinimumProfLevelSetByFeatures": "選択した能力が機能で設定された習熟度を下回っています。",
+            "NoCreatureTokenSelected": "クリーチャーに関連付けられたトークンを少なくとも1つ選択してください。",
+            "NoPCTokenSelected": "PCに関連付けられたトークンを少なくとも1つ選択してください。",
+            "NoTokenSelected": "トークンを少なくとも1つ選択してください。",
+            "NoUpdatePermission": "このアクターを更新する権限がありません。",
+            "NotEnoughAmmo": "この攻撃を行うための弾薬が足りません。",
+            "NotEnoughCoins": "コインが不足しています。",
+            "MissingStatisticSelected": "選択したアクターに統計{statistic}がありません。",
+            "RuleElementSyntax": "ルール要素定義に構文エラーがあります: {message}",
+            "SubV9Module": "{module}はメンテナンスされておらず、ゲームに安定性の問題を引き起こす可能性があります。",
+            "WeaponNoDamage": "この武器はダメージを与えません。",
+            "WeaponQuantityZero": "これ以上この武器を装備していません。"
+        },
+        "Skill": {
+            "Deception": "欺瞞",
+            "Athletics": "運動",
+            "Diplomacy": "外交",
+            "Crafting": "クラフティング",
+            "Acrobatics": "アクロバット",
+            "Arcana": "アルカナ",
+            "Intimidation": "威圧",
+            "Medicine": "治療",
+            "Nature": "自然",
+            "Occultism": "オカルト",
+            "Performance": "パフォーマンス",
+            "Religion": "宗教",
+            "Society": "社会",
+            "Stealth": "隠密",
+            "Survival": "サバイバル",
+            "Thievery": "盗み"
+        },
+        "Ethnicity": "民族性",
+        "ExpendSpellTitle": "呪文を消費",
+        "Failure": "<strong>失敗</strong>",
+        "Familiar": {
+            "AbilitiesLabel": "能力",
+            "ArmorClass": "アーマークラス",
+            "AttackRoll": "攻撃ロール",
+            "Creature": "クリーチャー",
+            "CreatureType": "クリーチャータイプ",
+            "Defenses": "防御",
+            "Familiar": "使い魔",
+            "Master": "マスター",
+            "MasterActor": "マスターアクター",
+            "MasterLevel": "マスターレベル",
+            "MasterSpellcastingAbility": "マスター属性",
+            "Offenses": "攻撃力",
+            "Perception": "知覚",
+            "SelectMaster": "マスターを選択...",
+            "Skills": "スキル",
+            "TotalNumberFamiliarAbilities": "使い魔の能力合計数"
+        },
+        "FeatActionTypeLabel": "アクションタイプ",
+        "FeatActionsLabel": "アクションの数",
+        "FeatBackgroundShort": "BG",
+        "FeatBrowserSearchHint": "名前またはカスタム属性を検索できます。検索可能な属性は以下の通りです：<br>ソース、呪文タイプ、レベル、材料、ターゲット、範囲、時間、持続時間、ダメージ、ダメージタイプ、セーブ、集中、儀式、能力、クラス。<br>例: 'fire, damage:d6' と入力すると、名前に\"fire\"を含み、ダメージに\"d6\"がある呪文が表示されます。",
+        "FeatLevelLabel": "レベル",
+        "FeatPFSBoonHeader": "ソサエティブーン",
+        "FeatPrereqLabel": "前提条件",
+        "FlatCheck": "フラットチェック",
+        "Focus": {
+            "NotEnoughFocusPointsError": "この呪文を唱えるためのフォーカスポイントが足りません。",
+            "Outdated": "フォーカスポイントプールの以前の値（参考用）。クリックで削除。",
+            "Pool": "フォーカスポイントプール",
+            "Previous": "前回",
+            "Spells": "フォーカス呪文",
+            "label": "フォーカスポイント",
+            "pointLabel": "ポイント"
+        },
+        "FormulaKnownTitle": "既知のレシピ",
+        "FormulaListEmpty": "空（ここにレシピまたはアイテムをドラッグ）",
+        "Formula": "レシピ",
+        "FormulaSheet": {
+            "DescriptionUnknown": "このレシピは小さなスティックマンの絵、不明な液体の染み、子供の文字で書かれた無意味な韻などで完全に埋め尽くされています。それはゴブリンによって作られたものであるに違いなく、あなたには意味不明です。<hr><strong>注意</strong> このレシピは存在しないか無効なアイテムを参照しています。",
+            "NameEmpty": "空のレシピ",
+            "NamePrefix": "{name}のレシピ",
+            "NameUnknown": "不明なレシピ"
+        },
+        "Frequency": {
+            "AtWill": "随意",
+            "Label": "頻度",
+            "per": "毎"
+        },
+        "GenderPronoun": "性別/代名詞",
+        "GeneralFeatLevels": "一般特技レベル",
+        "GreaterWeaponSpecialization": "上級武器専門化",
+        "HardnessLabel": "硬度",
+        "HazardDescriptionLabel": "説明",
+        "HazardDisableLabel": "無効化",
+        "HazardResetLabel": "リセット",
+        "HazardRoutineLabel": "ルーチン",
+        "HealingTypeTemporaryHealing": "治癒（一時的）",
+        "Height": "高さ",
+        "Heritage": "血統",
+        "HitPointsDetailsLabel": "HP詳細",
+        "HitPointsDetailsTitle": "高速治癒や再生などのヒットポイントに関連する追加情報",
+        "HitPointsHeader": "ヒットポイント",
+        "HitPointsShortLabel": "HP",
+        "ImageLabel": "画像",
+        "ImmunitiesLabel": "免疫",
+        "IncrementEffectTitle": "効果レベルを増加",
+        "InitiativeIsNow": "{name}のイニシアチブが現在{value}になりました！",
+        "InitiativeHeader": "イニシアチブボーナス",
+        "InitiativeLabel": "イニシアチブ",
+        "InitiativeWithSkill": "イニシアチブ: {skillName}",
+        "InlineAction": {
+            "Check": {
+                "DC": "DC {dc}",
+                "StatisticVsDefense": "{statistic} 対 {defense}",
+                "VsDefense": "対 {defense}"
+            },
+            "Warning": {
+                "InvalidAction": "無効なアクション: {slug}",
+                "UnresolvableAction": "解決不能なアクション: {slug}"
+            }
+        },
+        "InlineCheck": {
+            "BasicWithSave": "基本{save}",
+            "DCWithName": "{name} DC",
+            "DCAdjustment": "DC調整",
+            "Invalid": "無効な @Check 式: {message}",
+            "Errors": {
+                "AdjustmentLengthMismatch": "タイプと調整パラメータの数が一致しません",
+                "DCAndDefense": "dcとdefenseの両方の引数を持つことはできません",
+                "NonIntegerAdjustment": "調整は整数でなければなりません",
+                "TypeMissing": "type引数は必須です",
+                "InvalidDomains": "{type}ドメインはスラグ化され、-damageで終わる必要があります"
+            }
+        },
+        "InlineDamage": {
+            "Base": "基本: {formula}"
+        },
+        "InlineTemplateErrors": {
+            "DistanceMissing": "@Templateのエラー: distanceパラメータは必須です",
+            "DistanceNoNumber": "@Templateのエラー: 次元{distance}が数値ではありません",
+            "TypeMissing": "@Templateのエラー: typeパラメータは必須です",
+            "TypeUnsupported": "@Templateのエラー: type {type}はサポートされていません",
+            "WidthNoNumber": "@Templateのエラー: 幅{width}が数値ではありません"
+        },
+        "InventroyBrowserSearchHint": "名前またはカスタム属性を検索できます。検索可能な属性は以下の通りです：<br>ソース、呪文タイプ、レベル、材料、ターゲット、範囲、時間、持続時間、ダメージ、ダメージタイプ、セーブ、集中、儀式、能力、クラス。<br>例: 'fire, damage:d6' と入力すると、名前に\"fire\"を含み、ダメージに\"d6\"がある呪文が表示されます。",
+        "InvestedLabel": "投資済み",
+        "Level24": "レベル24",
+        "ItemBonus0": "0",
+        "ItemBonusLabel": "アイテムボーナス",
+        "ItemBonusMinus2": "粗雑（-2）",
+        "ItemBonusShortLabel": "アイテム",
+        "ItemLevel": "{type} {level}",
+        "ItemMystification": "神秘化",
+        "ItemMystified": "神秘化された",
+        "ItemNamePlaceholder": "名前",
+        "ItemNotSupportedOnActor": "アイテムはアクターにサポートされていません",
+        "ItemRemoveRuleElement": "ルール要素を削除",
+        "ItemTitle": "アイテム",
+        "ItemsLabel": "アイテム",
+        "Keybinding": {
+            "CycleTokenStack": {
+                "Hint": "マウスオーバーされたトークンのスタックのZインデックスを循環させ、最上部を最下部に移動します。",
+                "Label": "トークンスタックを循環"
+            },
+            "GMVision": {
+                "Hint": "暗いシーンを明るくして視認しやすくします。",
+                "Label": "GMビジョン"
+            },
+            "PlaceWaypoint": {
+                "Hint": "ドラッグ測定を使用中にウェイポイントを配置します。",
+                "Label": "ウェイポイントを配置（ドラッグ測定）"
+            },
+            "TogglePartySheet": {
+                "Hint": "アクティブなパーティシートまたは（プレイヤーの場合）割り当てられたパーティを開く/閉じる。",
+                "Label": "パーティシートを切り替え"
+            }
+        },
+        "KitItems": "アイテム",
+        "KitWorldItem": "このアイテムはコンペンディウムに見つからず、他のワールドでは機能しません",
+        "LackCastConsumableCapability": "{actor}には{spell}を使用する習熟度がなく、魔法アイテムの技を持っていません。",
+        "LanguagesAdditional": "追加言語",
+        "Level1": "レベル1",
+        "Level10": "レベル10",
+        "Level11": "レベル11",
+        "Level12": "レベル12",
+        "Level13": "レベル13",
+        "Level14": "レベル14",
+        "Level15": "レベル15",
+        "Level16": "レベル16",
+        "Level17": "レベル17",
+        "Level18": "レベル18",
+        "Level19": "レベル19",
+        "Level2": "レベル2",
+        "Level20": "レベル20",
+        "Level21": "レベル21",
+        "Level22": "レベル22",
+        "Level23": "レベル23",
+        "ModifierNamePlaceholder": "名前",
+        "ModifierTitle": "修正値",
+        "ModifierType": {
+            "ability": "属性",
+            "circumstance": "状況",
+            "item": "アイテム",
+            "potency": "強度",
+            "proficiency": "習熟度",
+            "status": "状態",
+            "untyped": "未分類"
+        },
+        "ModifierTypeTitle": "[タイプ]",
+        "MultipleAttackPenalty": "複数攻撃ペナルティ",
+        "MysticStrikes": "神秘的な一撃",
+        "NPC": {
+            "ActionsList": {
+                "ActionName": "名前",
+                "Cost": "コスト",
+                "Traits": "特性",
+                "Type": "タイプ"
+            },
+            "AddAction": "アクション追加",
+            "AddArmor": "防具",
+            "AddConsumable": "消耗品",
+            "AddEquipment": "装備",
+            "AddItem": "アイテム追加",
+            "AddPassive": "パッシブ追加",
+            "AddSkill": "スキル追加",
+            "AddTrait": "特性追加",
+            "AddTreasure": "財宝",
+            "AddWeapon": "武器",
+            "Adjustment": {
+                "EliteLabel": "エリート",
+                "EliteNameFormat": "エリート {name}",
+                "NormalLabel": "ノーマル",
+                "WeakLabel": "弱い",
+                "WeakNameFormat": "弱い {name}"
+            },
+            "ArmorExtraInfoLabelPlaceholder": "ACの詳細...",
+            "AttackType": {
+                "Melee": "NPC近接攻撃",
+                "Ranged": "NPC遠隔攻撃",
+                "Weapon": "コンペンディウム武器"
+            },
+            "Attacks": "攻撃",
+            "Creature": "クリーチャー",
+            "Dead": "死亡",
+            "EditImmunities": "免疫の編集",
+            "EditLanguages": "言語の編集",
+            "EditResistances": "抵抗の編集",
+            "EditSenses": "感覚の編集",
+            "EditSkills": "スキルの編集",
+            "EditSpeed": "移動速度の編集",
+            "EditTraits": "特性の編集",
+            "EditWeaknesses": "弱点の編集",
+            "EffectsTab": "効果",
+            "HPExtraInfoLabelPlaceholder": "HPの詳細...",
+            "Inventory": {
+                "Header": {
+                    "NameLabel": "名前",
+                    "QuantityLabel": "数量",
+                    "ValueLabel": "価値"
+                }
+            },
+            "InventoryTab": "インベントリ",
+            "MainTab": "メイン",
+            "NotesTab": "ノート",
+            "PassivesLabel": "パッシブ",
+            "PrivateNotes": "プライベートノート",
+            "PublicNotes": "説明",
+            "SavesExtraInfoLabelPlaceholder": "すべてのセーブへのボーナス...",
+            "SendToChat": "チャットに送信",
+            "SensesLabel": "感覚",
+            "SkillRollFlavor": "{skillName} スキルチェック ({rank})",
+            "SpeedExtraInfoLabelPlaceholder": "速度の詳細...",
+            "Spells": {
+                "AttackLabel": "攻撃",
+                "DCLabel": "DC",
+                "PreparedLabel": "準備済み",
+                "PreparedShortLabel": "準備"
+            },
+            "SpellsTab": "呪文"
+        },
+        "NPCAttackMelee": "近接",
+        "NPCAttackRanged": "遠隔",
+        "NPCNotesLabel": "ノート/状態",
+        "NPCNotesTitle": "このNPCのノートをここに記入してください。",
+        "NPCWeaponAddDamage": "部分的なダメージ追加",
+        "NPCWeaponAttackEffect": "追加攻撃効果",
+        "NPCWeaponAttackLabel": "攻撃修正",
+        "NPCWeaponDamageLabel": "ダメージ式",
+        "Nationality": "国籍",
+        "NewLabel": "新規",
+        "NewLoreSkill": "新しいスキル",
+        "NewPlaceholders": {
+            "Action": "新しいアクション",
+            "Ancestry": "新しい祖先",
+            "Armor": "新しい防具",
+            "Background": "新しい背景",
+            "Backpack": "新しいコンテナ",
+            "Condition": "新しい状態",
+            "Consumable": "新しい消耗品",
+            "Equipment": "新しい装備",
+            "Feat": "新しい特技",
+            "Kit": "新しいキット",
+            "Lore": "新しいロア",
+            "Melee": "新しい攻撃",
+            "Skill": "新しいスキル",
+            "Spell": "新しい呪文",
+            "SpellcastingEntry": "新しい呪文キャスティングエントリ",
+            "Treasure": "新しい財宝",
+            "Weapon": "新しい武器"
+        },
+        "NoAmmoLabel": "弾薬なし",
+        "NoneOption": "なし",
+        "OK": "OK",
+        "OpenActionBrowserTitle": "アクションブラウザーを開く",
+        "OpenInventoryBrowser": "インベントリブラウザーを開く",
+        "OpenItemTitle": "コンテナの内容を切り替え",
+        "OpenSpellBrowserTitle": "呪文ブラウザーを開く",
+        "OrdinalNumber": "{value}{suffix}",
+        "OrdinalSuffixes": {
+            "few": "rd",
+            "many": "th",
+            "one": "st",
+            "other": "th",
+            "two": "nd",
+            "zero": "th"
+        },
+        "OrphanedSpellsHeader": "孤立した呪文（上の呪文キャスティングエントリに移動）",
+        "OverridesTitle": "オーバーライド",
+        "Pathfinder": "パスファインダー",
+        "PFS": {
+            "CharacterNumber": "キャラクター＃",
+            "CurrentFaction": "現在の派閥",
+            "Factions": {
+                "EA": "エンヴォイ同盟",
+                "GA": "グランドアーカイブ",
+                "HH": "ホライゾンハンターズ",
+                "RO": "ラディアントオース",
+                "VS": "ヴィジラントシール",
+                "VW": "ヴェルダントホイール"
+            },
+            "LevelBump": "レベルアップ",
+            "OrganizedPlayNumber": "オーガナイズドプレイ＃",
+            "Reputation": "評判",
+            "School": {
+                "None": "フィールドコミッションエージェント",
+                "Scrolls": "スクロール",
+                "Spells": "呪文",
+                "Swords": "剣"
+            }
+        },
+        "PenaltyLabel": {
+            "ability": "属性ペナルティ",
+            "circumstance": "状況ペナルティ",
+            "item": "アイテムペナルティ",
+            "proficiency": "熟練度ペナルティ",
+            "status": "状態ペナルティ",
+            "untyped": "未指定ペナルティ"
+        },
+        "PerceptionCheck": "知覚判定",
+        "PerceptionHeader": "知覚",
+        "PerceptionLabel": "知覚",
+        "PotencyRuneLabel": "ポテンシールーン",
+        "PreciousMaterialAbysium": "アビシウム",
+        "PreciousMaterialAbysiumDescription": "青緑色の金属で、奇妙な緑の光を放つアビシウムは、生命に敵対的な力を放射します。この物質に無防備にさらされると、免疫系に長期的な損傷を与える可能性があります。そのため、アビシウムの採掘は危険であり、エリア内に大量の金属が存在すると、周囲の生物はすべて病気になります。アビシウムを持っているクリーチャーは、軽量の標準グレードの物体の場合、病気状態1、1バルク以上の標準グレードの物体または軽量バルクの高グレード物体の場合は病気状態2、1バルク以上の高グレード物体の場合は病気状態3になります。これとその他すべてのアビシウムの病気効果は毒効果です。クラフターは1つのアビシウムのかけらを使って最大6回分のアビシウム粉末を作ることができます。不正な鍛冶屋は、アビシウムの毒性を利用して、有毒な武器や致命的な物質を作り出しています。アビシウムで作られたすべての物は、10フィートの半径で薄明かりを放ちます。",
+        "PreciousMaterialAdamantineDescription": "天から落ちた岩から採掘されるアダマンタイトは、最も硬い金属の1つです。黒く光沢のある外観を持ち、驚異的な弾力性と鋭い刃を保つ能力で高く評価されています。",
+        "PreciousMaterialColdIron": "コールドアイアン",
+        "PreciousMaterialColdIronDescription": "コールドアイアンで作られた武器は、悪魔やフェイに対して致命的です。コールドアイアンは通常の鉄に似ていますが、非常に純度の高い鉱脈から採掘され、ほとんど熱を加えずに形成されます。この製造方法は非常に難しく、高グレードのコールドアイアンアイテムにとって特に困難です。",
+        "PreciousMaterialDawnsilver": "ドーンズシルバー",
+        "PreciousMaterialGrisantianPelt": "グリサンティアン・ペルト",
+        "RecallKnowledge": {
+            "BreakdownTitle": "クリーチャー識別試行回数",
+            "FifthAttempt": "5番目 DC",
+            "FirstAttempt": "1番目 DC",
+            "FourthAttempt": "4番目 DC",
+            "Breakdown": "試行回数",
+            "Help": "クリーチャーに関するさらに多くの情報を思い出すために、繰り返し「Recall Knowledge」アクションを試みることができます。これらの判定は以下のチャートに示されているように難易度が上がります。しかし、失敗した場合やDCが記載されていない場合は、これ以上そのクリーチャーに対して「Recall Knowledge」チェックを試みることはできません。",
+            "Label": "知識を思い出す",
+            "LoreEasy": "適用可能な知識（簡単）",
+            "LoreVeryEasy": "適用可能な知識（非常に簡単）",
+            "SecondAttempt": "2番目 DC",
+            "SixthAttempt": "6番目 DC",
+            "Skill": "スキル",
+            "ThirdAttempt": "3番目 DC"
+        },
+        "RepairItemTitle": "アイテムを修理しようとする",
+        "PreciousMaterialDawnsilverDescription": "ドーンズシルバーはその軽さ、耐久性、そして悪魔や人狼などのクリーチャーに対して有効であることで知られています。銀と同じ光沢を持ちますが、わずかに明るい色調をしています。ドーンズシルバーの武器と防具は、銀に弱いクリーチャーを傷つける目的で銀と同じように扱われます。この金属で作られたアイテムは鉄や鋼で作られたものよりも軽量であり、アイテムのバルクは1減少します（通常のバルクが1の場合、軽量のバルクになります）。価格は通常のバルクに基づいて決定され、ドーンズシルバーで作られたことでのバルク減少の影響は価格には反映されませんが、サイズ調整の前にバルクを減らします。",
+        "PreciousMaterialDjezet": "ジゼット",
+        "PreciousMaterialDjezetDescription": "この錆色の赤い金属は常温で液体であり、ほとんどの鍛冶屋が取り扱うのが難しいため、一部では「クイックアイアン」とも呼ばれています。ジゼットは魔法にも非常に反応します。固体の合金状態でも魔法を対象にすると光を放ち、ジゼットで作られたアイテムは紅色の縞模様を放ちます。この金属は魔法で照らされると1ラウンドまたは呪文の持続時間、どちらか長い方の間、光る赤いマークを表示します。ジゼットの塊からは最大2回分のジゼットを精製できます。",
+        "PreciousMaterialDragonhide": "ドラゴンの皮",
+        "PreciousMaterialDragonhideDescription": "ドラゴンの皮や鱗は、通常の革や皮で作られるアイテムを作るために使用できます。ドラゴンの皮は、ドラゴンの種類に応じて青から輝く金色に変わります。鱗の弾力性により、金属の板で作られる防具（例えば胸当てや半鎧、フルプレート）を作ることも可能です。このような防具は金属なしで作ることができます。ドラゴンの皮で作られたアイテムは、ドラゴンの種類に応じた1種類のダメージに免疫を持ちます。",
+        "PreciousMaterialDreamweb": "ドリームウェブ",
+        "PreciousMaterialDreamwebDescription": "ウェブの編み手である「ウェーバー・オブ・ウェブズ」自身の胸部から取れる糸で作られるドリームウェブは、数多くの神秘的な効果を持っています。ドリームウェブから作られた布製品やロープは、硬さ4で12HP/インチの耐久力と16の壊れやすさDCを持っています。ドリームウェブから作られた軽防具は通常の布や革よりも軽く、バルクは1減少します（通常のバルクが1の防具は軽量バルクになります）。ドリームウェブ製の軽防具は、毒抵抗を与え、その値は3プラス防具のポテンシールーンの価値に等しくなります。",
+        "PreciousMaterialDuskwood": "ダスクウッド",
+        "PreciousMaterialDuskwoodDescription": "ダスクウッドは、アヴィスタン南中央部の古代の森林に主に見られる非常に軽量な木材です。エボニーのように暗い色をしていますが、わずかに紫がかった色合いがあります。ダスクウッドで作られたアイテムのバルクは1減少します（通常のバルクが1の場合は軽量バルクに、軽量バルクのアイテムには影響なし）。ダスクウッドで作られたアイテムの価格は、ダスクウッドによる減少したバルクではなく、通常のバルクに基づいて決定されますが、サイズ調整を行う前にバルクを減らしてください。",
+        "PreciousMaterialGradeLabel": "貴重な素材のグレード",
+        "PreciousMaterialGrisantianPeltDescription": "この超自然的に硬い動物の皮は金色で、日光の下で輝きます。通常布、革、または皮で作られるアイテムを作るために使用できます。この素材は火に免疫があり、刺突や斬撃ダメージに対する硬さが倍増します。1匹のクリーチャーから最大4バルクのグリサンティアン・ペルトを収穫できます（これは通常、4セットの標準グレードの防具または2セットの高グレードの防具に十分です）。",
+        "PreciousMaterialHighGrade": "高グレード",
+        "PreciousMaterialInubrix": "イヌブリックス",
+        "PreciousMaterialInubrixDescription": "この淡い色の可塑性金属の異常な分子構造は、鉄や鋼を触れずに部分的に通過することを可能にします。この特性は金属の防具を回避する武器を作るのに有用ですが、イヌブリックスは鉛よりもほとんど硬くありません。合金状態でも、この空の金属は非常に壊れやすく、信頼できるシールドを作るのが難しく、鎧を作るには理想的ではありません。",
+        "PreciousMaterialLabel": "貴重な素材",
+        "PreciousMaterialLowGrade": "低グレード",
+        "PreciousMaterialKeepStone": "キープストーン",
+        "PreciousMaterialKeepStoneDescription": "ハイヘルムの数千年にわたる金属工芸と工学の最高の成果が、キープストーンという美しい合金です。その名前にもかかわらず、キープストーンの生産には石は使用されていません。アダマンタイトと鉛を一緒に溶かす高度に守られたプロセスを使用することで、ハイヘルムの最高の鍛冶職人たちは、金属よりも大理石に近い外観を持つ素材を開発しました。キープストーンはアダマンタイト単体よりもわずかに弱いですが、魔法を無効化する驚異的な能力を持っています。生のキープストーンを対象にした呪文や魔法の効果は、DC5のフラットチェックに成功しない限り、効果が失われます。",
+        "PreciousMaterialNoqual": "ノクアル",
+        "PreciousMaterialNoqualDescription": "軽くて強いノクアルは、魔法に対する強力な耐性も示します。この耐性の副作用として、ノクアルで魔法の武器を作るには、複雑で高価な錬金術の処理が必要です。ヌメリアのブラックソブリン、ケヴォス＝クルは、この特性を軽減するために、ノクアルとコールドアイアンの合金「ソブリン・スチール」を開発しました。この金属の結晶のような外観は壊れやすいと思わせるかもしれませんが、淡い緑色の素材は鉄と同様に加工できます。ノクアルで作られた物は、魔法に対するセーブに+4の状況ボーナスを持ち、このアイテムが魔法から保護されるために行うセーブ（例えばサビの握力呪文に対して）にもそのボーナスが適用されます。",
+        "PreciousMaterialOrichalcum": "オリハルコン",
+        "PreciousMaterialOrichalcumDescription": "最も希少で価値のある空の金属であるオリハルコンは、その信じられないほどの時間関連の魔法的特性で重宝されています。この鈍い銅色の金属はアダマンタイトほど物理的に堅牢ではありませんが、オリハルコンの時間を曲げる特性がそれを守り、より高い硬さとヒットポイントを与えます。オリハルコンで作られたアイテムがダメージを受けても破壊されない場合、24時間後に完全に修復されます。",
+        "PreciousMaterialPeachwood": "ピーチウッド",
+        "Publication": {
+            "Title": "タイトル",
+            "Authors": "著者",
+            "Label": "出版",
+            "License": {
+                "Label": "ライセンス",
+                "OGL": "OGL",
+                "ORC": "ORC"
+            },
+            "Remaster": "リマスター？"
+        },
+        "PreciousMaterialPeachwoodDescription": "ピーチウッドで作られた武器は、直射日光の下で特に赤銅色がかった色合いを持っています。ピーチウッドはダスクウッドとして扱われ、ダスクウッドに関連するアンデッドのクリーチャーの抵抗や弱点を無視することができます（例えば、ピーチウッドの武器でジャンシーの抵抗を無視することができます）。さらに、ピーチウッドの武器はすべてのアンデッドクリーチャーの抵抗の一部を無視します。ピーチウッドの武器での攻撃は、アンデッドの物理的ダメージに対する抵抗を、標準グレードのピーチウッドでは2、また高グレードでは4低く扱います。",
+        "PreciousMaterialSiccatite": "シカタイト",
+        "PreciousMaterialSiccatiteDescription": "この銀色の鉱石は、原料の状態では非常に熱いか、非常に冷たいです。冶金学者たちは、シカタイトが2つの関連した物質であるのか、未知の過程でその温度出力を決定する1つの物質であるのかについて意見が分かれています。理由はどうであれ、この物質の極端な温度は取り扱いに注意が必要であることを意味しています。熱いシカタイトは紙や乾燥した草などの可燃物を簡単に引火させ、冷たいシカタイトは湿った場所に放置されるとすぐに氷の層を形成します。シカタイトと物理的に接触したクリーチャーは、接触が続くたびに1エネルギーダメージ（熱いシカタイトは火ダメージ、冷たいシカタイトは冷気ダメージ）を受けます。",
+        "PreciousMaterialSilver": "銀",
+        "PreciousMaterialSilverDescription": "銀の武器は悪魔や人狼などのクリーチャーにとって天敵です。銀のアイテムは鉄製のアイテムよりも耐久性が劣り、低グレードの銀のアイテムは通常銀メッキされています。",
+        "PreciousMaterialSisterstone": "シスターストーン",
+        "PreciousMaterialSisterstoneDescription": "シスターストーンは、フィールド・オブ・メイデンズの霊的な流れによって強化された2つの密接に関連する鉱石を指す用語です。ダスクシスターストーンとスカーレットシスターストーンは、色以外の物理的特性は同じです。ダスクシスターストーンは淡いオレンジ色、スカーレットシスターストーンはオレンジ赤色です。お互いのタイプのシスターストーンで作られた物の近くにいると、両者は霊的エネルギーを放出し、アンデッドを追い払います。",
+        "PreciousMaterialSisterstoneDusk": "シスターストーン（ダスク）",
+        "PreciousMaterialSisterstoneScarlet": "シスターストーン（スカーレット）",
+        "PreciousMaterialSloughstone": "スラウストーン",
+        "PreciousMaterialSloughstoneDescription": "スラウストーンで作られた武器は、ヴェレックス・ザット・ワズの不本意な変身に対する憎悪を利用し、彼自身の肉体を利用します。スラウストーンを処理するのは難しく不快であり、材料でアイテムを作るためのDCが4増加します。スラウストーンで構造物を作ることはできません。",
+        "PreciousMaterialSovereignSteel": "ソブリン・スチール",
+        "QuantityLabel": "数量",
+        "QuantityShortLabel": "数量",
+        "RangePenalty": "範囲ペナルティ",
+        "Rarity": "レアリティ",
+        "Reach": "リーチ（フィート）",
+        "PreciousMaterialSovereignSteelDescription": "ブラックソブリンケヴォス＝クルによって作られた、コールドアイアンと空の金属ノクアルのユニークな合金であるソブリン・スチールは、魔法の攻撃からの防御を提供します。これら2つの材料を冷鍛して合金を作るプロセスは非常に複雑で精密です。ソブリン・スチール製の武器や防具を探しているキャラクターは、この珍しい合金で作られた装備を手に入れるためにスター・フォールまで旅行しなければならないでしょう。",
+        "PreciousMaterialStandardGrade": "標準グレード",
+        "PreciousMaterialWarpglass": "ワープグラス",
+        "PreciousMaterialWarpglassDescription": "この奇妙な物質は、マエルストロムの原始的な混沌とした本質から作られています。武器やアイテムに加工できますが、役立つ防具や盾には不安定すぎて作れません。生のワープグラスは驚くほどの強度を持つ光沢のあるガラス質の素材です。加工されると、その外観はランダムに金属や石の筋が現れますが、その特性は変わりません。",
+        "PreparationTypeInnate": "固有",
+        "PreparationTypeItems": "アイテムのみ",
+        "PreparationTypePrepared": "準備完了",
+        "PreparationTypeSpontaneous": "自発的",
+        "Prerequisite1": "前提条件 1",
+        "Prerequisite2": "前提条件 2",
+        "Prerequisite3": "前提条件 3",
+        "Prerequisite4": "前提条件 4",
+        "Prerequisite5": "前提条件 5",
+        "PriceLabel": "価格",
+        "ProficiencyLabel": "習熟",
+        "ProficiencyLevel0": "未熟練",
+        "ProficiencyLevel1": "熟練",
+        "ProficiencyLevel2": "専門家",
+        "ProficiencyLevel3": "達人",
+        "ProficiencyLevel4": "伝説級",
+        "ProficiencyRankLabel": "習熟",
+        "ProgressBar": {
+            "LoadingComplete": "読み込み完了",
+            "LoadingPack": "パック {pack} を読み込み中"
+        },
+        "PropertyRuneLabel1": "プロパティルーン (1番目)",
+        "PropertyRuneLabel2": "プロパティルーン (2番目)",
+        "PropertyRuneLabel3": "プロパティルーン (3番目)",
+        "PropertyRuneLabel4": "プロパティルーン (4番目)",
+        "Recovery": {
+            "critFailure": "死亡値を2増加させる。",
+            "critSuccess": "死亡値を2減少させる。",
+            "failure": "死亡値を1増加させる。",
+            "rollingDescription": "DC {dc}（死亡値 {dying}）",
+            "success": "死亡値を1減少させる。"
+        },
+        "Region": {
+            "Environment": {
+                "Mode": {
+                    "Add": {
+                        "Label": "追加"
+                    },
+                    "Hint": "この地形の挙動モードを設定します。選択したタイプを既存の環境タイプに追加、既存のタイプから選択したタイプを削除、または既存のタイプを選択したタイプで上書きするいずれかです。",
+                    "Label": "モード",
+                    "Override": {
+                        "Label": "上書き"
+                    },
+                    "Remove": {
+                        "Label": "削除"
+                    }
+                },
+                "Label": "環境",
+                "RegionLegend": {
+                    "Header": "シーンのデフォルト",
+                    "SceneRegionsHeader": "シーンの領域"
+                },
+                "Type": {
+                    "Hint": "このシーン領域に対して一つ以上の環境タイプ。",
+                    "Label": "環境",
+                    "SceneHint": "シーン全体の環境タイプを指定します。"
+                }
+            },
+            "EnvironmentFeature": {
+                "Label": "環境の特徴",
+                "Terrain": {
+                    "Difficult": {
+                        "Difficult": "困難",
+                        "Greater": "大困難",
+                        "Label": "困難な地形",
+                        "None": "なし"
+                    }
+                }
+            }
+        },
+        "RemoveCoinsByValueLabel": "値を削除、特定タイプは削除しない",
+        "RemoveCoinsTitle": "コインを削除",
+        "RemoveCombatProficiency": {
+            "Message": "{習熟}習熟を削除？",
+            "Title": "戦闘習熟を削除"
+        },
+        "RemoveModifierTitle": "修正を削除",
+        "RemoveSpellcastingEntryTitle": "呪文キャスティングエントリを削除",
+        "Repost": "チャットにプロンプトを投稿",
+        "RerollMenu": {
+            "ErrorCantDelete": "元のロールを削除できません",
+            "ErrorNoActor": "ロールに関連付けられたアクターがいません",
+            "HeroPoint": "ヒーローポイントを使用して再ロール",
+            "KeepHigher": "再ロールし、より高い結果を保持",
+            "KeepNew": "再ロールし、新しい結果を保持",
+            "KeepLower": "再ロールし、より低い結果を保持",
+            "MessageHeroPoint": "ヒーローポイントで再ロール",
+            "MessageKeep": {
+                "higher": "再ロールし、より高い結果を保持",
+                "new": "再ロールし、新しい結果を保持",
+                "lower": "再ロールし、より低い結果を保持"
+            },
+            "WarnNoHeroPoint": "{name}はヒーローポイントを持っていません"
+        },
+        "ResistancesLabel": "耐性",
+        "RestoreSpellTitle": "呪文を復元",
+        "RevertDamage": {
+            "ButtonTooltip": "元に戻す",
+            "DamageMessage": "{actor}へのダメージは元に戻されました",
+            "HealingMessage": "{actor}へのヒーリングは元に戻されました"
+        },
+        "Roll": {
+            "Add": "追加",
+            "CriticalHit": "クリティカルヒット",
+            "Dialog": {
+                "Check": {
+                    "Substitution": "代替",
+                    "Utilize": "使用しますか？"
+                },
+                "Damage": {
+                    "BaseDamage": "基本ダメージ",
+                    "Dice": "{dice} ダイス",
+                    "DiceHeader": "ダイス",
+                    "DieSizeUpgrade": "ダイスのサイズをアップグレード",
+                    "ExtraDice": "追加",
+                    "Label": "ラベル",
+                    "None": "なし",
+                    "Override": "上書き {value}",
+                    "OverrideLabel": "上書き",
+                    "Splash": "{damageType} スプラッシュ",
+                    "TitleCritical": "クリティカルダメージロール",
+                    "Title": "ダメージロール"
+                },
+                "ShowDefault": "ダイアログを常に表示",
+                "ShowDefaultHint": "有効にすると、このダイアログはShiftキーを押さない限り常に表示されます。無効にすると、Shiftキーを押すことでこのダイアログを開けます。"
+            },
+            "Fortune": "フォーチュン",
+            "FortuneTitle": "{title} フォーチュン",
+            "KeepHigher": "高い値を保持",
+            "KeepLower": "低い値を保持",
+            "Misfortune": "ミスフォーチュン",
+            "MisfortuneTitle": "{title} ミスフォーチュン",
+            "Modifier": "修正",
+            "None": "なし",
+            "Normal": "通常",
+            "Roll": "ロール",
+            "Type": "タイプ",
+            "UntypedPenalty": "未指定（ペナルティ）"
+        },
+        "RollBonusPlaceholder": "例: +3 または +1d4",
+        "RollModeLabel": "ロールモード",
+        "RollTable": {
+            "Plural": "ロール可能なテーブル"
+        },
+        "SETTINGS": {
+            "Automation": {
+                "ActorsDeadAtZero": {
+                    "Both": "はい",
+                    "Hint": "HPがゼロになると、アクターは死んだと見なされます。PCに対しては、これが適用されるのは即死するダメージに対してのみです。",
+                    "NPCsOnly": "NPCのみ",
+                    "Name": "HPが0のアクターは死んでいる",
+                    "Neither": "いいえ"
+                },
+                "Encumbrance": {
+                    "Hint": "自分の負荷制限を超えたクリーチャーに対して、自動的に「荷重過多」状態を適用します。",
+                    "Name": "荷重過多"
+                },
+                "EffectExpiration": {
+                    "Hint": "エフェクトは、期間が終了すると自動的に添付されたルールエレメントを無効にします。",
+                    "Name": "エフェクトの自動期限切れ"
+                },
+                "FlankingDetection": {
+                    "Hint": "背面攻撃の取り決めやそれに基づく能力はシステムで管理されます。",
+                    "Name": "背面攻撃の検出"
+                },
+                "Hint": "ゲーム世界に適用する自動化の量と種類を決定します。",
+                "IWR": {
+                    "Hint": "ダメージをアクターに適用する際に、そのアクターの免疫、弱点、耐性に応じて値を調整します。",
+                    "Name": "免疫、弱点、耐性"
+                },
+                "Label": "自動化の管理",
+                "LootableNPCs": {
+                    "Hint": "NPCが死亡すると、プレイヤーによって戦利品として取得できるようになります。",
+                    "Name": "戦利品化可能なNPC"
+                },
+                "Name": "自動化",
+                "RemoveExpiredEffects": {
+                    "Hint": "期限切れのエフェクトはアクターから自動的に削除されます（GMがログインしている必要があります）。",
+                    "Name": "期限切れエフェクトの削除"
+                },
+                "RulesBasedVision": {
+                    "Hint": "Pathfinder 2eルールをできる限り反映するビジョンメカニクスを適用します。この設定を有効にすると、グローバルビジョン設定やトークン視野の半径の構成を削除します。",
+                    "ManagedBy": "<rbv>ルールベースビジョンRule-Based Vision</rbv>によって管理される。",
+                    "Name": "ルールベースのビジョン",
+                    "ViewWorldSetting": "世界設定を表示"
+                }
+            },
+            "CampaignFeats": {
+                "Hint": "プレイヤーシートにキャンペーン特有のフィートセクションを追加します。",
+                "Name": "キャンペーンフィート"
+            },
+            "CampaignType": {
+                "Hint": "キングメーカーなどのキャンペーンに対する拡張サポート",
+                "Name": "キャンペーン特有の特徴",
+                "Choices": {
+                    "none": "なし",
+                    "kingmaker": "キングメーカー"
+                }
+            },
+            "CompendiumBrowserPacks": {
+                "Hint": "パックの読み込みを除外する設定",
+                "Name": "コンペンディウムブラウザパック"
+            },
+            "CompendiumBrowserSources": {
+                "DeleteAllInfo": "すべてのコンペンディウム文書が閲覧可能になります、空のソースがあるものも含みます。",
+                "DeleteAllQuestion": "含まれているソースの設定をリセットしてもよろしいですか？",
+                "DeleteAllTitle": "設定のリセット",
+                "Hint": "指定したソースのみを表示する設定",
+                "IgnoreAsGM": "GMがフィルタリングを無視してすべてのエントリを表示できるようにします。",
+                "Name": "含まれているソース",
+                "ShowEmptySources": "空のソースをフィルタリングしない",
+                "ShowUnknownSources": "不明なソースをフィルタリングしない",
+                "SourcesListHeader": "指定されたソース"
+            },
+            "Core": {
+                "ManagedBySystem": "PF2eシステムによって管理およびロックされています"
+            },
+            "CritRule": {
+                "Choices": {
+                    "Doubledamage": "ダメージを倍にする",
+                    "Doubledice": "ダイスの数を倍にする"
+                },
+                "Hint": "クリティカルヒット時にダメージを倍にする別のルールを使用する",
+                "Name": "クリティカルダメージルール"
+            },
+            "DeathIcon": {
+                "Hint": "死亡したアクターを示すオーバーレイアイコンを設定",
+                "Name": "死亡アイコン"
+            },
+            "DragMeasurement": {
+                "Always": "常に",
+                "Encounters": "エンカウンター中",
+                "Hint": "トークンをドラッグして移動した際に、別のキーを押さずに移動距離を測定します。ウェイポイントは「{key}」キーを押すことで配置し、右クリックで削除できます。",
+                "Name": "ドラッグ測定",
+                "Never": "決して"
+            },
+            "EnabledDisabled": {
+                "Enabled": "有効",
+                "Default": "世界のデフォルト（{worldDefault}）",
+                "Disabled": "無効"
+            },
+            "Homebrew": {
+                "ArmorGroups": {
+                    "Hint": "Pathfinder 2eの防具分類法の中で中程度のレベル（例：プレート、チェーン）",
+                    "Name": "防具グループ"
+                },
+                "BaseArmors": {
+                    "Hint": "Pathfinder 2e防具分類法の最下層（例：フルプレート、チェーンメイル）",
+                    "Name": "防具基本タイプ"
+                },
+                "BaseWeapons": {
+                    "Hint": "Pathfinder 2e武器分類法の最下層（例：ヘビークロスボウ、ロングソード）",
+                    "Name": "武器基本タイプ"
+                },
+                "ConfirmDelete": {
+                    "Message": "ホームブルー要素 <strong>{element}</strong> を削除しますか？",
+                    "Title": "ホームブルー要素を削除"
+                },
+                "CreatureTraits": {
+                    "Hint": "すべてのクリーチャーおよびいくつかのアイテムタイプに適用できる特性（例：ドラゴン、ノーム）",
+                    "Name": "クリーチャー特性"
+                },
+                "DamageTypes": {
+                    "Add": "ダメージタイプを追加",
+                    "Hint": "システムが認識する追加のダメージタイプ",
+                    "Icon": "アイコン（Font Awesome）",
+                    "Name": "カスタムダメージタイプ",
+                    "Label": "ラベル"
+                },
+                "EquipmentTraits": {
+                    "Hint": "装備、鎧、消耗品に適用できる特性",
+                    "Name": "装備特性"
+                },
+                "FeatTraits": {
+                    "Hint": "フィート（例：系統、モンク）およびアクションに適用できる特性",
+                    "Name": "フィート特性"
+                },
+                "Hint": "カスタム特性、武器タイプ、その他のホームブルー要素を追加",
+                "Instructions": "これらの設定により、GMは自作ワールドに特性、言語、その他の要素を追加できます。要素を追加するには、希望する用語を適切なフィールドにコンマまたはタブキーで区切って入力します。それらはアクターやアイテムシートの適切な場所に表示されます。用語を更新するには、用語をクリックして変更を行います。",
+                "Label": "自作エレメントの管理",
+                "Languages": {
+                    "CommonLanguage": {
+                        "Hint": "このゲーム世界で「共通」言語として参照される言語を選択します。",
+                        "Label": "「共通」言語"
+                    },
+                    "Hint": "キャラクターが知っているまたは学べる言語（例：ドラゴン語、ノーム語）",
+                    "Name": "言語",
+                    "Rarities": {
+                        "Common": "<rarity>共通</rarity> 言語",
+                        "Name": "言語のレアリティ",
+                        "Rare": "<rarity>レア</rarity> 言語",
+                        "Secret": "<rarity>秘密</rarity> 言語",
+                        "Unavailable": {
+                            "Hint": "この世界でどのクリーチャーにも使用できない言語",
+                            "Label": "使用できない言語"
+                        },
+                        "Uncommon": "<rarity>珍しい</rarity> 言語"
+                    }
+                },
+                "Name": "自作エレメント",
+                "ReservedTerm": "\"{term}\" は予約された用語です。",
+                "ShieldTraits": {
+                    "Hint": "シールドに適用できる特性",
+                    "Name": "シールド特性"
+                },
+                "SpellTraits": {
+                    "Hint": "すべての呪文に適用できる特性（例：呪詛、治癒）",
+                    "Name": "呪文特性"
+                },
+                "Tabs": {
+                    "Campaign": "キャンペーン",
+                    "Damage": "ダメージタイプ",
+                    "Taxonomies": "装備分類法",
+                    "Traits": "特性"
+                },
+                "WeaponCategories": {
+                    "Hint": "Pathfinder 2e武器分類法の最上級レベル（例：シンプル、武闘）",
+                    "Name": "武器カテゴリ"
+                },
+                "WeaponGroups": {
+                    "Hint": "Pathfinder 2e武器分類法の中間レベル（例：クロスボウ、ソード）",
+                    "Name": "武器グループ"
+                },
+                "WeaponTraits": {
+                    "Hint": "武器およびNPC攻撃に適用される特性",
+                    "Name": "武器特性"
+                }
+            },
+            "IdentifyMagicNotMatchingTraditionModifier": {
+                "Choices": {
+                    "0": "0"
+                },
+                "Hint": "アイテムの魔法の伝統に合わない場合、識別魔法スキルDCに追加する修正",
+                "Name": "識別魔法スキル修正"
+            },
+            "Metagame": {
+                "Hint": "プレイヤーがどのメタゲーム情報にアクセスできるかを制限します。",
+                "Label": "メタゲーム情報の制限",
+                "Name": "メタゲーム情報",
+                "SecretChecks": {
+                    "Hint": "プレイヤーはチャットで秘密のトレイトが付与されたロールを見ることができます。",
+                    "Name": "秘密のチェックを表示"
+                },
+                "ShowDC": {
+                    "Hint": "プレイヤーはNPCやその他のプレイヤー所有ではないソースに対して行われたチェックのDCを見ることができます。",
+                    "Name": "チェックのDCを表示"
+                },
+                "ShowResults": {
+                    "Hint": "プレイヤーはNPCやその他のプレイヤー所有ではないソースに対して行われたチェックの成功度を見ることができます。",
+                    "Name": "チェック結果を表示"
+                },
+                "ShowBreakdowns": {
+                    "Hint": "プレイヤーはNPCやその他のプレイヤー所有ではないアクターによって行われたロールの構成要素および合計修正を表示できます。",
+                    "Name": "ロール詳細を表示"
+                },
+                "SecretCondition": {
+                    "Hint": "NPCやその他のプレイヤー所有ではないアクターの状態更新およびリマインダーメッセージはGMのみが見ることができます。",
+                    "Name": "状態更新メッセージを隠す"
+                },
+                "SecretDamage": {
+                    "Hint": "プレイヤーが自分のトークン以外のトークンで受けたダメージ/治療のメッセージはGMのみが見ることができます。",
+                    "Name": "ダメージ取得メッセージを隠す"
+                },
+                "PartyVision": {
+                    "Hint": "プレイヤーはトークン視覚を相互に共有します。これにより、許可やトークン選択に関係なく、パーティの視覚が共有されます。",
+                    "Name": "パーティビジョンを共有"
+                },
+                "ShowPartyStats": {
+                    "Hint": "プレイヤーはパーティアクターシートでパーティメンバーのステータスを表示できます。",
+                    "Name": "パーティメンバーのステータスを表示"
+                },
+                "TokenSetsNameVisibility": {
+                    "Hint": "有効にすると、NPCトークンで名前プレートがプレイヤーに表示されていない場合、名前もエンカウンタートラッカーおよびチャットメッセージに表示されません。",
+                    "Name": "トークンがNPCの名前表示を決定"
+                }
+            },
+            "MinimumRulesUI": {
+                "Hint": "アイテムシートのルールエレメントパネルにアクセスするために必要な最小役割。",
+                "Name": "ルールエレメントアクセス最小役割"
+            },
+            "NathMode": {
+                "Hint": "デフォルトのトークンアイコンを使用",
+                "Name": "ナースモード"
+            },
+            "ResetChanges": "変更をリセット",
+            "Settings": "設定",
+            "Sidebar": {
+                "Changelog": "変更履歴",
+                "Discord": "ディスコード",
+                "Remaster": "リマスター変更",
+                "Wiki": "ウィキ"
+            },
+            "TOTMToggles": {
+                "Hint": "シアター・オブ・ザ・マインドプレイを促進するための追加トグルをアクターシートに追加します。これにより、Foundry内でターゲティングなしで特定の能力を有効にできます。",
+                "Name": "シアター・オブ・ザ・マインド トグル"
+            },
+            "Tokens": {
+                "Autoscale": {
+                    "Hint": "有効にすると、トークンは1.0のサイズ、または小さなクリーチャーの場合は0.8にスケーリングされます。",
+                    "Name": "サイズに応じてトークンをスケーリング"
+                }
+            },
+            "User": {
+                "EffectPanel": {
+                    "Hint": "トークンが選択されているときにエフェクトパネルを表示。",
+                    "Name": "エフェクトパネルを表示"
+                },
+                "MonochromeDarkvision": {
+                    "Hint": "ルールベースのビジョンが有効な場合、ダークビジョンを持つトークンのために暗闇の領域をモノクロで表示します。注意：フェッチリングのような一部のクリーチャーはフルカラーのダークビジョンを持っており、影響を受けません。",
+                    "Name": "モノクロダークビジョン"
+                }
+            },
+            "Variant": {
+                "GradualBoosts": {
+                    "Hint": "属性ブーストを複数のレベルにわたって分散します。プレイヤーは6、11、16レベルを除き、各レベルでブーストを得ます。",
+                    "Name": "段階的な属性ブースト"
+                },
+                "AutomaticBonus": {
+                    "Choices": {
+                        "ABPFundamentalPotency": "ABP：プロパティルーンを許可",
+                        "ABPRulesAsWritten": "ABP：プロパティルーンを不許可",
+                        "noABP": "ABPを使用しない"
+                    },
+                    "Hint": "自動ボーナス進行ルールを有効にします。スキルの効力は現在手動で管理する必要があります。",
+                    "Name": "自動ボーナス進行"
+                },
+                "FreeArchetype": {
+                    "Hint": "GM Core pg 84からの自由アーキタイプの変種で追加のフィートスロットを付与します。",
+                    "Name": "自由アーキタイプ"
+                },
+                "Hint": "「レベルなしの習熟度」や「スタミナシステム」などの変種ルールを有効にして設定します。",
+                "Label": "変種ルールをトグル",
+                "Mythic": {
+                    "Hint": "神話的ルールの割り当てを有効にし、神話的な召喚、フィート、運命を設定します。Alternate Mythic Progressionは、レベルを得ることなくキャラクターを独立して進行させる設定です。",
+                    "Name": "神話的ルール",
+                    "Choices": {
+                        "disabled": "無効",
+                        "enabled": "有効",
+                        "variant-tiers": "Alternate Mythic Progression"
+                    }
+                },
+                "Name": "変種ルール",
+                "Proficiency": {
+                    "Hint": "GM Core pg 85からの「レベルなしの習熟度」変種でプレイします。",
+                    "ModifiersHint": "レベルなしの習熟度",
+                    "Name": "GMガイドpg 200からのスタミナ変種でプレイします。"
+                },
+                "Stamina": {
+                    "Hint": "スタミナ",
+                    "Name": "変種ルール"
+                },
+                "Title": "地球（グレゴリオ暦）"
+            },
+            "WorldClock": {
+                "DateTheme": {
+                    "AD": "ゴラリオン（アブサロム暦）",
+                    "AR": "テーマなし（グレゴリオ暦）",
+                    "CE": "世界時計アプリケーションのテーマを設定します。",
+                    "Hint": "ゴラリオン（帝国暦）",
+                    "IC": "ゴラリオン（帝国暦）",
+                    "Name": "日付テーマ"
+                },
+                "Hint": "世界時計アプリケーションの外観を設定します。",
+                "Label": "世界時計を設定",
+                "Name": "世界時計",
+                "PlayersCanView": {
+                    "Hint": "プレイヤーが世界時計を見ることができるかどうかを設定します。",
+                    "Name": "プレイヤーアクセス"
+                },
+                "ResetWorldTime": {
+                    "Button": "リセット",
+                    "Confirm": {
+                        "Question": "この世界の経過時間をリセットしてもよろしいですか？",
+                        "Warning1": "時間依存のゲーム効果に影響が出る場合があります。",
+                        "Warning2": "このアクションは元に戻せません。"
+                    },
+                    "Hint": "この世界の経過時間をゼロにリセットします。",
+                    "Name": "世界の日付/時間をリセット"
+                },
+                "ShowClockButton": {
+                    "Hint": "時計ボタンを表示するかどうかを設定します（リフレッシュが必要です）。",
+                    "Name": "時計ボタンを表示"
+                },
+                "SyncDarkness": {
+                    "Hint": "シーンの「暗闇レベル」が一日の時間を反映するかどうかを設定します。",
+                    "Name": "世界時間と同期"
+                },
+                "SyncDarknessScene": {
+                    "Hint": "このシーンの「暗闇レベル」が一日の時間を反映するかどうかを設定します。",
+                    "ManagedBy": "<wt>世界時間</wt> と同期しています。",
+                    "Name": "現在のシーンの暗闇と同期"
+                },
+                "TimeConvention": {
+                    "Hint": "24時間制または12時間制の時計を表示します。",
+                    "Name": "時間の表記法",
+                    "Twelve": "12時間",
+                    "TwentyFour": "24時間"
+                }
+            },
+            "WorldSchemaVersion": {
+                "Hint": "PF2eシステムのドキュメントのスキーマバージョンを記録します（何をしているか分からない場合は変更しないでください）。",
+                "Name": "世界スキーマバージョン"
+            },
+            "critFumbleCardButtons": {
+                "hint": "攻撃ロールでクリティカルヒットおよびファンブルカードを表示するボタンを表示します。",
+                "name": "クリティカルヒット & ファンブルカードボタン"
+            },
+            "critFumbleCards": {
+                "hint": "適切なロールでクリティカルヒットまたはファンブルカードを自動的に引きます。",
+                "name": "クリティカルヒット & ファンブルカード"
+            },
+            "statusEffectShowCombatMessage": {
+                "hint": "エンカウンターの各ターンに、ターン参加者の状態を含むチャットメッセージを送信します。",
+                "name": "エンカウンター中の状態を表示"
+            },
+            "statusEffectType": {
+                "blackWhite": "白黒",
+                "default": "フルカラー",
+                "hint": "状態トークン効果のアイコンセットを決定します。",
+                "legacy": "レガシー",
+                "name": "状態アイコンセット"
+            }
+        },
+        "SaveDCLabel": "セービングスロー <dc>DC {dc}</dc> {type}",
+        "SaveDCLabelBasic": "セービングスロー <dc>DC {dc}</dc> 基本 {type}",
+        "SavesFortitude": "頑健",
+        "SavesFortitudeShort": "頑健",
+        "SavesHeader": "セーブ",
+        "SavesReflex": "反応",
+        "SavesReflexShort": "反応",
+        "SavesWill": "意志",
+        "SavesWillShort": "意志",
+        "SavingThrow": "セービングスロー",
+        "SavingThrowWithName": "{saveName} セービングスロー",
+        "Scene": {
+            "HearingRange": {
+                "Caveat": "パフォーマンスの理由から、半径はグリッドベースではなく実際の測定値です。",
+                "Hint": "このシーンでクリーチャーが聞く範囲を制限します。これは「感覚を歪める環境（例えば騒がしい部屋）」の表現です（Pathfinder Player Core pg. 432）。ルールベースのビジョンが有効である必要があります。",
+                "Name": "聴覚範囲（フィート）",
+                "Unlimited": "無制限"
+            }
+        },
+        "ScoreTitle": "スコア",
+        "SelectLabel": "選択",
+        "SellAllTreasureQuestion": "すべての宝物アイテムをコインに変換",
+        "SellAllTreasureTitle": "すべての宝物を売却",
+        "SellItemConfirmHeader": "売却確認",
+        "SellItemQuestion": "{item}を売却してもよろしいですか？",
+        "Senses": "感覚",
+        "SettingsQuickChecksLabel": "D20ロールのプレビュー",
+        "SettingsQuickChecksNotes": "無効にすると、D20ロールのプレビュー用ダイアログはロールボタンをシフトクリックした時のみ表示されます。",
+        "SettingsQuickDamageLabel": "ダメージロールのプレビュー",
+        "SettingsQuickDamageNotes": "無効にすると、ダメージロールのプレビュー用ダイアログはロールボタンをシフトクリックした時のみ表示されます。",
+        "SheetLabel": "{type} シート",
+        "ShieldLabel": "シールド",
+        "SidebarAppearanceLabel": "外観",
+        "Size": "サイズ",
+        "SizeLabel": "サイズ",
+        "SkillCheckWithName": "スキルチェック: {skillName}",
+        "SkillFeatLevels": "スキルフィートレベル",
+        "SkillIncreaseLevels": "スキル増加レベル",
+        "SkillLabel": "スキル",
+        "SkillLore": "ロア",
+        "SkillPotencyHeader": "スキル効力",
+        "SkillsLabel": "スキル",
+        "Slug": "スラグ",
+        "SpecialSensesLabel": "特殊感覚",
+        "SpellArea": "範囲: {area}",
+        "SpellAttackLabel": "呪文攻撃",
+        "SpellAttackWithTradition": "{tradition} 呪文攻撃",
+        "SpellBrowserSearchHint": "名前やカスタム属性で検索できます。検索可能な属性は以下です：<br> ソース、呪文タイプ、レベル、材料、ターゲット、範囲、時間、持続、ダメージ、ダメージタイプ、セーブ、集中、儀式、能力、クラス。<br>例: 'fire, damage:d6' は、名前に「fire」が含まれ、ダメージにd6があるすべての呪文を表示します。",
+        "SpellCastingFormat": "{traditionSpells} {preparationType} 呪文",
+        "SpellCollectionAdd": "呪文コレクションに追加",
+        "SpellCollectionRemove": "呪文コレクションから削除",
+        "SpellFlexibleAvailable": "フレキシブル: {value} / {max}",
+        "SpellFlexibleLabel": "フレキシブル",
+        "SpellLevelBase": "ベース: {level}",
+        "SpellLevelHeightened": "強化: +{heightened}",
+        "SpellLevelLabel": "呪文ランク",
+        "SpellPreparedLabel": "準備完了",
+        "SpellRequirementsLabel": "要件",
+        "SpellScalingInterval": {
+            "Add": "強化追加（間隔）",
+            "Header": "スケーリング（間隔）",
+            "Label": "間隔",
+            "Selection": "強化 (+{interval})"
+        },
+        "SpellScalingLabel": "スケーリング",
+        "SpellScalingOverlay": {
+            "Add": "強化追加（固定）",
+            "Selection": "強化（{level}）"
+        },
+        "SpellSlotEmpty": "空のスロット（ここに呪文をドラッグ）",
+        "Time": {
+            "Unit": {
+                "Weeks": "週",
+                "Days": "日",
+                "Hours": "時間",
+                "Minutes": "分",
+                "Rounds": "ラウンド",
+                "Seconds": "秒",
+                "Unlimited": "無制限",
+                "UntilEncounterEnds": "エンカウンター終了まで"
+            },
+            "Duration": "持続時間"
+        },
+        "SpellSlotExpendedError": "{spell} をキャストできません: スロットがすでに使われています。",
+        "SpellSlotNotEnoughError": "{spell} を {rank} でキャストできません: 呪文スロットが足りません。",
+        "SpellTargetLabel": "ターゲット",
+        "SpellTraditionsLabel": "伝統",
+        "SpellUnlimitedLabel": "無制限",
+        "SpellUsesLabel": "使用回数",
+        "SpellcastingSettings": {
+            "AutoHeightenDefault": "デフォルト（アクターのレベルを使用）",
+            "AutoHeightenLabel": "自動強化ランク",
+            "Title": "呪文キャスティング設定"
+        },
+        "SpellcastingTypeLabel": "呪文キャスティングタイプ",
+        "SpellsActionHeader": "アクション",
+        "StackGroupArrows": "矢",
+        "StackGroupBlowgunDarts": "吹き矢の弾",
+        "StackGroupBolts": "ボルト",
+        "StackGroupCoins": "コイン",
+        "StackGroupGems": "宝石",
+        "StackGroupLabel": "スタックグループ",
+        "StackGroupRounds10": "ラウンド（10）",
+        "StackGroupRounds5": "ラウンド（5）",
+        "StackGroupSlingBullets": "スリングの弾丸",
+        "StackGroupSprayPellets": "スプレーペレット",
+        "StackGroupWoodenTaws": "木製タウズ",
+        "StaminaPointsHeader": "スタミナポイント",
+        "StaminaPointsShortLabel": "スタミナ",
+        "StatusBonusShortLabel": "状態",
+        "StatusBonusTitle": "状態ボーナス",
+        "StealthLabel": "隠密",
+        "Strike": {
+            "Combined": {
+                "Description": "あなたは、使用している武器で攻撃し、リーチ内の1つのクリーチャー（近接攻撃の場合）または範囲内の1つのクリーチャー（遠隔攻撃の場合）をターゲットにします。使用している武器または素手の攻撃の攻撃ロールを振り、その結果をターゲットのACと比較して効果を決定します。",
+                "Success": "武器によるダメージを与え、そのダメージに対する修正、ボーナス、ペナルティを含みます。"
+            },
+            "Default": {
+                "CriticalSuccess": "成功した場合は、ダメージを2倍にします。",
+                "Description": "あなたは、使用している武器または素手の攻撃で、リーチ内の1つのクリーチャー（近接攻撃の場合）または範囲内の1つのクリーチャー（遠隔攻撃の場合）をターゲットにします。使用している武器または素手の攻撃の攻撃ロールを振り、その結果をターゲットのACと比較して効果を決定します。",
+                "Success": "武器または素手の攻撃によるダメージを与え、そのダメージに対する修正、ボーナス、ペナルティを含みます。"
+            },
+            "Fist": {
+                "Label": "拳"
+            },
+            "Melee": {
+                "Description": "あなたは、使用している武器で攻撃し、リーチ内の1つのクリーチャーをターゲットにします。使用している武器の攻撃ロールを振り、その結果をターゲットのACと比較して効果を決定します。",
+                "Success": "武器によるダメージを与え、そのダメージに対する修正、ボーナス、ペナルティを含みます。"
+            },
+            "Ranged": {
+                "Description": "あなたは、使用している武器で攻撃し、範囲内の1つのクリーチャーをターゲットにします。使用している武器の攻撃ロールを振り、その結果をターゲットのACと比較して効果を決定します。",
+                "NoAmmo": "{weapon}には弾薬が割り当てられていません。{actor}のシートのアクションタブを確認してください。",
+                "Success": "武器によるダメージを与え、そのダメージに対する修正、ボーナス、ペナルティを含みます。"
+            },
+            "Unarmed": {
+                "Description": "あなたは素手の攻撃で、リーチ内の1つのクリーチャーをターゲットにします。使用している素手の攻撃の攻撃ロールを振り、その結果をターゲットのACと比較して効果を決定します。",
+                "Success": "素手の攻撃によるダメージを与え、そのダメージに対する修正、ボーナス、ペナルティを含みます。"
+            }
+        },
+        "ToggleEffectUnidentified": "効果が未識別かどうかの切り替え",
+        "StrikesLabel": "ストライク",
+        "StrikingRuneLabel": "ストライキングルーン",
+        "Success": "<strong>成功</strong>",
+        "TabActionsDowntimeLabel": "ダウンタイム",
+        "TabActionsEncounterLabel": "エンカウンター",
+        "TabActionsExplorationLabel": "探査",
+        "TabActionsLabel": "アクション",
+        "TabCharacterLabel": "キャラクター",
+        "TabCraftingLabel": "クラフト",
+        "TabDescriptionLabel": "説明",
+        "TabInventoryLabel": "インベントリ",
+        "TabManageTabsLabel": "タブ管理",
+        "TabPathfinderSociety": "パスファインダー協会",
+        "TabSkillsLabel": "習熟",
+        "TabSpellbookLabel": "呪文キャスティング",
+        "TempHitPointsShortLabel": "一時的HP",
+        "TemplateLabel": "{size}-{unit} {shape}",
+        "TemporaryItemToolTip": "このアイテムは一時的で、期間が終了するか、日々の準備時に期限が切れます。価値はなく、販売できません。",
+        "ToggleSignatureSpellTitle": "署名呪文の切り替え",
+        "ToggleSlotlessSpellLevelsTitle": "呪文ランクのスロットなしで呪文ランクの表示切り替え",
+        "ToggleSpellVisibilityTitle": "呪文準備",
+        "ToggleWithName": "切り替え: {property}",
+        "TogglesLabel": "切り替え",
+        "Token": {
+            "ActorLinkForced": "{type} アクターはリンク解除できません。",
+            "Appearance": "外観",
+            "Flanking": "挟撃",
+            "SecretDisposition": {
+                "Label": "秘密の性格",
+                "Hint": "「秘密」性格を有効にすると、所有者には紫の枠が表示され、その他の人には枠やカーソルの変更はありません。"
+            },
+            "Size": {
+                "Dimensions": "寸法",
+                "Label": "サイズ",
+                "LinkToActorSize": {
+                    "Link": "アクターのサイズにリンク",
+                    "Unlink": "アクターのサイズからリンク解除"
+                }
+            }
+        },
+        "TotalCoinage": "総コイン数",
+        "TotalTreasure": "総宝物",
+        "TotalWealth": "総財産",
+        "TrainedSkillsLabel": "訓練されたスキル",
+        "TraitAberration": "異常",
+        "TraitAcid": "酸",
+        "TraitAdditive": "加算",
+        "TraitAdditive0": "加算 0",
+        "TraitAdditive1": "加算 1",
+        "TraitAdditive2": "加算 2",
+        "TraitAdditive3": "加算 3",
+        "TraitAdjusted": "調整済み",
+        "TraitAdjustment": "調整",
+        "TraitAeon": "アイオン",
+        "TraitAesir": "エイシア",
+        "TraitAffixedToAMetalWeapon": "金属武器に取り付けられた",
+        "TraitAffixedToARangedWeapon": "射撃武器に取り付けられた",
+        "TraitAffixedToAShield": "盾に取り付けられた",
+        "TraitAffixedToAShieldOrWeapon": "盾または武器に取り付けられた",
+        "TraitAffixedToATwoHandedFirearmOrCrossbow": "二刀流火器またはクロスボウに取り付けられた",
+        "TraitAffixedToArmorOrAWeapon": "鎧または武器に取り付けられた",
+        "TraitAffixedToArmorOrTravelersClothing": "鎧または旅行者用衣服に取り付けられた",
+        "TraitAffixedToCreature": "生物に取り付けられた",
+        "TraitAffixedToCrossbowOrFirearm": "クロスボウまたは火器に取り付けられた",
+        "TraitAffixedToFirearm": "火器に取り付けられた",
+        "TraitAffixedToFirearmWithAReloadOf1": "リロード1の火器に取り付けられた",
+        "TraitAffixedToFirearmWithTheKickbackTrait": "キックバック特性の火器に取り付けられた",
+        "TraitAffixedToGround": "地面に取り付けられた",
+        "TraitAffixedToGroundIn10FtRadius": "半径10フィートの円内の4つのスペースに地面に取り付けられた",
+        "TraitAffixedToGroundIn20FtRadius": "半径20フィートの円内の4つのスペースに地面に取り付けられた",
+        "TraitAffixedToHarness": "ハーネスに取り付けられた",
+        "TraitAffixedToHeadgear": "ヘッドギアに取り付けられた",
+        "TraitAffixedToInnovation": "革新に取り付けられた",
+        "TraitAffixedToInstrument": "楽器に取り付けられた",
+        "TraitAffixedToLoadBearingWallOrPillar": "荷重支持壁または柱に取り付けられた",
+        "TraitAffixedToMagicalStaff": "魔法の杖に取り付けられた",
+        "TraitAffixedToMediumHeavyArmor": "中型または重装備に取り付けられた",
+        "TraitAffixedToMediumHeavyMetalArmor": "中型または重金属装甲に取り付けられた",
+        "TraitAffixedToMeleeWeapon": "近接武器に取り付けられた",
+        "TraitAffixedToMetalWeapon": "金属武器に取り付けられた",
+        "TraitAffixedToObjectOrStructure": "物体または構造に取り付けられた",
+        "TraitAffixedToStructureObjectOrCreature": "構造、物体、または生物に取り付けられた",
+        "TraitAffixedToThrownWeapon": "投擲武器に取り付けられた",
+        "TraitAffixedToUnarmoredItem": "非鎧防御アイテムに取り付けられた",
+        "TraitAffixedToWeapon": "武器に取り付けられた",
+        "TraitAftermath": "事後処理",
+        "TraitAgathion": "アガシオン",
+        "TraitAgile": "アジャイル",
+        "TraitAir": "空気",
+        "TraitAiuvarin": "アイウバリン",
+        "TraitAlchemical": "錬金術",
+        "TraitAlchemist": "錬金術師",
+        "TraitAmp": "アンプ",
+        "TraitAmphibious": "両生類",
+        "TraitAnadi": "アナディ",
+        "TraitAndroid": "アンドロイド",
+        "TraitAngel": "エンジェル",
+        "TraitAnimal": "動物",
+        "TraitAnimist": "アニミスト",
+        "TraitAnugobu": "アヌゴブ",
+        "TraitApex": "アペックス",
+        "TraitAphorite": "アフォライト",
+        "TraitApparition": "亡霊",
+        "TraitAppliedToANoninjectionMeleePiercingWeapon": "穿刺ダメージを与える非注射型近接武器に適用された",
+        "TraitAppliedToAWindPoweredVehicle": "風力駆動の車両に適用された",
+        "TraitAppliedToAWeapon": "武器に適用された",
+        "TraitAppliedToAnyItemOfLightOrNegligibleBulk": "軽量または無視できるバルクのアイテムに適用された",
+        "TraitAppliedToAnyVisibleArticleOfClothing": "視認可能な衣服に適用された",
+        "TraitAppliedToArmor": "鎧に適用された",
+        "TraitAppliedToArmorOrUnarmored": "鎧または非鎧防御衣服に適用された",
+        "TraitAppliedToBasketBagOrContainer": "バスケット、バッグ、またはその他のコンテナに適用された",
+        "TraitAppliedToBeltCapeCloakOrScarf": "ベルト、ケープ、マント、またはスカーフに適用された",
+        "TraitAppliedToBootsCapeCloakOrUmbrella": "ブーツ、ケープ、マント、または傘に適用された",
+        "TraitAppliedToBucklerShield": "バックラーまたは盾に適用された",
+        "TraitAppliedToDuelingCapeOrShield": "決闘用ケープまたは盾に適用された",
+        "TraitAppliedToFootwear": "足元に適用された",
+        "TraitAppliedToMediumHeavyArmor": "中型または重装甲に適用された",
+        "TraitAppliedToShield": "盾に適用された",
+        "TraitAquadynamic": "アクアダイナミック",
+        "TraitAquatic": "水生",
+        "TraitArcane": "アルケイン",
+        "TraitArchetype": "アーキタイプ",
+        "TraitArchon": "アルコン",
+        "TraitArdande": "アルダンデ",
+        "TraitAreaDamage": "範囲ダメージ",
+        "TraitArtifact": "アーティファクト",
+        "TraitAstral": "アストラル",
+        "TraitAsura": "アスラ",
+        "TraitAthamaru": "アタマル",
+        "TraitAttached": "取り付けられた",
+        "TraitAttachedToAThrownWeapon": "投擲武器に取り付けられた",
+        "TraitAttachedToCrossbowOrFirearm": "クロスボウまたは火器に取り付けられた",
+        "TraitAttachedToCrossbowOrFirearmFiringMechanism": "クロスボウまたは火器（発射機構）に取り付けられた",
+        "TraitAttachedToCrossbowOrFirearmScope": "クロスボウまたは火器（スコープ）に取り付けられた",
+        "TraitAttachedToFirearm": "火器に取り付けられた",
+        "TraitAttachedToFirearmFiringMechanism": "火器（発射機構）に取り付けられた",
+        "TraitAttachedToFirearmScope": "火器（スコープ）に取り付けられた",
+        "TraitAttachedToMeleeWeapon": "近接武器に取り付けられた",
+        "TraitAttachedToShield": "盾に取り付けられた",
+        "TraitAttachedToShipsBow": "船の弓に取り付けられた",
+        "TraitAttack": "攻撃",
+        "TraitAuditory": "聴覚",
+        "TraitAura": "オーラ",
+        "TraitAutomaton": "オートマトン",
+        "TraitAwakenedAnimal": "覚醒した動物",
+        "TraitAzarketi": "アザルケティ",
+        "TraitAzata": "アザタ",
+        "TraitBackstabber": "バックスタッバー",
+        "TraitBackswing": "バックスイング",
+        "TraitBarbarian": "バーバリアン",
+        "TraitBard": "バード",
+        "TraitBarding": "バーディング",
+        "TraitBeast": "獣",
+        "TraitBeastkin": "ビーストキン",
+        "TraitBleed": "出血",
+        "TraitBludgeoning": "鈍器",
+        "TraitBoggard": "ボガード",
+        "TraitBomb": "爆弾",
+        "TraitBonded": "絆",
+        "TraitBottledBreath": "ボトルブレス",
+        "TraitBrace": "ブレース",
+        "TraitBravado": "ブラバド",
+        "TraitBrutal": "ブルータル",
+        "TraitBugbear": "バグベア",
+        "TraitBulwark": "ブルワーク",
+        "TraitCaligni": "カリグニ",
+        "TraitCalling": "呼びかけ",
+        "TraitCantrip": "カンtrip",
+        "TraitCapacity": "容量",
+        "TraitCapacity2": "容量 2",
+        "TraitCapacity3": "容量 3",
+        "TraitCapacity4": "容量 4",
+        "TraitCapacity5": "容量 5",
+        "TraitCarried": "運ばれている",
+        "TraitCatalyst": "触媒",
+        "TraitCatfolk": "キャットフォーク",
+        "TraitCelestial": "天界の",
+        "TraitCenser": "香炉",
+        "TraitCentaur": "ケンタウロス",
+        "TraitCertainKill": "確定殺し",
+        "TraitChampion": "チャンピオン",
+        "TraitChangeling": "チェンジリング",
+        "TraitCharauKa": "チャラウカ",
+        "TraitCircus": "サーカス",
+        "TraitCleric": "クレリック",
+        "TraitClimbing": "登攀",
+        "TraitClockwork": "時計仕掛け",
+        "TraitCobbled": "コブリング",
+        "TraitCoagulant": "凝固剤",
+        "TraitCoda": "コーダ",
+        "TraitCold": "冷気",
+        "TraitColdiron": "冷鉄",
+        "TraitCombination": "組み合わせ",
+        "TraitComfort": "快適",
+        "TraitCommon": "共通",
+        "TraitCompanion": "コンパニオン",
+        "TraitComplex": "複雑",
+        "TraitComposite": "複合",
+        "TraitComposition": "構成",
+        "TraitConcealable": "隠しやすい",
+        "TraitConcentrate": "集中",
+        "TraitConcussive": "衝撃波",
+        "TraitConfusion": "混乱",
+        "TraitConrasu": "コンラス",
+        "TraitConsecration": "神聖化",
+        "TraitConstruct": "コンストラクト",
+        "TraitConsumable": "消費可能",
+        "TraitContact": "接触",
+        "TraitContingency": "偶発事態",
+        "TraitContract": "契約",
+        "TraitCouatl": "コアトル",
+        "TraitCriticalFusion": "クリティカルフュージョン",
+        "TraitCurse": "呪い",
+        "TraitCursebound": "呪縛",
+        "TraitCursed": "呪われた",
+        "TraitDaemon": "デーモン",
+        "TraitDarkness": "闇",
+        "TraitDarvakka": "ダルヴァッカ",
+        "TraitDeadly": "致命的",
+        "TraitDeadly2D10": "致命的 2d10",
+        "TraitDeadly2D12": "致命的 2d12",
+        "TraitDeadly2D8": "致命的 2d8",
+        "TraitDeadly3D10": "致命的 3d10",
+        "TraitDeadly3D12": "致命的 3d12",
+        "TraitDeadly3D8": "致命的 3d8",
+        "TraitDeadly4D10": "致命的 4d10",
+        "TraitDeadly4D12": "致命的 4d12",
+        "TraitDeadly4D8": "致命的 4d8",
+        "TraitDeadlyD4": "致命的 d4",
+        "TraitDeadlyD6": "致命的 d6",
+        "TraitDeadlyD8": "致命的 d8",
+        "TraitDeath": "死",
+        "TraitDedication": "献身",
+        "TraitDeflectingBludgeoning": "鈍器の回避",
+        "TraitDeflectingPhysicalRanged": "物理的射撃の回避",
+        "TraitDeflectingPiercing": "穿刺の回避",
+        "TraitDeflectingSlashing": "斬撃の回避",
+        "TraitDemon": "デーモン",
+        "TraitDero": "デロ",
+        "TraitDestiny": "運命",
+        "TraitDetection": "検出",
+        "TraitDeviant": "逸脱",
+        "TraitDevil": "デヴィル",
+        "TraitDhampir": "ダンピール",
+        "TraitDinosaur": "恐竜",
+        "TraitDisarm": "武装解除",
+        "TraitDisease": "病気",
+        "TraitDiv": "神の",
+        "TraitDivine": "神聖",
+        "TraitDoubleBarrel": "ダブルバレル",
+        "TraitDowntime": "ダウンタイム",
+        "TraitDragon": "ドラゴン",
+        "TraitDragonblood": "ドラゴン血",
+        "TraitDream": "夢",
+        "TraitDromaar": "ドロマー",
+        "TraitDrow": "ドロウ",
+        "TraitDrug": "薬物",
+        "TraitDruid": "ドルイド",
+        "TraitDuergar": "フリンガー",
+        "TraitDuskwalker": "ダスクウォーカー",
+        "TraitDwarf": "ドワーフ",
+        "TraitEachRuneAppliedToASeparateItemThatHasPockets": "各ルーンが別々のアイテムに適用されたポケット付きのアイテム",
+        "TraitEarth": "大地",
+        "TraitEidolon": "アイドロン",
+        "TraitElectricity": "電気",
+        "TraitElemental": "元素",
+        "TraitElf": "エルフ",
+        "TraitElixir": "エリクサー",
+        "TraitEmotion": "感情",
+        "TraitEnergy": "エネルギー",
+        "TraitEntrenchMelee": "近接戦闘の構え",
+        "TraitEntrenchRanged": "遠距離戦闘の構え",
+        "TraitEnvironmental": "環境的",
+        "TraitEsoterica": "秘術",
+        "TraitEtchedOntoABludgeoningWeapon": "打撃武器に刻印",
+        "TraitEtchedOntoAClanDagger": "クランダガーに刻印",
+        "TraitEtchedOntoAMeleeWeapon": "近接武器に刻印",
+        "TraitEtchedOntoAMeleeWeaponMonk": "モンク特性を持つ近接武器に刻印",
+        "TraitEtchedOntoAPiercingOrSlashingMeleeWeapon": "突き/斬撃近接武器に刻印",
+        "TraitEtchedOntoAPiercingOrSlashingWeapon": "突き/斬撃武器に刻印",
+        "TraitEtchedOntoAShield": "盾に刻印",
+        "TraitEtchedOntoASlashingMeleeWeapon": "斬撃近接武器に刻印",
+        "TraitEtchedOntoAThrownWeapon": "投擲武器に刻印",
+        "TraitEtchedOntoAWeapon": "武器に刻印",
+        "TraitEtchedOntoAWeaponWOAnarchicRune": "無秩序ルーンなしの武器に刻印",
+        "TraitEtchedOntoAWeaponWOAxiomaticRune": "規範的ルーンなしの武器に刻印",
+        "TraitEtchedOntoAWeaponWOHolyRune": "聖なる武器に刻印なし",
+        "TraitEtchedOntoAWeaponWOUnholyRune": "邪悪な武器に刻印なし",
+        "TraitEtchedOntoArmor": "防具に刻印",
+        "TraitEtchedOntoHeavyArmor": "重防具に刻印",
+        "TraitEtchedOntoLightArmor": "軽防具に刻印",
+        "TraitEtchedOntoLightMedNMArmor": "金属以外の軽中防具に刻印",
+        "TraitEtchedOntoMedHeavyArmor": "中または重防具に刻印",
+        "TraitEtchedOntoMediumHeavyMetalArmor": "中または重金属防具に刻印",
+        "TraitEtchedOntoMetalArmor": "金属防具に刻印",
+        "TraitEthereal": "エーテル的",
+        "TraitEvolution": "進化",
+        "TraitExpandable": "拡張可能",
+        "TraitExemplar": "模範",
+        "TraitExperiment": "実験",
+        "TraitExploration": "探検",
+        "TraitExtradimensional": "異次元",
+        "TraitFatal": "フェイタル",
+        "TraitFatalAim": "フェイタルエイム",
+        "TraitFatalAimD10": "フェイタルエイム d10",
+        "TraitFatalAimD12": "フェイタルエイム d12",
+        "TraitFatalD10": "フェイタル d10",
+        "TraitFatalD12": "フェイタル d12",
+        "TraitFatalD8": "フェイタル d8",
+        "TraitFear": "フィアー",
+        "TraitFetchling": "フェッチリング",
+        "TraitFey": "フェイ",
+        "TraitFiend": "フィーンド",
+        "TraitFighter": "ファイター",
+        "TraitFigurehead": "フィギュアヘッド",
+        "TraitFinesse": "フィネス",
+        "TraitFinisher": "フィニッシャー",
+        "TraitFinite": "有限",
+        "TraitFire": "火",
+        "TraitFleshwarp": "フレッシュワープ",
+        "TraitFlexible": "柔軟",
+        "TraitFlourish": "華麗",
+        "TraitFocus": "集中",
+        "TraitFocused": "集中した",
+        "TraitFoldaway": "折りたたみ",
+        "TraitForce": "力",
+        "TraitForceful": "強力",
+        "TraitFormian": "フォーミアン",
+        "TraitFortune": "幸運",
+        "TraitFreeHand": "片手で",
+        "TraitFulu": "フル",
+        "TraitFungus": "菌類",
+        "TraitGadget": "ガジェット",
+        "TraitGanzi": "ガンジ",
+        "TraitGeneral": "一般",
+        "TraitGenie": "ジニー",
+        "TraitGeniekin": "ジニーキン",
+        "TraitGhoran": "ゴラン",
+        "TraitGhost": "ゴースト",
+        "TraitGhoul": "グール",
+        "TraitGhul": "グール（別種）",
+        "TraitGiant": "巨人",
+        "TraitGnoll": "コロ",
+        "TraitGnome": "ノーム",
+        "TraitGoblin": "ゴブリン",
+        "TraitGolem": "ゴーレム",
+        "TraitGoloma": "ゴロマ",
+        "TraitGraft": "移植",
+        "TraitGrapple": "組みつき",
+        "TraitGraveknight": "墓騎士",
+        "TraitGremlin": "グレムリン",
+        "TraitGrimoire": "グリモワール",
+        "TraitGrioth": "グリオス",
+        "TraitGrippli": "トリップキー",
+        "TraitGunslinger": "ガンスリンガー",
+        "TraitHag": "ハグ",
+        "TraitHalcyon": "ハルシオン",
+        "TraitHalfling": "ハーフリング",
+        "TraitHampering": "妨害",
+        "TraitHantu": "ハントゥ",
+        "TraitHarnessed": "ハーネス",
+        "TraitHarrowCourt": "ハロウコート",
+        "TraitHaunt": "ハント",
+        "TraitHealing": "ヒーリング",
+        "TraitHefty2": "重量級 2",
+        "TraitHeldOneHand": "片手で持つ",
+        "TraitHeldOneHandFreeStanding": "片手または自立型",
+        "TraitHeldOneTwoHands": "片手または両手で持つ",
+        "TraitHeldTwoHands": "両手で持つ",
+        "TraitHerald": "伝令",
+        "TraitHeritage": "ヘリテージ",
+        "TraitHex": "呪い",
+        "TraitHindering": "妨害",
+        "TraitHobgoblin": "ホブゴブリン",
+        "TraitHoly": "聖なる",
+        "TraitHryngar": "フリンガー",
+        "TraitHuman": "人間",
+        "TraitHumanoid": "人型",
+        "TraitHungerseed": "飢餓種",
+        "TraitIfrit": "イフリート",
+        "TraitIkeshti": "イケシュティ",
+        "TraitIkon": "アイコン",
+        "TraitIllusion": "幻影",
+        "TraitImplanted": "埋め込まれた",
+        "TraitImpulse": "衝動",
+        "TraitIncapacitation": "無力化",
+        "TraitIncarnate": "化身",
+        "TraitIncorporeal": "無形",
+        "TraitInevitable": "不可避",
+        "TraitInfused": "注入",
+        "TraitInfusion": "注入物",
+        "TraitIngested": "経口摂取",
+        "TraitInhaled": "吸入",
+        "TraitInjection": "注射",
+        "TraitInjury": "負傷",
+        "TraitInscribed": "刻印された",
+        "TraitIntegrated1d6B": "統合1d6 B",
+        "TraitIntegrated1d6P": "統合1d6 P",
+        "TraitIntegrated1d6S": "統合1d6 S",
+        "TraitIntegrated1d6SVersatileP": "統合1d6 S（汎用P）",
+        "TraitIntelligent": "知能",
+        "TraitInteract": "インタラクト",
+        "TraitInventor": "発明家",
+        "TraitInvested": "投資済み",
+        "TraitInvestigator": "調査者",
+        "TraitJousting": "馬上試合",
+        "TraitJoustingD6": "馬上試合 d6",
+        "TraitKaiju": "怪獣",
+        "TraitKami": "カミ",
+        "TraitKashrishi": "カシュリシ",
+        "TraitKickback": "反動",
+        "TraitKineticist": "キネティシスト",
+        "TraitKingdom": "王国",
+        "TraitKitsune": "キツネ",
+        "TraitKobold": "コボルド",
+        "TraitKovintus": "コヴィントス",
+        "TraitLaminar": "層状",
+        "TraitLaunching": "発射",
+        "TraitLeshy": "レーシー",
+        "TraitLight": "光",
+        "TraitLilu": "リル",
+        "TraitLineage": "系統",
+        "TraitLinguistic": "言語学",
+        "TraitLitany": "賛美歌",
+        "TraitLizardfolk": "爬虫人間",
+        "TraitLocathah": "アサマル",
+        "TraitLozenge": "錠剤",
+        "TraitMagic": "魔法",
+        "TraitMagical": "魔法的",
+        "TraitMagus": "魔術師",
+        "TraitManipulate": "操作",
+        "TraitMechanical": "機械的",
+        "TraitMental": "精神的",
+        "TraitMerfolk": "人魚",
+        "TraitMetal": "金属",
+        "TraitMindless": "無知",
+        "TraitMindshift": "精神転換",
+        "TraitMinion": "部下",
+        "TraitMinotaur": "ミノタウロス",
+        "TraitMisfortune": "不運",
+        "TraitMisfortuneEffects": "不運の効果",
+        "TraitMissive": "メッセージ",
+        "TraitModification": "修正",
+        "TraitModular": "モジュール B、P、または S",
+        "TraitMonitor": "モニター",
+        "TraitMonk": "僧侶",
+        "TraitMorlock": "モーロック",
+        "TraitMorph": "変形",
+        "TraitMortic": "モルティック",
+        "TraitMounted": "騎乗",
+        "TraitMove": "移動",
+        "TraitMulticlass": "マルチクラス",
+        "TraitMummy": "ミイラ",
+        "TraitMunavri": "ムナヴリ",
+        "TraitMutagen": "変異薬",
+        "TraitMutant": "変異体",
+        "TraitMythic": "神話的",
+        "TraitNaari": "ナアリ",
+        "TraitNagaji": "ナガジ",
+        "TraitNephilim": "ネフィリム",
+        "TraitNindoru": "ニンドル",
+        "TraitNoisy": "騒音",
+        "TraitNonlethal": "非致死",
+        "TraitNymph": "ニンフ",
+        "TraitOath": "誓い",
+        "TraitOccult": "オカルト",
+        "TraitOil": "油",
+        "TraitOlfactory": "嗅覚",
+        "TraitOni": "鬼",
+        "TraitOoze": "スライム",
+        "TraitOracle": "神託",
+        "TraitOrc": "オーク",
+        "TraitOread": "オリアド",
+        "TraitOverflow": "オーバーフロー",
+        "TraitPaaridar": "パアイダール",
+        "TraitPalinthanos": "パリンサノス",
+        "TraitParry": "払い",
+        "TraitPersonaFlirt": "ペルソナ: フリート",
+        "TraitPersonaGuardian": "ペルソナ: 守護者",
+        "TraitPersonaLeader": "ペルソナ: リーダー",
+        "TraitPersonaScholar": "ペルソナ: 学者",
+        "TraitPersonaScoundrel": "ペルソナ: 悪党",
+        "TraitPersonaUnderdog": "ペルソナ: アンダードッグ",
+        "TraitPersonaWarrior": "ペルソナ: 戦士",
+        "TraitPersonaWildcard": "ペルソナ: ワイルドカード",
+        "TraitPervasiveMagic": "遍在する魔法",
+        "TraitPetitioner": "請願者",
+        "TraitPhantom": "幻影",
+        "TraitPhysical": "物理的",
+        "TraitPiercing": "貫通",
+        "TraitPlant": "植物",
+        "TraitPoison": "毒",
+        "TraitPolymorph": "変身",
+        "TraitPonderous": "鈍重",
+        "TraitPoppet": "ポペット",
+        "TraitPortable": "携帯型",
+        "TraitPossession": "所持",
+        "TraitPotion": "ポーション",
+        "TraitPrecious": "貴重",
+        "TraitPrediction": "予測",
+        "TraitPress": "圧力",
+        "TraitPrimal": "原始的",
+        "TraitProcessed": "加工済み",
+        "TraitPropulsive": "推進力",
+        "TraitProtean": "プロティアン",
+        "TraitPsyche": "精神",
+        "TraitPsychic": "サイキック",
+        "TraitPsychopomp": "死者の案内人",
+        "TraitQlippoth": "クリッポス",
+        "TraitRadiation": "放射線",
+        "TraitRage": "怒り",
+        "TraitRakshasa": "ラクシャーサ",
+        "TraitRange": "射程",
+        "TraitRange10": "射程 10 フィート",
+        "TraitRange100": "射程 100 フィート",
+        "TraitRange110": "射程 110 フィート",
+        "TraitRange120": "射程 120 フィート",
+        "TraitRange130": "射程 130 フィート",
+        "TraitRange140": "射程 140 フィート",
+        "TraitRange15": "射程 15 フィート",
+        "TraitRange150": "射程 150 フィート",
+        "TraitRange160": "射程 160 フィート",
+        "TraitRange170": "射程 170 フィート",
+        "TraitRange180": "射程 180 フィート",
+        "TraitRange190": "射程 190 フィート",
+        "TraitRange20": "射程 20 フィート",
+        "TraitRange200": "射程 200 フィート",
+        "TraitRange210": "射程 210 フィート",
+        "TraitRange220": "射程 220 フィート",
+        "TraitRange230": "射程 230 フィート",
+        "TraitRange240": "射程 240 フィート",
+        "TraitRange25": "射程 25 フィート",
+        "TraitRange250": "射程 250 フィート",
+        "TraitRange260": "射程 260 フィート",
+        "TraitRange270": "射程 270 フィート",
+        "TraitRange280": "射程 280 フィート",
+        "TraitRange290": "射程 290 フィート",
+        "TraitRange30": "射程 30 フィート",
+        "TraitRange300": "射程 300 フィート",
+        "TraitRange310": "射程 310 フィート",
+        "TraitRange320": "射程 320 フィート",
+        "TraitRange40": "射程 40 フィート",
+        "TraitRange5": "射程 5 フィート",
+        "TraitRange50": "射程 50 フィート",
+        "TraitRange500": "射程 500 フィート",
+        "TraitRange60": "射程 60 フィート",
+        "TraitRange70": "射程 70 フィート",
+        "TraitRange80": "射程 80 フィート",
+        "TraitRange90": "射程 90 フィート",
+        "TraitRangeIncrement10": "射程増分 10 フィート",
+        "TraitRangeIncrement100": "射程増分 100 フィート",
+        "TraitRangeIncrement110": "射程増分 110 フィート",
+        "TraitRangeIncrement120": "射程増分 120 フィート",
+        "TraitRangeIncrement130": "射程増分 130 フィート",
+        "TraitRangeIncrement140": "射程増分 140 フィート",
+        "TraitRangeIncrement15": "射程増分 15 フィート",
+        "TraitRangeIncrement150": "射程増分 150 フィート",
+        "TraitRangeIncrement160": "射程増分 160 フィート",
+        "TraitRangeIncrement170": "射程増分 170 フィート",
+        "TraitRangeIncrement180": "射程増分 180 フィート",
+        "TraitRangeIncrement190": "射程増分 190 フィート",
+        "TraitRangeIncrement20": "射程増分 20 フィート",
+        "TraitRangeIncrement200": "射程増分 200 フィート",
+        "TraitRangeIncrement210": "射程増分 210 フィート",
+        "TraitRangeIncrement220": "射程増分 220 フィート",
+        "TraitRangeIncrement230": "射程増分 230 フィート",
+        "TraitRangeIncrement240": "射程増分 240 フィート",
+        "TraitRangeIncrement25": "射程増分 25 フィート",
+        "TraitRangeIncrement250": "射程増分 250 フィート",
+        "TraitRangeIncrement260": "射程増分 260 フィート",
+        "TraitRangeIncrement270": "射程増分 270 フィート",
+        "TraitRangeIncrement280": "射程増分 280 フィート",
+        "TraitRangeIncrement290": "射程増分 290 フィート",
+        "TraitRangeIncrement30": "射程増分 30 フィート",
+        "TraitRangeIncrement35": "射程増分 35 フィート",
+        "TraitRangeIncrement300": "射程増分 300 フィート",
+        "TraitRangeIncrement310": "射程増分 310 フィート",
+        "TraitRangeIncrement320": "射程増分 320 フィート",
+        "TraitRangeIncrement40": "射程増分 40 フィート",
+        "TraitRangeIncrement5": "射程増分 5 フィート",
+        "TraitRangeIncrement50": "射程増分 50 フィート",
+        "TraitRangeIncrement60": "射程増分 60 フィート",
+        "TraitRangeIncrement70": "射程増分 70 フィート",
+        "TraitRangeIncrement75": "射程増分 75 フィート",
+        "TraitRangeIncrement80": "射程増分 80 フィート",
+        "TraitRangeIncrement90": "射程増分 90 フィート",
+        "TraitRangedTrip": "投げ技",
+        "TraitRanger": "レンジャー",
+        "TraitRare": "レア",
+        "TraitRatajin": "ラタジン",
+        "TraitRatfolk": "ラットフォーク",
+        "TraitRazing": "破壊",
+        "TraitReach": "リーチ",
+        "TraitReach0": "リーチ 0 フィート",
+        "TraitReach10": "リーチ 10 フィート",
+        "TraitReach100": "リーチ 100 フィート",
+        "TraitReach120": "リーチ 120 フィート",
+        "TraitReach1000": "リーチ 1,000 フィート",
+        "TraitReach15": "リーチ 15 フィート",
+        "TraitReach20": "リーチ 20 フィート",
+        "TraitReach200": "リーチ 200 フィート",
+        "TraitReach25": "リーチ 25 フィート",
+        "TraitReach30": "リーチ 30 フィート",
+        "TraitReach40": "リーチ 40 フィート",
+        "TraitReach50": "リーチ 50 フィート",
+        "TraitReach60": "リーチ 60 フィート",
+        "TraitReckless": "無謀",
+        "TraitRecovery": "回復",
+        "TraitReflection": "反射",
+        "TraitReincarnated": "転生",
+        "TraitRelic": "遺物",
+        "TraitReload": "再装填",
+        "TraitReload0": "再装填 0",
+        "TraitReload1": "再装填 1",
+        "TraitReload1Min": "再装填 1 分",
+        "TraitReload2": "再装填 2",
+        "TraitRepeating": "繰り返し",
+        "TraitResonant": "共鳴",
+        "TraitRevelation": "啓示",
+        "TraitRogue": "ローグ",
+        "TraitSaggorak": "サゴラック",
+        "TraitSahkil": "サキル",
+        "TraitSamsaran": "サムサラン",
+        "TraitSanctified": "神聖",
+        "TraitSarangay": "サランゲイ",
+        "TraitScatter": "散布",
+        "TraitScatter10": "散布 10",
+        "TraitScatter15": "散布 15",
+        "TraitScatter20": "散布 20",
+        "TraitScatter5": "散布 5",
+        "TraitScroll": "スクロール",
+        "TraitScrying": "透視",
+        "TraitSeaDevil": "海の悪魔",
+        "TraitSecret": "秘密",
+        "TraitSedacthy": "セダクティ",
+        "TraitSerpentfolk": "蛇人族",
+        "TraitSeugathi": "セウガスティ",
+        "TraitSewnIntoClothing": "衣服に縫い込まれた",
+        "TraitShabti": "シャプティ",
+        "TraitShadow": "影",
+        "TraitShieldThrow20": "シールド投擲 20 フィート",
+        "TraitShieldThrow30": "シールド投擲 30 フィート",
+        "TraitShisk": "シスク",
+        "TraitShobhad": "ショバッド",
+        "TraitShoony": "シューニー",
+        "TraitShove": "押し出し",
+        "TraitSiktempora": "シクテンポラ",
+        "TraitSkeleton": "スケルトン",
+        "TraitSkelm": "スケルム",
+        "TraitSkill": "スキル",
+        "TraitSkulk": "スカルク",
+        "TraitSlashing": "斬撃",
+        "TraitSleep": "睡眠",
+        "TraitSnare": "罠",
+        "TraitSocial": "社会的",
+        "TraitSonic": "音波",
+        "TraitSorcerer": "ソーサラー",
+        "TraitSoulbound": "魂縛",
+        "TraitSpellDeflection": "呪文防御",
+        "TraitSpellgun": "スペルガン",
+        "TraitSpellheart": "スペルハート",
+        "TraitSpellshape": "スペルシェイプ",
+        "TraitSpellshot": "スペルショット",
+        "TraitSpirit": "精神",
+        "TraitSplash": "スプラッシュ",
+        "TraitSplash10": "スプラッシュ 10 フィート",
+        "TraitSporeborn": "スプアボーン",
+        "TraitSpriggan": "スプリガン",
+        "TraitSprite": "スプライト",
+        "TraitStaff": "杖",
+        "TraitStamina": "スタミナ",
+        "TraitStance": "構え",
+        "TraitSteam": "スチーム",
+        "TraitStheno": "ステノ",
+        "TraitStrix": "ストリックス",
+        "TraitStructure": "構造",
+        "TraitSubjectiveGravity": "主観的重力",
+        "TraitSubtle": "微妙",
+        "TraitSuli": "スリ",
+        "TraitSummon": "召喚",
+        "TraitSummoned": "召喚された",
+        "TraitSummoner": "召喚士",
+        "TraitSurki": "スーキ",
+        "TraitSwarm": "群れ",
+        "TraitSwashbuckler": "スワッシュバックラー",
+        "TraitSweep": "掃討",
+        "TraitSylph": "シルフ",
+        "TraitTalisman": "タリスマン",
+        "TraitTalos": "タロス",
+        "TraitTandem": "タンデム",
+        "TraitTane": "タネ",
+        "TraitTanggal": "タンガル",
+        "TraitTanuki": "タヌキ",
+        "TraitTattoo": "タトゥー",
+        "TraitTattooedOnTheBody": "体にタトゥーを入れた",
+        "TraitTearing": "裂け",
+        "TraitTech": "テック",
+        "TraitTechnological": "技術的",
+        "TraitTelepathy": "テレパシー",
+        "TraitTeleportation": "テレポーテーション",
+        "TraitTengu": "テング",
+        "TraitTethered": "繋がれた",
+        "TraitThaumaturge": "サウマトゥルジ",
+        "TraitThrown": "投げ",
+        "TraitThrown10": "投げ 10 フィート",
+        "TraitThrown100": "投げ 100 フィート",
+        "TraitThrown15": "投げ 15 フィート",
+        "TraitThrown20": "投げ 20 フィート",
+        "TraitThrown200": "投げ 200 フィート",
+        "TraitThrown30": "投げ 30 フィート",
+        "TraitThrown40": "投げ 40 フィート",
+        "TraitThrown60": "投げ 60 フィート",
+        "TraitThrown80": "投げ 80 フィート",
+        "TraitTime": "時間",
+        "TraitTitan": "タイタン",
+        "TraitTouched": "タッチ",
+        "TraitTraining": "訓練",
+        "TraitTranscendence": "超越",
+        "TraitTrap": "罠",
+        "TraitTrial": "試練",
+        "TraitTrip": "トリップ",
+        "TraitTroll": "トロール",
+        "TraitTroop": "部隊",
+        "TraitTrueName": "真名",
+        "TraitTwin": "双子",
+        "TraitTwoHand": "両手",
+        "TraitTwoHandD10": "両手 d10",
+        "TraitTwoHandD12": "両手 d12",
+        "TraitTwoHandD6": "両手 d6",
+        "TraitTwoHandD8": "両手 d8",
+        "TraitUnarmed": "素手",
+        "TraitUncommon": "アンコモン",
+        "TraitUndead": "アンデッド",
+        "TraitUndine": "アンダイン",
+        "TraitUnholy": "邪悪",
+        "TraitUnique": "ユニーク",
+        "TraitUnstable": "不安定",
+        "TraitUntyped": "アンタイプ",
+        "TraitUrdefhan": "ウルデファン",
+        "TraitVampire": "ヴァンパイア",
+        "TraitVanara": "ヴァナラ",
+        "TraitVehicular": "車両",
+        "TraitVelstrac": "ヴェルストラック",
+        "TraitVenomous": "毒性",
+        "TraitVersatile": "多用途",
+        "TraitVersatileAcid": "多用途（酸）",
+        "TraitVersatileB": "多用途（B）",
+        "TraitVersatileCold": "多用途（冷気）",
+        "TraitVersatileElectricity": "多用途（電気）",
+        "TraitVersatileFire": "多用途（火）",
+        "TraitVersatileForce": "多用途（力）",
+        "TraitVersatileMental": "多用途（精神）",
+        "TraitVersatileP": "多用途（P）",
+        "TraitVersatilePoison": "多用途（毒）",
+        "TraitVersatileS": "多用途（S）",
+        "TraitVersatileSonic": "多用途（音波）",
+        "TraitVersatileSpirit": "多用途（霊）",
+        "TraitVersatileVitality": "多用途（生命力）",
+        "TraitVersatileVoid": "多用途（虚無）",
+        "TraitVersatileX": "多用途（{x}）",
+        "TraitVigilante": "ヴィジラント",
+        "TraitVirulent": "病原性",
+        "TraitVishkanya": "ヴィシュカニア",
+        "TraitVisual": "視覚",
+        "TraitVitality": "生命力",
+        "TraitVoid": "虚無",
+        "TraitVolley": "ボレー",
+        "TraitVolley20": "ボレー 20 フィート",
+        "TraitVolley30": "ボレー 30 フィート",
+        "TraitVolley50": "ボレー 50 フィート",
+        "TraitVolley60": "ボレー 60 フィート",
+        "TraitVorpalFear": "ヴォーパル恐怖",
+        "TraitWand": "ワンド",
+        "TraitWandering": "放浪",
+        "TraitWater": "水",
+        "TraitWayang": "ワヤン",
+        "TraitWeapons": "武器",
+        "TraitWerecreature": "変身生物",
+        "TraitWight": "ワイト",
+        "TraitWildHunt": "ワイルドハント",
+        "TraitWitch": "ウィッチ",
+        "TraitWizard": "ウィザード",
+        "TraitWorn": "装備",
+        "TraitWornAmulet": "装備（アミュレット）",
+        "TraitWornAndAttachedToTwoWeapons": "装備（2つの武器に取り付けられた）",
+        "TraitWornAnklets": "装備（アンクレット）",
+        "TraitWornArmbands": "装備（アームバンド）",
+        "TraitWornBackpack": "装備（バックパック）",
+        "TraitWornBarding": "装備（バーディング）",
+        "TraitWornBelt": "装備（ベルト）",
+        "TraitWornBeltPouch": "装備（ベルトポーチ）",
+        "TraitWornBoots": "装備（ブーツ）",
+        "TraitWornBracelet": "装備（ブレスレット）",
+        "TraitWornBracers": "装備（ブレイサー）",
+        "TraitWornCap": "装備（キャップ）",
+        "TraitWornCape": "装備（ケープ）",
+        "TraitWornCirclet": "装備（サークリット）",
+        "TraitWornCloak": "装備（クローク）",
+        "TraitWornClothing": "装備（衣服）",
+        "TraitWornCollar": "装備（カラー）",
+        "TraitWornCrown": "装備（クラウン）",
+        "TraitWornEpaulet": "装備（エポレット）",
+        "TraitWornEyeglasses": "装備（アイグラス）",
+        "TraitWornEyepiece": "装備（アイピース）",
+        "TraitWornFootwear": "装備（フットウェア）",
+        "TraitWornGarment": "装備（ガーメント）",
+        "TraitWornGloves": "装備（グローブ）",
+        "TraitWornHeadwear": "装備（ヘッドウェア）",
+        "TraitWornHorseshoes": "装備（ホースシュー）",
+        "TraitWornMask": "装備（マスク）",
+        "TraitWornNecklace": "装備（ネックレス）",
+        "TraitWornOnBelt": "装備（ベルトに装着）",
+        "TraitWornOnWrists": "装備（手首に装着）",
+        "TraitWornOrOneHand": "片手で装備または保持",
+        "TraitWornRing": "装備（リング）",
+        "TraitWornSaddle": "装備（サドル）",
+        "TraitWornSandles": "装備（サンダル）",
+        "TraitWornShoes": "装備（靴）",
+        "TraitWornUnderArmor": "軽装甲または服の下に装備",
+        "TraitWraith": "亡霊",
+        "TraitWraithvine": "亡霊のツル",
+        "TraitWyrwood": "ワイヤーウッド",
+        "TraitXulgath": "ズルガス",
+        "TraitYaksha": "ヤクシャ",
+        "TraitYaoguai": "ヤオグアイ",
+        "TraitZombie": "ゾンビ",
+        "Traits": "特性",
+        "TraitsLabel": "特性",
+        "Trap": "罠",
+        "TravelSpeed": {
+            "Days": "日数",
+            "DetectBeforeRunningIntoIt": "すべてを事前に察知",
+            "DetectEverything": "すべてを察知",
+            "DetectionMode": "検出モード",
+            "DifficultTerrain": "難易度地形速度",
+            "Distance": "距離",
+            "ExplorationActivities": {
+                "AvoidNotice": "気づかれないようにする",
+                "CoverTracks": "足跡を隠す",
+                "Defend": "防御",
+                "DetectMagic": "魔法検出",
+                "HalfSpeed": "その他（半分の速度）",
+                "Investigate": "調査",
+                "None": "なし（フルスピード）",
+                "RepeatASpell": "呪文を繰り返す",
+                "Scout": "偵察",
+                "Search": "検索",
+                "Track": "追跡"
+            },
+            "ExplorationActivity": "探索活動",
+            "ExplorationSpeed": "探索速度",
+            "Feet": "フィート",
+            "FeetAcronym": "フィート",
+            "FeetPerMinute": "分あたりのフィート",
+            "GreaterDifficultTerrain": "難易度地形の増加速度",
+            "HexplorationActivities": "探索活動の追加",
+            "Hours": "時間",
+            "HoursPerDay": "1日の移動時間",
+            "HustleMinutes": "1日の速歩時間",
+            "Journey": "旅行",
+            "Label": "移動速度",
+            "Miles": "マイル",
+            "MilesPerDay": "1日のマイル数",
+            "MilesPerHour": "毎時マイル数",
+            "Name": "名前",
+            "None": "フルスピード",
+            "NormalTerrain": "通常地形速度",
+            "PartySpeed": "パーティースピード",
+            "TerrainSlowdown": "地形速度",
+            "Title": "移動時間計算機（アルファ）",
+            "TravelDuration": "移動時間",
+            "Weeks": "週間"
+        },
+        "TrickMagicItemPopup": {
+            "InvalidActor": "キャラクターまたはNPCのみがトリック・マジック・アイテムを使用できます。",
+            "Label": "トリック・マジック・アイテムを使用するスキルを選択",
+            "Title": "トリック・マジック・アイテム"
+        },
+        "UI": {
+            "applyDamage": {
+                "by": "による",
+                "shieldInActive": "得る"
+            },
+            "noDamageInfoForOutcome": "結果{outcome}に対するダメージ情報なし",
+            "shiftModifyDamageLabel": "量",
+            "shiftModifyDamageTitle": "ダメージ調整",
+            "shiftModifyHealingTitle": "回復調整"
+        },
+        "UUID": {
+            "Label": "UUID",
+            "SourceId": "ソースID"
+        },
+        "UnitedPaizoWorkers": {
+            "PFSNote": "Pathfinder Societyプレイヤーへの注記: UPWのサポートのため、ユニオンストアで購入した商品は、オンラインPFS地域で<em class=\"hover\" title=\"Heroポイントを使用してチェックを再ロールする際、+1の状況ボーナスを再ロールに加える\">プロモーションベストメント</a>のボーナスにカウントされます。",
+            "ReleaseIntro": "レドモンド、ワシントン州（2021年10月14日）— 今日、Paizo, Inc（PathfinderとStarfinderの役割演技ゲームの出版者）の従業員は、コミュニケーション労働者アメリカCODE-CWAプロジェクトとともに、United Paizo Workers（UPW）の結成を発表しました。このユニオンは、テーブルトークRPG業界で初めての試みとなります。",
+            "Title": "発表：United Paizo Workers"
+        },
+        "UnprepareItemTitle": "アイテムを解除",
+        "UpdateLabelUniversal": "更新",
+        "Usage": "使用法",
+        "UserSettings": {
+            "DarkvisionFilter": {
+                "Hint": "ダークビジョンを持つクリーチャーの視界を通してシーンを表示するとき、（通常は単色の）フィルターを追加",
+                "Label": "ダークビジョンフィルター"
+            }
+        },
+        "ValueLabel": "値",
+        "WeaknessesLabel": "弱点",
+        "WeaponAbilityLabel": "武器能力",
+        "WeaponBaseDamageTitle": "このセクションでは武器の基本ダメージを設定します。ストライキングルーンからの追加のダイスはここには追加せず、上記の「武器ルーン」セクションで設定してください。",
+        "WeaponBaseLabel": "基本",
+        "WeaponBonusAttackLabel": "ボーナス攻撃",
+        "WeaponBonusDamageLabel": "ボーナスダメージ",
+        "WeaponCustomDamageLabel": "追加カスタムダメージ",
+        "WeaponCustomDamageTitle": "このセクションでは、ルーンシステムでカバーされていないカスタムダメージを追加します。ストライク効果およびクリティカル効果の属性は現在システムで使用されておらず、情報提供のみです。",
+        "WeaponDamageLabel": "基本ダメージ",
+        "WeaponGroupAxe": "斧",
+        "WeaponGroupBomb": "爆弾",
+        "WeaponGroupBow": "弓",
+        "WeaponGroupBrawling": "格闘",
+        "WeaponGroupClub": "クラブ",
+        "WeaponGroupCrossbow": "クロスボウ",
+        "WeaponGroupDart": "ダート",
+        "WeaponGroupFirearm": "火器",
+        "WeaponGroupFlail": "フレイル",
+        "WeaponGroupHammer": "ハンマー",
+        "WeaponGroupKnife": "ナイフ",
+        "WeaponGroupLabel": "グループ",
+        "WeaponGroupPick": "ピック",
+        "WeaponGroupPolearm": "ポールアーム",
+        "WeaponGroupShield": "シールド",
+        "WeaponGroupSling": "スリング",
+        "WeaponGroupSpear": "槍",
+        "WeaponGroupSword": "剣",
+        "WeaponGroups": "武器グループ",
+        "WeaponHands1": "1つ",
+        "WeaponHands1Plus": "1つプラス",
+        "WeaponHands2": "2つ",
+        "WeaponMAPDefaultOption": "デフォルト（アジャイル特性があれば使用）",
+        "WeaponMAPLabel": "複数攻撃ペナルティ",
+        "WeaponPotencyRune1": "武器の強化（+1）",
+        "WeaponPotencyRune2": "武器の強化（+2）",
+        "WeaponPotencyRune3": "武器の強化（+3）",
+        "WeaponPotencyRune4": "武器の強化（+4）",
+        "WeaponPropertyCriticalDamageLabel": "クリティカルダメージ",
+        "WeaponPropertyCriticalEffectLabel": "クリティカル効果",
+        "WeaponPropertyRune": {
+            "ancestralEchoing": {
+                "Name": "祖先の反響"
+            }
+        },
+        "WorldClock": {
+            "Button": {
+                "Advance": "進める",
+                "Retract": "戻す",
+                "TimeOfDay": {
+                    "Advance": {
+                        "Dawn": "夜明けに進む",
+                        "Dusk": "夕暮れに進む",
+                        "Midnight": "真夜中に進む",
+                        "Noon": "正午に進む"
+                    },
+                    "Retract": {
+                        "Dawn": "夜明けに戻す",
+                        "Dusk": "夕暮れに戻す",
+                        "Midnight": "真夜中に戻す",
+                        "Noon": "正午に戻す"
+                    }
+                }
+            }
+        },
+        "identification": {
+            "DisplayDetails": "表示の詳細",
+            "Identified": "識別済み",
+            "Identify": "アイテムを識別",
+            "IdentifyAlchemyDCs": "錬金術の識別DC",
+            "IdentifyGenericDCs": "一般的な識別DC",
+            "IdentifyMagicDCs": "魔法の識別DC",
+            "IsIdentified": "識別済み？",
+            "MisidentifiedItem": "誤って識別された{item}",
+            "Misidentify": "アイテムを誤って識別",
+            "MystificationStatus": "神秘化ステータス",
+            "Mystify": "アイテムを神秘化",
+            "PostSkillsToChat": "スキルチェックをチャットに投稿",
+            "PostSkillsToChatText": "アイテム識別：スキルチェック",
+            "TraitGMNote": "注記: この特性はプレイヤーには表示されません。",
+            "Unidentified": "未識別",
+            "UnidentifiedDescription": "この{item}の性質は不明です。",
+            "UnidentifiedHint": "未識別のアイテムでプレイヤーに表示される基本的な詳細を変更する。",
+            "UnidentifiedItem": "異常な{item}",
+            "UnidentifiedType": {
+                "Amulet": "アミュレット",
+                "Anklets": "足輪",
+                "Armbands": "腕輪",
+                "Backpack": "バックパック",
+                "Belt": "ベルト",
+                "Book": "本",
+                "Bracers": "ブレスレット",
+                "Circlet": "サークレット",
+                "Cloak": "クローク",
+                "Collar": "カラー",
+                "Epaulets": "エポレット",
+                "Eyepiece": "アイピース",
+                "Garment": "衣服",
+                "Gloves": "手袋",
+                "Headwear": "ヘッドウェア",
+                "Horseshoes": "馬蹄",
+                "Liquid": "液体",
+                "Mask": "マスク",
+                "Necklace": "ネックレス",
+                "Object": "オブジェクト",
+                "Ring": "指輪",
+                "Saddle": "鞍",
+                "Shoes": "靴",
+                "Substance": "物質",
+                "Tool": "道具"
+            }
+        },
+        "loot": {
+            "BuySubtitle": "アイテムを購入",
+            "DepositMessage": "{depositor}が{container}に{quantity}×{item}を預けます。",
+            "DepositSubtitle": "アイテムを預ける",
+            "EditLootLabel": "戦利品の設定？",
+            "GMSupervisionError": "GMがオンラインでないと{loot}とやり取りできません。",
+            "Give": "渡す",
+            "GiveMessage": "{giver}が{recipient}に{quantity}×{item}を渡します。",
+            "GiveSubtitle": "アイテムを渡す",
+            "HiddenWhenEmpty": {
+                "Hint": "このアクターのトークンを、在庫が空のときに非表示にする。",
+                "Label": "空のときに隠す"
+            },
+            "InsufficientCurrencyError": "{buyer}の購入に対する通貨が不足しています。",
+            "InsufficientFundsMessage": "{buyer}はコインを取り出しますが、足りません！",
+            "LootDescription": "プレイヤー間でコインを分配することを許可",
+            "LootLabel": "ルート品",
+            "LootMessage": "{looter}が{corpse}から{quantity}×{item}を奪います。",
+            "LootNPCsLabel": "選択したトークンを戦利品として奪う",
+            "LootNPCsPopupHeader": "戦利品からトークンを選択",
+            "LootNamePlaceholder": "ルート品",
+            "LootSubtitle": "アイテムを奪う",
+            "MerchantDescription": "プレイヤーがシートから直接アイテムを購入できるようにする",
+            "MerchantLabel": "商人",
+            "MoveLoot": "アイテムを移動する",
+            "MoveLootMessage": "いくつのアイテムを移動しますか？",
+            "MoveLootPopupTitle": "アイテム数量",
+            "PartyStash": "パーティースタッシュ",
+            "PermissionError": "GMがオンラインでないとアイテムを奪ったり保管したりできません。",
+            "PlantMessage": "{planter}が{corpse}に{quantity}×{item}を埋めます。",
+            "PlantSubtitle": "アイテムを埋める",
+            "Purchase": "購入する",
+            "PurchaseLootPrompt": "{buyer}はこのアイテムを購入したいですか？",
+            "PurchasePrice": "購入価格",
+            "Quantity": "数量",
+            "SellMessage": "{seller}が{buyer}に{quantity}×{item}を売ります。",
+            "SellSubtitle": "アイテムを売る",
+            "SendToPartyStash": "パーティースタッシュに送る",
+            "SheetType": "シートタイプ",
+            "SplitCoinsLabel": "コインを分配する",
+            "SplitCoinsPopupHeader": "受け取るアクターを選択",
+            "Stack": "新しいスタックを作成しますか？",
+            "TakeMessage": "{taker}が{container}から{quantity}×{item}を取ります。",
+            "TakeSubtitle": "アイテムを取る",
+            "TransferMessage": "{transferrer}が{fromContainer}から{toContainer}に{quantity}×{item}を移動します。",
+            "TransferSubtitle": "アイテムを移動"
+        },
+        "ui": {
+            "armorEquipped": "装備品の着用を切り替える",
+            "equipmentInvested": "投資を切り替える",
+            "sell": "売る",
+            "weaponEquipped": "武器を持っている状態を切り替える"
+        },
+        "vehicle": {
+            "BrokenThresholdShortLabel": "BT",
+            "CrewLabel": "乗組員",
+            "CurrentHPTitle": "現在のヒットポイント",
+            "DescriptionHeading": "説明",
+            "HardnessLabel": "硬度",
+            "HardnessShortLabel": "ハード",
+            "LevelN": "車両{level}",
+            "MaxHPTitle": "最大ヒットポイント",
+            "NamePlaceholder": "車両",
+            "PassengersLabel": "乗客",
+            "PilotingCheckLabel": "操縦チェック",
+            "PropertyDescriptionCollisionDC": "車両がダメージを軽減するためのセービングスローのDC。",
+            "PropertyDescriptionCollisionDamage": "車両の衝突ダメージ。特に記載がない限り、衝突は打撃ダメージを与えます。",
+            "PropertyDescriptionCrew": "車両を操作するために必要な乗組員。",
+            "PropertyDescriptionPassengers": "車両が通常運ぶことができる乗客数（ある場合）。",
+            "PropertyDescriptionPilotingCheck": "このエントリには、車両を操作するための操縦チェックに使用できるスキルがリストされています。一部のスキルはDCを上げる可能性があり、その場合、スキル名の後にDC調整が（）内で記載されています。",
+            "PropertyDescriptionPrice": "車両の価格。これは車両を引くためのクリーチャー、車両を動かすための材料、またはオールのコストを含みません。",
+            "PropertyDescriptionSpace": "車両の寸法（車両を引くクリーチャーは含まれません）。",
+            "PropertyDescriptionSpeed": "車両の速度、各速度に続いてその速度の推進タイプが括弧内に記載されています。車両を引く場合、引いているクリーチャーの数とサイズも記載されています。",
+            "SpaceHighLabel": "高さ",
+            "SpaceLongLabel": "高さ",
+            "SpaceWideLabel": "長さ",
+            "VehicleLevelLabel": "幅",
+            "VehicleString": "車両",
+            "collisionDCLabel": "車両",
+            "collisionDamageLabel": "衝突DC"
         }
+    },
+    "TYPES": {
+        "Item": {
+            "shield": "NPC攻撃",
+            "spell": "盾",
+            "spellcastingEntry": "呪文",
+            "treasure": "呪文発動エントリー",
+            "weapon": "宝物",
+            "action": "車両",
+            "affliction": "能力",
+            "ancestry": "影響",
+            "armor": "先祖",
+            "background": "鎧",
+            "backpack": "背景",
+            "book": "コンテナ",
+            "campaignFeature": "本",
+            "class": "キャンペーン特徴",
+            "condition": "クラス",
+            "consumable": "状態",
+            "deity": "消耗品",
+            "effect": "神",
+            "equipment": "効果",
+            "feat": "装備",
+            "heritage": "特技/特徴",
+            "kit": "遺産",
+            "lore": "キット",
+            "melee": "ロアスキル"
+        },
+        "Actor": {
+            "army": "エンカウントトラッカー",
+            "character": "軍",
+            "eidolon": "プレイヤーキャラクター",
+            "familiar": "アイドロン",
+            "hazard": "使い魔",
+            "loot": "ハザード",
+            "npc": "戦利品",
+            "party": "NPC",
+            "vehicle": "パーティー"
+        }
+    },
+    "SIDEBAR": {
+        "TabCombat": "衝突ダメージ"
     }
 }
