@@ -648,10 +648,10 @@
         "AccessoryPropertyRuneGreaterWindCatcher": "グレーター・ウィンド・キャッチャー",
         "AccessoryPropertyRuneMajorPaired": "メジャーペア",
         "AccessoryPropertyRunePresentable": "見栄えの良い",
-        "AccessoryPropertyRuneSnagging": "引っかかり",
+        "AccessoryPropertyRuneSnagging": "スナッギング",
         "AccessoryPropertyRuneSoftLanding": "ソフトランディング",
-        "AccessoryPropertyRuneSpellBastion": "呪文防壁",
-        "AccessoryPropertyRuneWindCatcher": "風捕獲者",
+        "AccessoryPropertyRuneSpellBastion": "スペルバスティオン",
+        "AccessoryPropertyRuneWindCatcher": "ウインド・キャッチャー",
         "Action": {
             "RestForTheNight": {
                 "Label": "一晩休む",
