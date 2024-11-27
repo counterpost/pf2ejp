@@ -215,7 +215,7 @@
                     "DeathEffect": "デス・エフェクトで即死する。",
                     "Destroyed": "彼らは破壊される。",
                     "FinePowder": "粉々になり、装備品だけが残った。",
-                    "MassiveDamage": "大きなダメージで即座に死亡します。"
+                    "MassiveDamage": "大ダメージですぐに死んでしまう。"
                 },
                 "ShieldAbsorbsAll": "<actor>{actor}</actor>は無傷で、盾が完全に{absorbedDamage}ダメージを吸収します。",
                 "ShieldDamagedForN": "彼らの盾も{shieldDamage}ダメージを受けます。",
@@ -685,7 +685,7 @@
         "ActionNumber1": "１",
         "ActionNumber2": "２",
         "ActionNumber3": "３",
-        "ActionSkillRequirementLabel": "要求",
+        "ActionSkillRequirementLabel": "必要条件",
         "ActionTypeAction": "アクション",
         "ActionTypeFree": "フリーアクション",
         "ActionTypePassive": "パッシブ",
