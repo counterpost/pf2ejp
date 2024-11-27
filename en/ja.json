@@ -14,7 +14,7 @@
         "EndConfirmation": "このエンカウントを終わらせてターントラッカーを空にしますか？",
         "ResourceHint": "参加者ごとに追跡するアトリビュートを選択します。",
         "Settings": "エンカウント・トラッカーの設定",
-        "SidebarTitle": "エンカウンター・トラッカー",
+        "SidebarTitle": "エンカウントトラッカー",
         "SkipDefeatedHint": "敗北した参加者を自動的に飛ばしますか？",
         "TargetedBy": "ターゲットされている: {list}",
         "ToggleTargeting": "ターゲットを切り替え",
@@ -207,14 +207,14 @@
                 "TotalBulk": "総バルク: {bulk}"
             },
             "ApplyDamage": {
-                "AtFullHealth": "<actor>{actor}</actor>はすでに完全な健康状態です。",
-                "DamagedForN": "<actor>{actor}</actor>は{hpDamage}ダメージを受けます。",
-                "DamagedForNShield": "<actor>{actor}</actor>の盾は{absorbedDamage}ダメージを吸収し、さらに{hpDamage}ダメージが通過します。",
-                "HealedForN": "<actor>{actor}</actor>は{hpDamage}ダメージで回復します。",
+                "AtFullHealth": "<actor>{actor}</actor>は負傷していない。",
+                "DamagedForN": "<actor>{actor}</actor>は{hpDamage}ダメージを受けた。",
+                "DamagedForNShield": "<actor>{actor}</actor>の盾は{absorbedDamage}ダメージを吸収し、さらに{hpDamage}ダメージが通る。",
+                "HealedForN": "<actor>{actor}</actor>は{hpDamage}ダメージを回復。",
                 "InstantDeath": {
-                    "DeathEffect": "死の効果ですぐに死亡します。",
-                    "Destroyed": "彼らは破壊されます。",
-                    "FinePowder": "彼らは細かな粉末にされ、装備品だけが残ります。",
+                    "DeathEffect": "デス・エフェクトで即死する。",
+                    "Destroyed": "彼らは破壊される。",
+                    "FinePowder": "粉々になり、装備品だけが残った。",
                     "MassiveDamage": "大きなダメージで即座に死亡します。"
                 },
                 "ShieldAbsorbsAll": "<actor>{actor}</actor>は無傷で、盾が完全に{absorbedDamage}ダメージを吸収します。",
@@ -614,8 +614,8 @@
                 }
             }
         },
-        "AbilityBoost": "属性ブースト",
-        "AbilityBoostLevels": "属性ブーストレベル",
+        "AbilityBoost": "アトリビュートブースト",
+        "AbilityBoostLevels": "アトリビュートブーストレベル",
         "AbilityCha": "魅力",
         "AbilityCheck": {
             "cha": "魅力判定",
@@ -628,7 +628,7 @@
         "AbilityCon": "耐久力",
         "AbilityDex": "敏捷力",
         "AbilityFlaw": "欠陥",
-        "AbilityFree": "無料",
+        "AbilityFree": "無料/自由",
         "AbilityId": {
             "cha": "Cha",
             "con": "Con",
@@ -650,11 +650,11 @@
         "AccessoryPropertyRunePresentable": "プレセンタブル",
         "AccessoryPropertyRuneSnagging": "スナッギング",
         "AccessoryPropertyRuneSoftLanding": "ソフトランディング",
-        "AccessoryPropertyRuneSpellBastion": "スペルバスティオン",
+        "AccessoryPropertyRuneSpellBastion": "スペル・バスティオン",
         "AccessoryPropertyRuneWindCatcher": "ウインド・キャッチャー",
         "Action": {
             "RestForTheNight": {
-                "Label": "一晩休む",
+                "Label": "休息",
                 "Message": {
                     "Awakens": "{actor}はよく休んで目を覚ました。",
                     "ConditionReduced": "{condition}が1減少。",
@@ -663,38 +663,38 @@
                     "Frequencies": "アクション回数が回復。",
                     "HitPoints": "{hitPoints}HPが回復。",
                     "HitPointsSingle": "{hitPoints}HPが回復。",
-                    "InfusedReagents": "注入された薬剤が回復。",
-                    "Resolve": "決意が回復。",
+                    "InfusedReagents": "注入試薬が回復。",
+                    "Resolve": "レゾルブが回復。",
                     "Resource": "{name}が回復。",
                     "SpellSlots": "すべての呪文スロットが回復。",
-                    "StaminaPoints": "スタミナポイントが回復。",
-                    "TemporaryItems": "一時的なアイテムが削除されました。",
-                    "WandsCharges": "ワンドが再充電されました。"
+                    "StaminaPoints": "スタミナが回復。",
+                    "TemporaryItems": "一時的なアイテムが削除された。",
+                    "WandsCharges": "ワンドがリチャージされました。"
                 },
-                "Prompt": "一晩休みますか？"
+                "Prompt": "休息しますか？"
             },
             "Strike": {
-                "MeleeLabel": "近接攻撃: {weapon}",
-                "OutOfRange": "ターゲットは範囲外です。",
-                "RangedLabel": "遠隔攻撃: {weapon}"
+                "MeleeLabel": "近接ストライク: {weapon}",
+                "OutOfRange": "ターゲットは射程外です。",
+                "RangedLabel": "遠隔ストライク: {weapon}"
             }
         },
         "ActionActionTypeLabel": "アクションタイプ",
         "ActionActionsLabel": "アクション",
         "ActionBrowserSearchHint": "名前またはカスタム属性を検索できます。検索可能な属性は次の通りです：<br> source, spellType, level, materials, target, range, time, duration, damage, damageType, save, concentration, ritual, ability, and classes. <br>例: 'fire, damage:d6'で名前にfireが含まれ、ダメージにd6が含まれる呪文を表示",
-        "ActionNumber1": "一つ",
-        "ActionNumber2": "二つ",
-        "ActionNumber3": "三つ",
+        "ActionNumber1": "１",
+        "ActionNumber2": "２",
+        "ActionNumber3": "３",
         "ActionSkillRequirementLabel": "要求",
         "ActionTypeAction": "アクション",
-        "ActionTypeFree": "無料アクション",
+        "ActionTypeFree": "フリーアクション",
         "ActionTypePassive": "パッシブ",
         "ActionTypeReaction": "リアクション",
-        "ActionTypeSingle": "単一アクション",
+        "ActionTypeSingle": "シングルアクション",
         "ActionWeaponLabel": "関連武器",
-        "ActionsActionsHeader": "アクション",
-        "ActionsFreeActionsHeader": "無料アクション",
-        "ActionsReactionsHeader": "リアクション",
+        "ActionsActionsHeader": "アクションs",
+        "ActionsFreeActionsHeader": "フリーアクションs",
+        "ActionsReactionsHeader": "リアクションs",
         "ActorSizeGargantuan": "巨大",
         "ActorSizeHuge": "超巨大",
         "ActorSizeLarge": "大型",
