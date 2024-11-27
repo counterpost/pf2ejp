@@ -40,43 +40,43 @@
                 "AttributeBuilder": {
                     "KeyIcon": "キー",
                     "InputMethod": {
-                        "Description": "切り替え方法は属性修正の分配をリセットします。",
+                        "Description": "切り替えによりアトリビュート修正値の振り分けはリセットされる。",
                         "Manual": "手動入力",
                         "Title": "入力方法"
                     },
-                    "AncestryMissingHelp": "ブーストを選択するために祖先を選んでください。",
+                    "AncestryMissingHelp": "ブーストを選択するためには先にアンセストリーを選んでください。",
                     "AlternateBoostsLabel": "代替ブースト",
                     "BackgroundBoostDescription": "二つのブースト: 一つは{a}または{b}でなければなりません。",
-                    "BackgroundMissingHelp": "ブーストを選択するために背景を選んでください。",
+                    "BackgroundMissingHelp": "ブーストを選択するためにバックグラウンドを選んでください。",
                     "Boost": "ブースト",
-                    "Boosts": "ブースト群",
+                    "Boosts": "ブーストs",
                     "ClassMissingHelp": "ブーストを選択するためにクラスを選んでください。",
                     "Complete": "完了",
-                    "Flaw": "欠陥",
-                    "Flaws": "欠陥群",
+                    "Flaw": "欠点",
+                    "Flaws": "欠点s",
                     "Increase": "増加",
-                    "LegacyFlaws": "レガシー欠陥",
+                    "LegacyFlaws": "レガシールールの欠点",
                     "Partial": "部分的",
                     "NotSelected": "未選択",
                     "Title": "ブーストを割り当て",
                     "VoluntaryFlaw": {
-                        "Description": "ロールプレイで大きな欠陥を持つキャラクターを演じるために、追加のペナルティを一つ以上受けることができます。",
-                        "LegacyDescription": "これはCRBの4版印刷まで存在していた自発的欠陥機能です。古いキャラクターやパスファインダー・ソサエティプレイの継続オプションとして保持されています。",
-                        "Title": "自発的欠陥"
+                        "Description": "ロールプレイで大きな欠点を持つキャラクターを演じるために、追加のペナルティを一つ以上受けることができます。",
+                        "LegacyDescription": "これはCRBの4版まで存在していた自発的欠点の機能です。これは古いキャラクターのために、またパスファインダー・ソサエティのプレイのための継続的なオプションとして残されています。",
+                        "Title": "自発的欠点"
                     }
                 },
                 "ABCPicker": {
-                    "SearchPlaceholder": "アイテムを検索",
+                    "SearchPlaceholder": "検索 {items}",
                     "Title": "{type}選択",
                     "Tooltip": {
                         "ConfirmSelection": "選択を確認",
-                        "ViewSheet": "シートを見る"
+                        "ViewSheet": "シート閲覧"
                     }
                 },
                 "Attribute": {
-                    "Apex": "頂点属性",
-                    "Boosts": "属性ブースト",
-                    "Key": "キー属性"
+                    "Apex": "エイペックス・アトリビュート",
+                    "Boosts": "アトリビュート・ブーストs",
+                    "Key": "重要なアトリビュート"
                 },
                 "Active": "アクティブ",
                 "ActiveHeader": "アクティブなアクティビティ",
@@ -95,12 +95,12 @@
                 "ClassDC": {
                     "Label": "クラスDC",
                     "LabelSpecific": "クラスDC ({class})",
-                    "Plural": "クラスDC群"
+                    "Plural": "クラスDC"
                 },
                 "Clear": "クリア",
                 "Configure": {
                     "ShowBasicUnarmed": {
-                        "Hint": "PCは常に体のどの部分でも使用できる非特定の素手攻撃を持っています。攻撃は、プレイヤーが使用する意図がない場合、視界から隠されることがあります。",
+                        "Hint": "PCは常に、身体を使った任意の素手攻撃を持っています。この攻撃を使うつもりがない場合、非表示にする事が出来る。",
                         "Label": "基本的な素手攻撃を表示"
                     },
                     "Title": "キャラクターを設定"
@@ -109,18 +109,18 @@
                     "Cost": "コスト",
                     "Daily": {
                         "Complete": {
-                            "OneConsumed": "日次クラフト完了: 一つの薬剤が消費されました。",
-                            "NConsumed": "日次クラフト完了: {quantity} 個の薬剤が消費されました。",
-                            "ZeroConsumed": "日次クラフト完了。"
+                            "OneConsumed": "デイリー・クラフトが完了: 試薬が一つが消費されました。",
+                            "NConsumed": "デイリークラフト完了: {quantity} 個の試薬が消費されました。",
+                            "ZeroConsumed": "デイリークラフト完了。"
                         },
-                        "Perform": "日次クラフトを実行"
+                        "Perform": "デイリークラフトの実行"
                     },
-                    "RemainingSlots": "空きスロット ({remaining} 残り)"
+                    "RemainingSlots": "空きスロット 数(残り{remaining} )"
                 },
-                "CreateFeat": "特技を作成",
+                "CreateFeat": "フィートを作成",
                 "FeatSlot": {
-                    "AncestryHeader": "祖先特技",
-                    "AncestryFeaturesHeader": "祖先特徴",
+                    "AncestryHeader": "アンセストリーフィート",
+                    "AncestryFeaturesHeader": "アンセストリー・フューチャー",
                     "ArchetypeHeader": "アーキタイプ特技",
                     "BonusHeader": "ボーナス特技",
                     "CampaignHeader": "キャンペーン特技",
@@ -215,14 +215,14 @@
                     "DeathEffect": "デス・エフェクトで即死する。",
                     "Destroyed": "彼らは破壊される。",
                     "FinePowder": "粉々になり、装備品だけが残った。",
-                    "MassiveDamage": "大ダメージですぐに死んでしまう。"
+                    "MassiveDamage": "大ダメージで即死する。"
                 },
-                "ShieldAbsorbsAll": "<actor>{actor}</actor>は無傷で、盾が完全に{absorbedDamage}ダメージを吸収します。",
-                "ShieldDamagedForN": "彼らの盾も{shieldDamage}ダメージを受けます。",
-                "ShieldDamagedForNBroken": "彼らの盾は{shieldDamage}ダメージを受け、壊れます。",
-                "ShieldDamagedForNDestroyed": "彼らの盾は{shieldDamage}ダメージを受け、破壊されます。",
-                "ShieldNotRaised": "{actor}は盾を上げていません。",
-                "TakesNoDamage": "<actor>{actor}</actor>はダメージを受けません。",
+                "ShieldAbsorbsAll": "<actor>{actor}</actor>は無傷で、盾が完全に{absorbedDamage}ダメージを吸収する。",
+                "ShieldDamagedForN": "盾も{shieldDamage}ダメージを受ける。",
+                "ShieldDamagedForNBroken": "盾は{shieldDamage}ダメージを受け、破損する。",
+                "ShieldDamagedForNDestroyed": "盾は{shieldDamage}ダメージを受け、破壊される。",
+                "ShieldNotRaised": "{actor}は盾を掲げていない。",
+                "TakesNoDamage": "<actor>{actor}</actor>はダメージを受けない。",
                 "TheTarget": "ターゲット"
             },
             "AttackEffects": {
